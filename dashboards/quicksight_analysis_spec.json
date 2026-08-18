@@ -1,70 +1,58 @@
 {
-  "AnalysisName": "Enterprise Cloud Operational Analytics Dashboard",
+  "AnalysisName": "Executive Sales & Profitability Dashboard",
   "DataSet": {
-    "DataSetName": "aws_serverless_analytics_processed_parquet",
+    "DataSetName": "aws_sales_analytics_parquet",
     "DataSourceType": "ATHENA",
-    "AthenaDatabase": "aws_serverless_analytics_db_prod",
-    "AthenaTable": "processed_logs_parquet",
+    "AthenaDatabase": "aws_sales_analytics_db",
+    "AthenaTable": "sales_data_parquet",
     "ImportMode": "SPICE"
   },
   "CalculatedFields": [
     {
-      "Name": "Error_Rate_Pct",
-      "Expression": "sum(ifelse({status_code} >= 400, 1, 0)) / count({request_id}) * 100"
+      "Name": "Overall_Profit_Margin_Pct",
+      "Expression": "sum({Profit}) / sum({NetSales}) * 100"
     },
     {
-      "Name": "Is_Slow_Query",
-      "Expression": "ifelse({response_time_ms} > 500, 'Degraded (>500ms)', 'Normal')"
-    },
-    {
-      "Name": "Event_Hour",
-      "Expression": "extract('HH', parseDate({timestamp}, 'yyyy-MM-dd''T''HH:mm:ss.SSS''Z'''))"
+      "Name": "Average_Order_Value",
+      "Expression": "avg({NetSales})"
     }
   ],
   "Visuals": [
     {
       "Type": "KPI",
-      "Title": "Total API Invocations",
-      "Field": "count(request_id)",
-      "Comparison": "PeriodOverPeriod"
+      "Title": "Total Revenue (USD)",
+      "Field": "sum(NetSales)",
+      "Format": "Currency ($)"
     },
     {
       "Type": "KPI",
-      "Title": "Overall Error Rate (%)",
-      "Field": "Error_Rate_Pct",
-      "Target": "< 2.0%"
+      "Title": "Total Orders Placed",
+      "Field": "count(OrderID)"
     },
     {
       "Type": "KPI",
-      "Title": "P95 Latency (ms)",
-      "Field": "percentile(response_time_ms, 95)"
-    },
-    {
-      "Type": "LineChart",
-      "Title": "Hourly Request Traffic vs Error Spike",
-      "XAxis": "timestamp (Hourly)",
-      "Metrics": ["count(request_id)", "sum(is_error)"],
-      "ColorBy": "service_name"
+      "Title": "Average Profit Margin (%)",
+      "Field": "Overall_Profit_Margin_Pct",
+      "Format": "Percentage (%)"
     },
     {
       "Type": "BarChart",
-      "Title": "Failure Distribution by Microservice & Error Code",
-      "XAxis": "service_name",
-      "Group": "status_code",
-      "Metric": "count(request_id)"
-    },
-    {
-      "Type": "HeatMap",
-      "Title": "Hourly Latency Heatmap by Service",
-      "Rows": "service_name",
-      "Columns": "Event_Hour",
-      "Metric": "avg(response_time_ms)"
+      "Title": "Revenue & Profit by Region",
+      "XAxis": "CustomerRegion",
+      "Metrics": ["sum(NetSales)", "sum(Profit)"],
+      "SortBy": "sum(NetSales) DESC"
     },
     {
       "Type": "DonutChart",
-      "Title": "Global Traffic Share by AWS Region",
-      "Dimension": "aws_region",
-      "Metric": "count(request_id)"
+      "Title": "Revenue Share by Product Category",
+      "Category": "ProductCategory",
+      "Value": "sum(NetSales)"
+    },
+    {
+      "Type": "LineChart",
+      "Title": "Monthly Revenue Trend",
+      "XAxis": "YearMonth",
+      "Metric": "sum(NetSales)"
     }
   ]
 }

@@ -1,0 +1,1001 @@
+OrderID,OrderDate,Year,Month,CustomerID,CustomerRegion,ProductCategory,ProductName,UnitPrice,Quantity,DiscountPct,GrossSales,DiscountAmount,NetSales,COGS,Profit,PaymentMethod,ShippingStatus
+1001,2025-11-24,2025,11,CUST-242,Europe,Technology,Cloud Server Subscription,499.0,5,0.05,2495.0,124.75,2370.25,1497.0,873.25,Credit Card,Processing
+1002,2025-02-14,2025,02,CUST-323,North America,Furniture,Lounge Waiting Sofa,550.0,1,0.0,550.0,0.0,550.0,330.0,220.0,Bank Transfer,Processing
+1003,2025-11-05,2025,11,CUST-325,Latin America,Technology,Mechanical Keyboard RGB,89.0,4,0.2,356.0,71.2,284.8,213.6,71.2,Corporate Invoice,Processing
+1004,2025-05-23,2025,05,CUST-259,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,7,0.1,9093.0,909.3,8183.7,5455.8,2727.9,Bank Transfer,Delivered
+1005,2025-02-22,2025,02,CUST-718,Asia-Pacific,Technology,Wireless Noise-Canceling Headset,149.0,2,0.1,298.0,29.8,268.2,178.8,89.4,PayPal,Delivered
+1006,2025-08-24,2025,08,CUST-400,Middle East,Furniture,Executive Conference Table,899.0,7,0.0,6293.0,0.0,6293.0,3775.8,2517.2,PayPal,Processing
+1007,2025-04-09,2025,04,CUST-181,Asia-Pacific,Furniture,Executive Conference Table,899.0,1,0.05,899.0,44.95,854.05,539.4,314.65,Bank Transfer,Delivered
+1008,2025-07-14,2025,07,CUST-463,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,6,0.05,234.0,11.7,222.3,140.4,81.9,Bank Transfer,Delivered
+1009,2025-12-26,2025,12,CUST-846,Middle East,Furniture,Executive Conference Table,899.0,10,0.05,8990.0,449.5,8540.5,5394.0,3146.5,Bank Transfer,Delivered
+1010,2025-08-25,2025,08,CUST-963,Asia-Pacific,Office Supplies,Dual Monitor Arm,79.0,9,0.05,711.0,35.55,675.45,426.6,248.85,Credit Card,Delivered
+1011,2025-01-17,2025,01,CUST-680,Europe,Office Supplies,Desk LED Lighting Bar,39.0,5,0.0,195.0,0.0,195.0,117.0,78.0,PayPal,Delivered
+1012,2025-12-02,2025,12,CUST-242,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,8,0.05,312.0,15.6,296.4,187.2,109.2,Bank Transfer,Processing
+1013,2025-10-03,2025,10,CUST-470,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,7,0.2,133.0,26.6,106.4,79.8,26.6,Bank Transfer,Delivered
+1014,2025-09-18,2025,09,CUST-742,Europe,Office Supplies,Ergonomic Desk Chair,299.0,1,0.0,299.0,0.0,299.0,179.4,119.6,Bank Transfer,Shipped
+1015,2025-11-02,2025,11,CUST-641,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,7,0.2,1043.0,208.6,834.4,625.8,208.6,PayPal,Processing
+1016,2025-01-06,2025,01,CUST-214,Asia-Pacific,Furniture,Executive Conference Table,899.0,9,0.1,8091.0,809.1,7281.9,4854.6,2427.3,PayPal,Shipped
+1017,2025-03-22,2025,03,CUST-619,Europe,Office Supplies,Ergonomic Desk Chair,299.0,5,0.2,1495.0,299.0,1196.0,897.0,299.0,Credit Card,Delivered
+1018,2025-11-24,2025,11,CUST-652,Europe,Furniture,Acoustic Soundproofing Panel,120.0,3,0.1,360.0,36.0,324.0,216.0,108.0,Credit Card,Processing
+1019,2025-06-15,2025,06,CUST-345,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,2,0.1,598.0,59.8,538.2,358.8,179.4,Credit Card,Delivered
+1020,2025-10-18,2025,10,CUST-884,Middle East,Technology,Cloud Server Subscription,499.0,8,0.0,3992.0,0.0,3992.0,2395.2,1596.8,Bank Transfer,Delivered
+1021,2025-12-04,2025,12,CUST-993,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,3,0.1,57.0,5.7,51.3,34.2,17.1,Corporate Invoice,Delivered
+1022,2025-10-04,2025,10,CUST-548,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,5,0.15,600.0,90.0,510.0,360.0,150.0,Corporate Invoice,Delivered
+1023,2025-05-07,2025,05,CUST-667,Middle East,Technology,Cloud Server Subscription,499.0,6,0.0,2994.0,0.0,2994.0,1796.4,1197.6,Bank Transfer,Processing
+1024,2025-04-23,2025,04,CUST-132,North America,Technology,Cloud Server Subscription,499.0,1,0.05,499.0,24.95,474.05,299.4,174.65,PayPal,Delivered
+1025,2025-09-21,2025,09,CUST-235,Middle East,Technology,AI Vision Camera,249.0,8,0.05,1992.0,99.6,1892.4,1195.2,697.2,Corporate Invoice,Delivered
+1026,2025-08-31,2025,08,CUST-462,Latin America,Office Supplies,Standing Desk Motorized,450.0,2,0.0,900.0,0.0,900.0,540.0,360.0,Corporate Invoice,Shipped
+1027,2025-08-28,2025,08,CUST-845,Latin America,Furniture,Executive Conference Table,899.0,2,0.0,1798.0,0.0,1798.0,1078.8,719.2,PayPal,Delivered
+1028,2025-05-08,2025,05,CUST-532,Europe,Technology,Developer Laptop Pro,1299.0,9,0.15,11691.0,1753.65,9937.35,7014.6,2922.75,Bank Transfer,Delivered
+1029,2025-08-25,2025,08,CUST-151,North America,Technology,Cloud Server Subscription,499.0,8,0.2,3992.0,798.4,3193.6,2395.2,798.4,Credit Card,Delivered
+1030,2025-05-02,2025,05,CUST-985,Europe,Technology,Wireless Noise-Canceling Headset,149.0,8,0.15,1192.0,178.8,1013.2,715.2,298.0,Corporate Invoice,Delivered
+1031,2025-03-26,2025,03,CUST-392,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,7,0.1,2093.0,209.3,1883.7,1255.8,627.9,Corporate Invoice,Processing
+1032,2025-12-05,2025,12,CUST-322,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,3,0.05,1650.0,82.5,1567.5,990.0,577.5,Credit Card,Processing
+1033,2025-10-05,2025,10,CUST-588,Middle East,Technology,AI Vision Camera,249.0,1,0.0,249.0,0.0,249.0,149.4,99.6,Bank Transfer,Delivered
+1034,2025-09-18,2025,09,CUST-791,North America,Technology,Developer Laptop Pro,1299.0,2,0.2,2598.0,519.6,2078.4,1558.8,519.6,Bank Transfer,Shipped
+1035,2025-03-03,2025,03,CUST-734,North America,Furniture,Acoustic Soundproofing Panel,120.0,10,0.2,1200.0,240.0,960.0,720.0,240.0,Credit Card,Shipped
+1036,2025-12-03,2025,12,CUST-344,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,5,0.05,900.0,45.0,855.0,540.0,315.0,PayPal,Shipped
+1037,2025-03-09,2025,03,CUST-109,North America,Furniture,Mobile Storage Cabinet,180.0,8,0.1,1440.0,144.0,1296.0,864.0,432.0,Corporate Invoice,Processing
+1038,2025-10-16,2025,10,CUST-371,Middle East,Technology,Cloud Server Subscription,499.0,9,0.05,4491.0,224.55,4266.45,2694.6,1571.85,Bank Transfer,Delivered
+1039,2025-02-05,2025,02,CUST-953,Latin America,Technology,AI Vision Camera,249.0,5,0.05,1245.0,62.25,1182.75,747.0,435.75,PayPal,Processing
+1040,2025-12-01,2025,12,CUST-999,North America,Furniture,Executive Conference Table,899.0,9,0.1,8091.0,809.1,7281.9,4854.6,2427.3,Bank Transfer,Delivered
+1041,2025-03-01,2025,03,CUST-719,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,3,0.1,267.0,26.7,240.3,160.2,80.1,Bank Transfer,Delivered
+1042,2025-04-15,2025,04,CUST-966,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,9,0.15,1620.0,243.0,1377.0,972.0,405.0,Credit Card,Delivered
+1043,2025-11-21,2025,11,CUST-889,Asia-Pacific,Office Supplies,Dual Monitor Arm,79.0,1,0.0,79.0,0.0,79.0,47.4,31.6,Bank Transfer,Delivered
+1044,2025-03-24,2025,03,CUST-109,Middle East,Furniture,Lounge Waiting Sofa,550.0,9,0.15,4950.0,742.5,4207.5,2970.0,1237.5,Credit Card,Delivered
+1045,2025-12-20,2025,12,CUST-665,Middle East,Technology,Mechanical Keyboard RGB,89.0,1,0.1,89.0,8.9,80.1,53.4,26.7,Bank Transfer,Shipped
+1046,2025-03-07,2025,03,CUST-315,Asia-Pacific,Technology,AI Vision Camera,249.0,6,0.0,1494.0,0.0,1494.0,896.4,597.6,Bank Transfer,Delivered
+1047,2025-07-01,2025,07,CUST-985,Europe,Furniture,Lounge Waiting Sofa,550.0,10,0.05,5500.0,275.0,5225.0,3300.0,1925.0,Bank Transfer,Delivered
+1048,2025-07-31,2025,07,CUST-373,Europe,Technology,Developer Laptop Pro,1299.0,6,0.15,7794.0,1169.1,6624.9,4676.4,1948.5,Bank Transfer,Delivered
+1049,2025-07-15,2025,07,CUST-458,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,4,0.05,596.0,29.8,566.2,357.6,208.6,PayPal,Delivered
+1050,2025-04-25,2025,04,CUST-985,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,7,0.1,9093.0,909.3,8183.7,5455.8,2727.9,Credit Card,Delivered
+1051,2025-06-29,2025,06,CUST-218,North America,Furniture,Lounge Waiting Sofa,550.0,9,0.1,4950.0,495.0,4455.0,2970.0,1485.0,PayPal,Delivered
+1052,2025-10-25,2025,10,CUST-453,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,2,0.2,598.0,119.6,478.4,358.8,119.6,PayPal,Shipped
+1053,2025-11-07,2025,11,CUST-360,Europe,Furniture,Executive Conference Table,899.0,7,0.2,6293.0,1258.6,5034.4,3775.8,1258.6,Credit Card,Shipped
+1054,2025-01-01,2025,01,CUST-780,North America,Furniture,Acoustic Soundproofing Panel,120.0,6,0.15,720.0,108.0,612.0,432.0,180.0,PayPal,Processing
+1055,2025-06-10,2025,06,CUST-782,Asia-Pacific,Furniture,Executive Conference Table,899.0,5,0.2,4495.0,899.0,3596.0,2697.0,899.0,Corporate Invoice,Delivered
+1056,2025-07-26,2025,07,CUST-530,Europe,Furniture,Mobile Storage Cabinet,180.0,9,0.05,1620.0,81.0,1539.0,972.0,567.0,Corporate Invoice,Delivered
+1057,2025-11-12,2025,11,CUST-411,North America,Furniture,Mobile Storage Cabinet,180.0,7,0.2,1260.0,252.0,1008.0,756.0,252.0,PayPal,Delivered
+1058,2025-08-09,2025,08,CUST-791,Latin America,Furniture,Mobile Storage Cabinet,180.0,8,0.15,1440.0,216.0,1224.0,864.0,360.0,Bank Transfer,Processing
+1059,2025-08-31,2025,08,CUST-779,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,2,0.1,240.0,24.0,216.0,144.0,72.0,PayPal,Delivered
+1060,2025-05-01,2025,05,CUST-125,Europe,Furniture,Mobile Storage Cabinet,180.0,4,0.05,720.0,36.0,684.0,432.0,252.0,Credit Card,Delivered
+1061,2025-09-01,2025,09,CUST-299,Middle East,Furniture,Executive Conference Table,899.0,8,0.15,7192.0,1078.8,6113.2,4315.2,1798.0,Corporate Invoice,Shipped
+1062,2025-07-24,2025,07,CUST-324,Latin America,Technology,Developer Laptop Pro,1299.0,1,0.0,1299.0,0.0,1299.0,779.4,519.6,Bank Transfer,Processing
+1063,2025-08-26,2025,08,CUST-236,Latin America,Technology,Mechanical Keyboard RGB,89.0,4,0.0,356.0,0.0,356.0,213.6,142.4,Corporate Invoice,Processing
+1064,2025-10-14,2025,10,CUST-536,Middle East,Furniture,Mobile Storage Cabinet,180.0,8,0.2,1440.0,288.0,1152.0,864.0,288.0,Corporate Invoice,Delivered
+1065,2025-09-01,2025,09,CUST-596,Middle East,Office Supplies,Dual Monitor Arm,79.0,4,0.1,316.0,31.6,284.4,189.6,94.8,Bank Transfer,Delivered
+1066,2025-08-14,2025,08,CUST-427,Asia-Pacific,Technology,AI Vision Camera,249.0,4,0.1,996.0,99.6,896.4,597.6,298.8,Credit Card,Delivered
+1067,2025-03-19,2025,03,CUST-524,North America,Technology,Wireless Noise-Canceling Headset,149.0,3,0.05,447.0,22.35,424.65,268.2,156.45,Corporate Invoice,Delivered
+1068,2025-10-05,2025,10,CUST-498,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,1,0.05,39.0,1.95,37.05,23.4,13.65,Credit Card,Processing
+1069,2025-07-14,2025,07,CUST-973,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,6,0.1,1794.0,179.4,1614.6,1076.4,538.2,Corporate Invoice,Processing
+1070,2025-10-07,2025,10,CUST-546,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,8,0.05,960.0,48.0,912.0,576.0,336.0,Corporate Invoice,Delivered
+1071,2025-07-19,2025,07,CUST-737,Europe,Office Supplies,Desk LED Lighting Bar,39.0,3,0.15,117.0,17.55,99.45,70.2,29.25,Credit Card,Shipped
+1072,2025-10-31,2025,10,CUST-987,Europe,Furniture,Executive Conference Table,899.0,2,0.15,1798.0,269.7,1528.3,1078.8,449.5,Corporate Invoice,Delivered
+1073,2025-01-26,2025,01,CUST-434,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,6,0.05,234.0,11.7,222.3,140.4,81.9,PayPal,Shipped
+1074,2025-05-23,2025,05,CUST-867,North America,Office Supplies,Dual Monitor Arm,79.0,2,0.15,158.0,23.7,134.3,94.8,39.5,Credit Card,Delivered
+1075,2025-04-25,2025,04,CUST-304,Europe,Furniture,Executive Conference Table,899.0,1,0.0,899.0,0.0,899.0,539.4,359.6,Credit Card,Processing
+1076,2025-03-20,2025,03,CUST-323,Middle East,Technology,Developer Laptop Pro,1299.0,8,0.0,10392.0,0.0,10392.0,6235.2,4156.8,Corporate Invoice,Delivered
+1077,2025-07-08,2025,07,CUST-418,Europe,Technology,Mechanical Keyboard RGB,89.0,10,0.0,890.0,0.0,890.0,534.0,356.0,Credit Card,Processing
+1078,2025-01-14,2025,01,CUST-177,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,7,0.15,133.0,19.95,113.05,79.8,33.25,Bank Transfer,Delivered
+1079,2025-12-23,2025,12,CUST-455,North America,Office Supplies,Eco Notebook & Pen Set,19.0,2,0.2,38.0,7.6,30.4,22.8,7.6,Corporate Invoice,Delivered
+1080,2025-02-05,2025,02,CUST-208,Latin America,Furniture,Mobile Storage Cabinet,180.0,1,0.15,180.0,27.0,153.0,108.0,45.0,Corporate Invoice,Delivered
+1081,2025-11-22,2025,11,CUST-766,Middle East,Office Supplies,Standing Desk Motorized,450.0,7,0.05,3150.0,157.5,2992.5,1890.0,1102.5,PayPal,Processing
+1082,2025-10-03,2025,10,CUST-430,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,7,0.2,273.0,54.6,218.4,163.8,54.6,Bank Transfer,Delivered
+1083,2025-05-23,2025,05,CUST-784,Middle East,Office Supplies,Standing Desk Motorized,450.0,8,0.2,3600.0,720.0,2880.0,2160.0,720.0,Corporate Invoice,Delivered
+1084,2025-01-15,2025,01,CUST-463,Europe,Office Supplies,Dual Monitor Arm,79.0,3,0.15,237.0,35.55,201.45,142.2,59.25,PayPal,Delivered
+1085,2025-05-24,2025,05,CUST-295,Middle East,Furniture,Mobile Storage Cabinet,180.0,9,0.0,1620.0,0.0,1620.0,972.0,648.0,Credit Card,Delivered
+1086,2025-07-28,2025,07,CUST-558,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,4,0.15,76.0,11.4,64.6,45.6,19.0,Credit Card,Delivered
+1087,2025-05-31,2025,05,CUST-477,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,4,0.1,596.0,59.6,536.4,357.6,178.8,Corporate Invoice,Processing
+1088,2025-09-29,2025,09,CUST-819,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,9,0.1,351.0,35.1,315.9,210.6,105.3,Corporate Invoice,Delivered
+1089,2025-06-06,2025,06,CUST-222,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,2,0.05,900.0,45.0,855.0,540.0,315.0,Bank Transfer,Delivered
+1090,2025-04-21,2025,04,CUST-711,Middle East,Furniture,Lounge Waiting Sofa,550.0,5,0.2,2750.0,550.0,2200.0,1650.0,550.0,PayPal,Delivered
+1091,2025-04-10,2025,04,CUST-114,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,6,0.05,2700.0,135.0,2565.0,1620.0,945.0,Bank Transfer,Delivered
+1092,2025-01-24,2025,01,CUST-205,Latin America,Technology,Mechanical Keyboard RGB,89.0,5,0.05,445.0,22.25,422.75,267.0,155.75,Credit Card,Processing
+1093,2025-05-26,2025,05,CUST-152,Europe,Office Supplies,Desk LED Lighting Bar,39.0,8,0.1,312.0,31.2,280.8,187.2,93.6,PayPal,Shipped
+1094,2025-02-28,2025,02,CUST-744,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,8,0.0,1192.0,0.0,1192.0,715.2,476.8,Credit Card,Delivered
+1095,2025-03-18,2025,03,CUST-671,North America,Furniture,Mobile Storage Cabinet,180.0,2,0.05,360.0,18.0,342.0,216.0,126.0,Corporate Invoice,Processing
+1096,2025-11-02,2025,11,CUST-553,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,9,0.15,1080.0,162.0,918.0,648.0,270.0,PayPal,Processing
+1097,2025-08-08,2025,08,CUST-857,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,10,0.0,190.0,0.0,190.0,114.0,76.0,Credit Card,Delivered
+1098,2025-11-17,2025,11,CUST-277,Europe,Technology,AI Vision Camera,249.0,2,0.05,498.0,24.9,473.1,298.8,174.3,Credit Card,Delivered
+1099,2025-01-02,2025,01,CUST-133,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,10,0.15,390.0,58.5,331.5,234.0,97.5,Bank Transfer,Delivered
+1100,2025-12-28,2025,12,CUST-906,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,2,0.05,78.0,3.9,74.1,46.8,27.3,Bank Transfer,Shipped
+1101,2025-02-28,2025,02,CUST-173,Europe,Furniture,Acoustic Soundproofing Panel,120.0,3,0.1,360.0,36.0,324.0,216.0,108.0,Credit Card,Delivered
+1102,2025-06-07,2025,06,CUST-805,Latin America,Furniture,Mobile Storage Cabinet,180.0,8,0.0,1440.0,0.0,1440.0,864.0,576.0,PayPal,Shipped
+1103,2025-05-20,2025,05,CUST-140,Middle East,Furniture,Lounge Waiting Sofa,550.0,8,0.0,4400.0,0.0,4400.0,2640.0,1760.0,Corporate Invoice,Delivered
+1104,2025-11-06,2025,11,CUST-701,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,2,0.05,598.0,29.9,568.1,358.8,209.3,Credit Card,Delivered
+1105,2025-10-23,2025,10,CUST-384,Latin America,Technology,Developer Laptop Pro,1299.0,8,0.2,10392.0,2078.4,8313.6,6235.2,2078.4,Bank Transfer,Processing
+1106,2025-08-12,2025,08,CUST-518,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,2,0.15,1100.0,165.0,935.0,660.0,275.0,PayPal,Delivered
+1107,2025-12-10,2025,12,CUST-395,Latin America,Technology,Developer Laptop Pro,1299.0,6,0.15,7794.0,1169.1,6624.9,4676.4,1948.5,Corporate Invoice,Processing
+1108,2025-01-19,2025,01,CUST-218,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,6,0.1,1794.0,179.4,1614.6,1076.4,538.2,Corporate Invoice,Processing
+1109,2025-01-01,2025,01,CUST-630,Europe,Furniture,Lounge Waiting Sofa,550.0,7,0.0,3850.0,0.0,3850.0,2310.0,1540.0,PayPal,Processing
+1110,2025-09-13,2025,09,CUST-662,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,1,0.05,550.0,27.5,522.5,330.0,192.5,Bank Transfer,Delivered
+1111,2025-08-13,2025,08,CUST-918,Middle East,Furniture,Lounge Waiting Sofa,550.0,2,0.0,1100.0,0.0,1100.0,660.0,440.0,Bank Transfer,Delivered
+1112,2025-06-09,2025,06,CUST-330,North America,Furniture,Executive Conference Table,899.0,9,0.15,8091.0,1213.65,6877.35,4854.6,2022.75,Credit Card,Shipped
+1113,2025-03-02,2025,03,CUST-822,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,8,0.1,960.0,96.0,864.0,576.0,288.0,PayPal,Shipped
+1114,2025-09-05,2025,09,CUST-492,Europe,Office Supplies,Standing Desk Motorized,450.0,8,0.2,3600.0,720.0,2880.0,2160.0,720.0,Bank Transfer,Processing
+1115,2025-09-18,2025,09,CUST-448,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,2,0.1,240.0,24.0,216.0,144.0,72.0,PayPal,Delivered
+1116,2025-05-25,2025,05,CUST-986,Latin America,Furniture,Mobile Storage Cabinet,180.0,10,0.2,1800.0,360.0,1440.0,1080.0,360.0,Bank Transfer,Shipped
+1117,2025-10-03,2025,10,CUST-486,Middle East,Office Supplies,Dual Monitor Arm,79.0,6,0.2,474.0,94.8,379.2,284.4,94.8,Corporate Invoice,Delivered
+1118,2025-04-07,2025,04,CUST-976,Europe,Furniture,Acoustic Soundproofing Panel,120.0,10,0.15,1200.0,180.0,1020.0,720.0,300.0,Corporate Invoice,Delivered
+1119,2025-06-12,2025,06,CUST-607,Europe,Furniture,Lounge Waiting Sofa,550.0,7,0.15,3850.0,577.5,3272.5,2310.0,962.5,Credit Card,Delivered
+1120,2025-09-15,2025,09,CUST-638,North America,Furniture,Mobile Storage Cabinet,180.0,2,0.15,360.0,54.0,306.0,216.0,90.0,Corporate Invoice,Delivered
+1121,2025-03-15,2025,03,CUST-446,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,2,0.15,900.0,135.0,765.0,540.0,225.0,Corporate Invoice,Delivered
+1122,2025-06-18,2025,06,CUST-136,Middle East,Furniture,Lounge Waiting Sofa,550.0,6,0.15,3300.0,495.0,2805.0,1980.0,825.0,Credit Card,Delivered
+1123,2025-11-20,2025,11,CUST-200,Latin America,Furniture,Mobile Storage Cabinet,180.0,4,0.0,720.0,0.0,720.0,432.0,288.0,Credit Card,Shipped
+1124,2025-03-27,2025,03,CUST-915,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,1,0.0,180.0,0.0,180.0,108.0,72.0,Credit Card,Delivered
+1125,2025-07-03,2025,07,CUST-521,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,3,0.05,117.0,5.85,111.15,70.2,40.95,Bank Transfer,Delivered
+1126,2025-03-31,2025,03,CUST-609,Europe,Technology,Mechanical Keyboard RGB,89.0,7,0.2,623.0,124.6,498.4,373.8,124.6,Bank Transfer,Delivered
+1127,2025-08-25,2025,08,CUST-923,North America,Furniture,Mobile Storage Cabinet,180.0,8,0.1,1440.0,144.0,1296.0,864.0,432.0,Corporate Invoice,Delivered
+1128,2025-12-13,2025,12,CUST-701,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,2,0.15,240.0,36.0,204.0,144.0,60.0,PayPal,Shipped
+1129,2025-12-20,2025,12,CUST-973,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,5,0.05,195.0,9.75,185.25,117.0,68.25,Corporate Invoice,Delivered
+1130,2025-05-02,2025,05,CUST-816,Asia-Pacific,Office Supplies,Eco Notebook & Pen Set,19.0,6,0.2,114.0,22.8,91.2,68.4,22.8,PayPal,Delivered
+1131,2025-12-04,2025,12,CUST-720,North America,Office Supplies,Dual Monitor Arm,79.0,1,0.2,79.0,15.8,63.2,47.4,15.8,Corporate Invoice,Delivered
+1132,2025-04-28,2025,04,CUST-356,Middle East,Furniture,Mobile Storage Cabinet,180.0,4,0.05,720.0,36.0,684.0,432.0,252.0,Bank Transfer,Delivered
+1133,2025-11-18,2025,11,CUST-693,North America,Furniture,Executive Conference Table,899.0,5,0.15,4495.0,674.25,3820.75,2697.0,1123.75,PayPal,Delivered
+1134,2025-02-16,2025,02,CUST-235,Europe,Office Supplies,Dual Monitor Arm,79.0,7,0.05,553.0,27.65,525.35,331.8,193.55,PayPal,Processing
+1135,2025-09-14,2025,09,CUST-864,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,5,0.15,2250.0,337.5,1912.5,1350.0,562.5,PayPal,Delivered
+1136,2025-08-28,2025,08,CUST-474,Middle East,Technology,Developer Laptop Pro,1299.0,4,0.15,5196.0,779.4,4416.6,3117.6,1299.0,Credit Card,Shipped
+1137,2025-01-08,2025,01,CUST-788,Asia-Pacific,Office Supplies,Eco Notebook & Pen Set,19.0,2,0.15,38.0,5.7,32.3,22.8,9.5,PayPal,Processing
+1138,2025-07-15,2025,07,CUST-125,Latin America,Furniture,Mobile Storage Cabinet,180.0,2,0.05,360.0,18.0,342.0,216.0,126.0,PayPal,Processing
+1139,2025-04-24,2025,04,CUST-219,Latin America,Furniture,Executive Conference Table,899.0,8,0.1,7192.0,719.2,6472.8,4315.2,2157.6,Bank Transfer,Delivered
+1140,2025-01-20,2025,01,CUST-650,Europe,Office Supplies,Desk LED Lighting Bar,39.0,2,0.0,78.0,0.0,78.0,46.8,31.2,Bank Transfer,Shipped
+1141,2025-08-21,2025,08,CUST-524,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,7,0.2,133.0,26.6,106.4,79.8,26.6,Credit Card,Shipped
+1142,2025-11-12,2025,11,CUST-554,Europe,Office Supplies,Dual Monitor Arm,79.0,1,0.1,79.0,7.9,71.1,47.4,23.7,Corporate Invoice,Delivered
+1143,2025-07-05,2025,07,CUST-507,North America,Technology,AI Vision Camera,249.0,9,0.1,2241.0,224.1,2016.9,1344.6,672.3,PayPal,Delivered
+1144,2025-03-04,2025,03,CUST-151,North America,Office Supplies,Ergonomic Desk Chair,299.0,4,0.2,1196.0,239.2,956.8,717.6,239.2,PayPal,Delivered
+1145,2025-03-06,2025,03,CUST-700,Europe,Furniture,Acoustic Soundproofing Panel,120.0,2,0.2,240.0,48.0,192.0,144.0,48.0,Bank Transfer,Delivered
+1146,2025-06-18,2025,06,CUST-233,Europe,Technology,Mechanical Keyboard RGB,89.0,1,0.1,89.0,8.9,80.1,53.4,26.7,PayPal,Delivered
+1147,2025-02-26,2025,02,CUST-908,Asia-Pacific,Furniture,Executive Conference Table,899.0,3,0.0,2697.0,0.0,2697.0,1618.2,1078.8,Bank Transfer,Processing
+1148,2025-06-15,2025,06,CUST-859,Europe,Technology,Developer Laptop Pro,1299.0,5,0.0,6495.0,0.0,6495.0,3897.0,2598.0,Corporate Invoice,Processing
+1149,2025-02-28,2025,02,CUST-625,Asia-Pacific,Furniture,Executive Conference Table,899.0,8,0.15,7192.0,1078.8,6113.2,4315.2,1798.0,Credit Card,Shipped
+1150,2025-09-15,2025,09,CUST-569,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,1,0.2,89.0,17.8,71.2,53.4,17.8,Credit Card,Delivered
+1151,2025-09-03,2025,09,CUST-175,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,2,0.15,78.0,11.7,66.3,46.8,19.5,Credit Card,Delivered
+1152,2025-11-08,2025,11,CUST-748,Middle East,Technology,Cloud Server Subscription,499.0,3,0.1,1497.0,149.7,1347.3,898.2,449.1,PayPal,Shipped
+1153,2025-11-02,2025,11,CUST-540,Middle East,Furniture,Mobile Storage Cabinet,180.0,8,0.2,1440.0,288.0,1152.0,864.0,288.0,Credit Card,Delivered
+1154,2025-12-02,2025,12,CUST-523,Europe,Furniture,Acoustic Soundproofing Panel,120.0,7,0.15,840.0,126.0,714.0,504.0,210.0,PayPal,Shipped
+1155,2025-07-24,2025,07,CUST-781,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,6,0.15,1794.0,269.1,1524.9,1076.4,448.5,PayPal,Delivered
+1156,2025-03-20,2025,03,CUST-195,North America,Furniture,Lounge Waiting Sofa,550.0,2,0.0,1100.0,0.0,1100.0,660.0,440.0,Corporate Invoice,Delivered
+1157,2025-07-10,2025,07,CUST-675,Middle East,Technology,Mechanical Keyboard RGB,89.0,1,0.2,89.0,17.8,71.2,53.4,17.8,PayPal,Delivered
+1158,2025-07-30,2025,07,CUST-419,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,1,0.1,39.0,3.9,35.1,23.4,11.7,PayPal,Delivered
+1159,2025-10-23,2025,10,CUST-967,Europe,Furniture,Acoustic Soundproofing Panel,120.0,3,0.15,360.0,54.0,306.0,216.0,90.0,Credit Card,Delivered
+1160,2025-10-12,2025,10,CUST-926,Europe,Office Supplies,Ergonomic Desk Chair,299.0,5,0.2,1495.0,299.0,1196.0,897.0,299.0,Corporate Invoice,Processing
+1161,2025-11-15,2025,11,CUST-284,North America,Furniture,Executive Conference Table,899.0,10,0.1,8990.0,899.0,8091.0,5394.0,2697.0,PayPal,Delivered
+1162,2025-06-23,2025,06,CUST-773,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,3,0.05,897.0,44.85,852.15,538.2,313.95,Corporate Invoice,Delivered
+1163,2025-03-14,2025,03,CUST-485,Europe,Furniture,Executive Conference Table,899.0,2,0.2,1798.0,359.6,1438.4,1078.8,359.6,Corporate Invoice,Shipped
+1164,2025-06-24,2025,06,CUST-710,Middle East,Technology,AI Vision Camera,249.0,5,0.1,1245.0,124.5,1120.5,747.0,373.5,Credit Card,Delivered
+1165,2025-03-21,2025,03,CUST-553,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,1,0.0,89.0,0.0,89.0,53.4,35.6,Corporate Invoice,Shipped
+1166,2025-11-07,2025,11,CUST-216,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,5,0.05,195.0,9.75,185.25,117.0,68.25,PayPal,Shipped
+1167,2025-02-26,2025,02,CUST-146,Asia-Pacific,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.2,152.0,30.4,121.6,91.2,30.4,Bank Transfer,Shipped
+1168,2025-11-03,2025,11,CUST-885,Europe,Technology,Cloud Server Subscription,499.0,4,0.1,1996.0,199.6,1796.4,1197.6,598.8,Bank Transfer,Delivered
+1169,2025-05-29,2025,05,CUST-279,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,1,0.15,299.0,44.85,254.15,179.4,74.75,Bank Transfer,Shipped
+1170,2025-09-30,2025,09,CUST-173,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,9,0.2,1080.0,216.0,864.0,648.0,216.0,Corporate Invoice,Delivered
+1171,2025-08-12,2025,08,CUST-539,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,2,0.1,298.0,29.8,268.2,178.8,89.4,Corporate Invoice,Shipped
+1172,2025-05-29,2025,05,CUST-920,Europe,Technology,Wireless Noise-Canceling Headset,149.0,1,0.1,149.0,14.9,134.1,89.4,44.7,Corporate Invoice,Delivered
+1173,2025-02-15,2025,02,CUST-510,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,4,0.15,1196.0,179.4,1016.6,717.6,299.0,Credit Card,Shipped
+1174,2025-06-08,2025,06,CUST-178,Europe,Furniture,Mobile Storage Cabinet,180.0,4,0.1,720.0,72.0,648.0,432.0,216.0,Credit Card,Processing
+1175,2025-09-19,2025,09,CUST-205,Europe,Technology,AI Vision Camera,249.0,6,0.05,1494.0,74.7,1419.3,896.4,522.9,Bank Transfer,Delivered
+1176,2025-04-12,2025,04,CUST-891,Europe,Technology,Mechanical Keyboard RGB,89.0,3,0.0,267.0,0.0,267.0,160.2,106.8,Corporate Invoice,Shipped
+1177,2025-10-16,2025,10,CUST-984,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,10,0.2,5500.0,1100.0,4400.0,3300.0,1100.0,PayPal,Delivered
+1178,2025-08-14,2025,08,CUST-705,Asia-Pacific,Technology,Wireless Noise-Canceling Headset,149.0,8,0.1,1192.0,119.2,1072.8,715.2,357.6,Credit Card,Delivered
+1179,2025-09-17,2025,09,CUST-158,North America,Technology,AI Vision Camera,249.0,8,0.15,1992.0,298.8,1693.2,1195.2,498.0,PayPal,Delivered
+1180,2025-02-09,2025,02,CUST-493,Middle East,Furniture,Executive Conference Table,899.0,10,0.2,8990.0,1798.0,7192.0,5394.0,1798.0,Corporate Invoice,Processing
+1181,2025-10-11,2025,10,CUST-429,Europe,Furniture,Executive Conference Table,899.0,8,0.2,7192.0,1438.4,5753.6,4315.2,1438.4,Corporate Invoice,Processing
+1182,2025-03-19,2025,03,CUST-616,North America,Technology,Wireless Noise-Canceling Headset,149.0,2,0.1,298.0,29.8,268.2,178.8,89.4,Bank Transfer,Delivered
+1183,2025-05-07,2025,05,CUST-724,Middle East,Furniture,Lounge Waiting Sofa,550.0,8,0.2,4400.0,880.0,3520.0,2640.0,880.0,Bank Transfer,Delivered
+1184,2025-07-10,2025,07,CUST-153,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,7,0.1,273.0,27.3,245.7,163.8,81.9,PayPal,Delivered
+1185,2025-06-18,2025,06,CUST-841,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,7,0.1,623.0,62.3,560.7,373.8,186.9,Bank Transfer,Delivered
+1186,2025-02-11,2025,02,CUST-232,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,6,0.1,720.0,72.0,648.0,432.0,216.0,Credit Card,Delivered
+1187,2025-10-14,2025,10,CUST-761,North America,Office Supplies,Dual Monitor Arm,79.0,3,0.2,237.0,47.4,189.6,142.2,47.4,Corporate Invoice,Processing
+1188,2025-07-05,2025,07,CUST-449,Europe,Technology,AI Vision Camera,249.0,5,0.05,1245.0,62.25,1182.75,747.0,435.75,Corporate Invoice,Delivered
+1189,2025-04-26,2025,04,CUST-619,North America,Technology,Developer Laptop Pro,1299.0,2,0.1,2598.0,259.8,2338.2,1558.8,779.4,Credit Card,Delivered
+1190,2025-11-13,2025,11,CUST-285,Europe,Technology,Mechanical Keyboard RGB,89.0,7,0.05,623.0,31.15,591.85,373.8,218.05,Bank Transfer,Shipped
+1191,2025-01-23,2025,01,CUST-391,Middle East,Office Supplies,Dual Monitor Arm,79.0,4,0.15,316.0,47.4,268.6,189.6,79.0,Corporate Invoice,Delivered
+1192,2025-10-01,2025,10,CUST-794,Asia-Pacific,Technology,AI Vision Camera,249.0,8,0.05,1992.0,99.6,1892.4,1195.2,697.2,Corporate Invoice,Shipped
+1193,2025-05-25,2025,05,CUST-936,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,9,0.15,171.0,25.65,145.35,102.6,42.75,Bank Transfer,Processing
+1194,2025-03-12,2025,03,CUST-205,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,8,0.1,2392.0,239.2,2152.8,1435.2,717.6,Credit Card,Delivered
+1195,2025-02-12,2025,02,CUST-950,Europe,Technology,AI Vision Camera,249.0,8,0.2,1992.0,398.4,1593.6,1195.2,398.4,Corporate Invoice,Delivered
+1196,2025-04-24,2025,04,CUST-505,North America,Office Supplies,Dual Monitor Arm,79.0,1,0.15,79.0,11.85,67.15,47.4,19.75,PayPal,Delivered
+1197,2025-07-17,2025,07,CUST-201,Asia-Pacific,Technology,AI Vision Camera,249.0,4,0.0,996.0,0.0,996.0,597.6,398.4,PayPal,Delivered
+1198,2025-03-12,2025,03,CUST-559,Latin America,Technology,AI Vision Camera,249.0,8,0.05,1992.0,99.6,1892.4,1195.2,697.2,Credit Card,Delivered
+1199,2025-01-10,2025,01,CUST-640,Middle East,Office Supplies,Standing Desk Motorized,450.0,3,0.2,1350.0,270.0,1080.0,810.0,270.0,Corporate Invoice,Delivered
+1200,2025-05-28,2025,05,CUST-529,Europe,Technology,AI Vision Camera,249.0,2,0.0,498.0,0.0,498.0,298.8,199.2,Corporate Invoice,Delivered
+1201,2025-02-26,2025,02,CUST-688,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,9,0.0,171.0,0.0,171.0,102.6,68.4,Bank Transfer,Delivered
+1202,2025-05-30,2025,05,CUST-684,Europe,Office Supplies,Ergonomic Desk Chair,299.0,10,0.1,2990.0,299.0,2691.0,1794.0,897.0,Corporate Invoice,Delivered
+1203,2025-12-07,2025,12,CUST-638,North America,Furniture,Executive Conference Table,899.0,9,0.1,8091.0,809.1,7281.9,4854.6,2427.3,Credit Card,Shipped
+1204,2025-08-29,2025,08,CUST-465,North America,Technology,Wireless Noise-Canceling Headset,149.0,6,0.1,894.0,89.4,804.6,536.4,268.2,Credit Card,Delivered
+1205,2025-05-04,2025,05,CUST-145,Europe,Furniture,Executive Conference Table,899.0,10,0.1,8990.0,899.0,8091.0,5394.0,2697.0,PayPal,Processing
+1206,2025-06-23,2025,06,CUST-930,Europe,Furniture,Acoustic Soundproofing Panel,120.0,8,0.15,960.0,144.0,816.0,576.0,240.0,Bank Transfer,Delivered
+1207,2025-08-23,2025,08,CUST-142,Europe,Technology,AI Vision Camera,249.0,4,0.0,996.0,0.0,996.0,597.6,398.4,PayPal,Delivered
+1208,2025-09-21,2025,09,CUST-871,North America,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.1,152.0,15.2,136.8,91.2,45.6,Bank Transfer,Delivered
+1209,2025-07-02,2025,07,CUST-547,Asia-Pacific,Technology,AI Vision Camera,249.0,5,0.0,1245.0,0.0,1245.0,747.0,498.0,Corporate Invoice,Shipped
+1210,2025-07-17,2025,07,CUST-916,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,8,0.15,3600.0,540.0,3060.0,2160.0,900.0,PayPal,Delivered
+1211,2025-08-06,2025,08,CUST-400,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,10,0.05,1490.0,74.5,1415.5,894.0,521.5,PayPal,Delivered
+1212,2025-02-10,2025,02,CUST-834,Middle East,Office Supplies,Dual Monitor Arm,79.0,5,0.15,395.0,59.25,335.75,237.0,98.75,Corporate Invoice,Delivered
+1213,2025-12-20,2025,12,CUST-729,Asia-Pacific,Office Supplies,Dual Monitor Arm,79.0,8,0.0,632.0,0.0,632.0,379.2,252.8,Corporate Invoice,Delivered
+1214,2025-11-24,2025,11,CUST-920,Middle East,Technology,Cloud Server Subscription,499.0,7,0.1,3493.0,349.3,3143.7,2095.8,1047.9,Bank Transfer,Delivered
+1215,2025-03-15,2025,03,CUST-341,North America,Furniture,Lounge Waiting Sofa,550.0,1,0.05,550.0,27.5,522.5,330.0,192.5,PayPal,Delivered
+1216,2025-07-16,2025,07,CUST-479,Latin America,Furniture,Executive Conference Table,899.0,10,0.05,8990.0,449.5,8540.5,5394.0,3146.5,PayPal,Shipped
+1217,2025-02-09,2025,02,CUST-421,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,9,0.1,1080.0,108.0,972.0,648.0,324.0,PayPal,Delivered
+1218,2025-02-28,2025,02,CUST-675,Latin America,Technology,Developer Laptop Pro,1299.0,8,0.2,10392.0,2078.4,8313.6,6235.2,2078.4,Credit Card,Delivered
+1219,2025-05-14,2025,05,CUST-810,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,4,0.2,2200.0,440.0,1760.0,1320.0,440.0,Corporate Invoice,Delivered
+1220,2025-03-04,2025,03,CUST-189,Latin America,Technology,Cloud Server Subscription,499.0,8,0.05,3992.0,199.6,3792.4,2395.2,1397.2,PayPal,Delivered
+1221,2025-12-30,2025,12,CUST-971,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,9,0.1,801.0,80.1,720.9,480.6,240.3,Bank Transfer,Delivered
+1222,2025-07-05,2025,07,CUST-342,Europe,Furniture,Acoustic Soundproofing Panel,120.0,2,0.05,240.0,12.0,228.0,144.0,84.0,Corporate Invoice,Delivered
+1223,2025-07-04,2025,07,CUST-726,Europe,Furniture,Mobile Storage Cabinet,180.0,8,0.2,1440.0,288.0,1152.0,864.0,288.0,Credit Card,Delivered
+1224,2025-06-08,2025,06,CUST-943,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,9,0.15,351.0,52.65,298.35,210.6,87.75,Credit Card,Delivered
+1225,2025-06-12,2025,06,CUST-452,Middle East,Furniture,Executive Conference Table,899.0,8,0.15,7192.0,1078.8,6113.2,4315.2,1798.0,Bank Transfer,Processing
+1226,2025-11-24,2025,11,CUST-989,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,3,0.15,360.0,54.0,306.0,216.0,90.0,Credit Card,Delivered
+1227,2025-09-23,2025,09,CUST-826,Asia-Pacific,Technology,AI Vision Camera,249.0,3,0.05,747.0,37.35,709.65,448.2,261.45,Bank Transfer,Delivered
+1228,2025-09-23,2025,09,CUST-381,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,5,0.05,1495.0,74.75,1420.25,897.0,523.25,Bank Transfer,Delivered
+1229,2025-11-11,2025,11,CUST-694,Middle East,Furniture,Executive Conference Table,899.0,9,0.05,8091.0,404.55,7686.45,4854.6,2831.85,Bank Transfer,Delivered
+1230,2025-12-04,2025,12,CUST-183,North America,Furniture,Mobile Storage Cabinet,180.0,10,0.0,1800.0,0.0,1800.0,1080.0,720.0,Credit Card,Processing
+1231,2025-05-16,2025,05,CUST-754,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,10,0.15,1200.0,180.0,1020.0,720.0,300.0,Credit Card,Shipped
+1232,2025-11-18,2025,11,CUST-924,Europe,Furniture,Mobile Storage Cabinet,180.0,5,0.15,900.0,135.0,765.0,540.0,225.0,Corporate Invoice,Delivered
+1233,2025-08-21,2025,08,CUST-595,Latin America,Technology,Cloud Server Subscription,499.0,3,0.15,1497.0,224.55,1272.45,898.2,374.25,Corporate Invoice,Delivered
+1234,2025-06-24,2025,06,CUST-508,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,6,0.1,720.0,72.0,648.0,432.0,216.0,Bank Transfer,Delivered
+1235,2025-09-21,2025,09,CUST-225,Latin America,Furniture,Executive Conference Table,899.0,6,0.05,5394.0,269.7,5124.3,3236.4,1887.9,PayPal,Shipped
+1236,2025-05-07,2025,05,CUST-984,Latin America,Technology,Cloud Server Subscription,499.0,1,0.1,499.0,49.9,449.1,299.4,149.7,Corporate Invoice,Delivered
+1237,2025-03-23,2025,03,CUST-610,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,6,0.05,114.0,5.7,108.3,68.4,39.9,Corporate Invoice,Shipped
+1238,2025-06-07,2025,06,CUST-568,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,2,0.15,598.0,89.7,508.3,358.8,149.5,Bank Transfer,Delivered
+1239,2025-10-26,2025,10,CUST-711,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,1,0.1,299.0,29.9,269.1,179.4,89.7,Corporate Invoice,Delivered
+1240,2025-10-02,2025,10,CUST-844,Asia-Pacific,Technology,Cloud Server Subscription,499.0,7,0.05,3493.0,174.65,3318.35,2095.8,1222.55,PayPal,Shipped
+1241,2025-07-07,2025,07,CUST-299,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,1,0.2,149.0,29.8,119.2,89.4,29.8,PayPal,Processing
+1242,2025-05-28,2025,05,CUST-386,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,9,0.15,1341.0,201.15,1139.85,804.6,335.25,Credit Card,Delivered
+1243,2025-02-19,2025,02,CUST-873,Asia-Pacific,Office Supplies,Dual Monitor Arm,79.0,6,0.2,474.0,94.8,379.2,284.4,94.8,Bank Transfer,Delivered
+1244,2025-11-05,2025,11,CUST-139,North America,Furniture,Lounge Waiting Sofa,550.0,9,0.0,4950.0,0.0,4950.0,2970.0,1980.0,Bank Transfer,Delivered
+1245,2025-08-31,2025,08,CUST-243,Middle East,Furniture,Lounge Waiting Sofa,550.0,3,0.2,1650.0,330.0,1320.0,990.0,330.0,PayPal,Processing
+1246,2025-06-13,2025,06,CUST-444,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,10,0.1,1490.0,149.0,1341.0,894.0,447.0,Corporate Invoice,Processing
+1247,2025-06-03,2025,06,CUST-526,North America,Office Supplies,Ergonomic Desk Chair,299.0,6,0.1,1794.0,179.4,1614.6,1076.4,538.2,PayPal,Delivered
+1248,2025-11-02,2025,11,CUST-838,Europe,Office Supplies,Dual Monitor Arm,79.0,10,0.2,790.0,158.0,632.0,474.0,158.0,Credit Card,Processing
+1249,2025-09-03,2025,09,CUST-941,Europe,Technology,Mechanical Keyboard RGB,89.0,10,0.15,890.0,133.5,756.5,534.0,222.5,Bank Transfer,Delivered
+1250,2025-10-21,2025,10,CUST-421,Latin America,Furniture,Executive Conference Table,899.0,4,0.0,3596.0,0.0,3596.0,2157.6,1438.4,Corporate Invoice,Delivered
+1251,2025-07-31,2025,07,CUST-582,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,7,0.2,840.0,168.0,672.0,504.0,168.0,Credit Card,Delivered
+1252,2025-09-23,2025,09,CUST-485,Middle East,Technology,Mechanical Keyboard RGB,89.0,6,0.15,534.0,80.1,453.9,320.4,133.5,PayPal,Delivered
+1253,2025-08-24,2025,08,CUST-724,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,9,0.1,1620.0,162.0,1458.0,972.0,486.0,Corporate Invoice,Delivered
+1254,2025-05-07,2025,05,CUST-889,Asia-Pacific,Office Supplies,Eco Notebook & Pen Set,19.0,5,0.05,95.0,4.75,90.25,57.0,33.25,PayPal,Delivered
+1255,2025-12-20,2025,12,CUST-673,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,6,0.15,3300.0,495.0,2805.0,1980.0,825.0,PayPal,Delivered
+1256,2025-03-04,2025,03,CUST-397,Europe,Furniture,Lounge Waiting Sofa,550.0,7,0.1,3850.0,385.0,3465.0,2310.0,1155.0,Credit Card,Delivered
+1257,2025-02-10,2025,02,CUST-306,Europe,Office Supplies,Desk LED Lighting Bar,39.0,5,0.15,195.0,29.25,165.75,117.0,48.75,PayPal,Processing
+1258,2025-12-23,2025,12,CUST-345,Middle East,Office Supplies,Standing Desk Motorized,450.0,2,0.2,900.0,180.0,720.0,540.0,180.0,Bank Transfer,Delivered
+1259,2025-12-09,2025,12,CUST-523,North America,Furniture,Acoustic Soundproofing Panel,120.0,4,0.0,480.0,0.0,480.0,288.0,192.0,PayPal,Shipped
+1260,2025-02-21,2025,02,CUST-516,Europe,Furniture,Acoustic Soundproofing Panel,120.0,1,0.2,120.0,24.0,96.0,72.0,24.0,Corporate Invoice,Shipped
+1261,2025-11-30,2025,11,CUST-887,North America,Technology,AI Vision Camera,249.0,6,0.1,1494.0,149.4,1344.6,896.4,448.2,Credit Card,Processing
+1262,2025-04-29,2025,04,CUST-137,Europe,Furniture,Executive Conference Table,899.0,3,0.15,2697.0,404.55,2292.45,1618.2,674.25,Corporate Invoice,Shipped
+1263,2025-04-06,2025,04,CUST-681,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,1,0.0,180.0,0.0,180.0,108.0,72.0,Credit Card,Delivered
+1264,2025-05-26,2025,05,CUST-971,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,9,0.15,171.0,25.65,145.35,102.6,42.75,Corporate Invoice,Delivered
+1265,2025-04-09,2025,04,CUST-835,Asia-Pacific,Technology,AI Vision Camera,249.0,3,0.15,747.0,112.05,634.95,448.2,186.75,Bank Transfer,Delivered
+1266,2025-06-22,2025,06,CUST-976,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,4,0.05,76.0,3.8,72.2,45.6,26.6,Corporate Invoice,Shipped
+1267,2025-09-21,2025,09,CUST-243,Europe,Office Supplies,Ergonomic Desk Chair,299.0,7,0.0,2093.0,0.0,2093.0,1255.8,837.2,Corporate Invoice,Delivered
+1268,2025-05-08,2025,05,CUST-871,Latin America,Technology,AI Vision Camera,249.0,7,0.05,1743.0,87.15,1655.85,1045.8,610.05,PayPal,Delivered
+1269,2025-06-04,2025,06,CUST-163,Europe,Furniture,Executive Conference Table,899.0,5,0.1,4495.0,449.5,4045.5,2697.0,1348.5,Credit Card,Shipped
+1270,2025-06-07,2025,06,CUST-754,North America,Technology,Wireless Noise-Canceling Headset,149.0,9,0.1,1341.0,134.1,1206.9,804.6,402.3,PayPal,Delivered
+1271,2025-11-11,2025,11,CUST-565,Europe,Technology,Developer Laptop Pro,1299.0,3,0.15,3897.0,584.55,3312.45,2338.2,974.25,PayPal,Shipped
+1272,2025-12-26,2025,12,CUST-796,Europe,Furniture,Lounge Waiting Sofa,550.0,9,0.05,4950.0,247.5,4702.5,2970.0,1732.5,Credit Card,Processing
+1273,2025-08-17,2025,08,CUST-163,North America,Furniture,Mobile Storage Cabinet,180.0,2,0.2,360.0,72.0,288.0,216.0,72.0,Bank Transfer,Processing
+1274,2025-10-02,2025,10,CUST-219,Latin America,Technology,Developer Laptop Pro,1299.0,6,0.2,7794.0,1558.8,6235.2,4676.4,1558.8,Bank Transfer,Processing
+1275,2025-09-08,2025,09,CUST-235,Latin America,Technology,Mechanical Keyboard RGB,89.0,8,0.0,712.0,0.0,712.0,427.2,284.8,Corporate Invoice,Shipped
+1276,2025-10-16,2025,10,CUST-505,North America,Technology,Mechanical Keyboard RGB,89.0,8,0.1,712.0,71.2,640.8,427.2,213.6,PayPal,Delivered
+1277,2025-04-22,2025,04,CUST-817,Asia-Pacific,Furniture,Executive Conference Table,899.0,1,0.15,899.0,134.85,764.15,539.4,224.75,Credit Card,Processing
+1278,2025-01-31,2025,01,CUST-284,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,1,0.1,149.0,14.9,134.1,89.4,44.7,Bank Transfer,Shipped
+1279,2025-07-11,2025,07,CUST-799,North America,Office Supplies,Desk LED Lighting Bar,39.0,7,0.15,273.0,40.95,232.05,163.8,68.25,Bank Transfer,Delivered
+1280,2025-03-02,2025,03,CUST-845,Europe,Technology,Mechanical Keyboard RGB,89.0,7,0.2,623.0,124.6,498.4,373.8,124.6,Bank Transfer,Delivered
+1281,2025-01-12,2025,01,CUST-488,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,9,0.15,351.0,52.65,298.35,210.6,87.75,Bank Transfer,Delivered
+1282,2025-08-24,2025,08,CUST-132,North America,Office Supplies,Standing Desk Motorized,450.0,5,0.05,2250.0,112.5,2137.5,1350.0,787.5,Corporate Invoice,Processing
+1283,2025-01-09,2025,01,CUST-134,Middle East,Technology,Developer Laptop Pro,1299.0,2,0.0,2598.0,0.0,2598.0,1558.8,1039.2,Corporate Invoice,Processing
+1284,2025-12-11,2025,12,CUST-549,Latin America,Furniture,Executive Conference Table,899.0,4,0.0,3596.0,0.0,3596.0,2157.6,1438.4,Bank Transfer,Processing
+1285,2025-04-22,2025,04,CUST-935,Europe,Technology,Developer Laptop Pro,1299.0,9,0.1,11691.0,1169.1,10521.9,7014.6,3507.3,PayPal,Processing
+1286,2025-11-03,2025,11,CUST-776,Europe,Furniture,Mobile Storage Cabinet,180.0,4,0.1,720.0,72.0,648.0,432.0,216.0,Bank Transfer,Shipped
+1287,2025-06-03,2025,06,CUST-741,Europe,Office Supplies,Ergonomic Desk Chair,299.0,9,0.2,2691.0,538.2,2152.8,1614.6,538.2,Corporate Invoice,Processing
+1288,2025-09-11,2025,09,CUST-813,Asia-Pacific,Technology,AI Vision Camera,249.0,7,0.2,1743.0,348.6,1394.4,1045.8,348.6,Corporate Invoice,Shipped
+1289,2025-03-18,2025,03,CUST-346,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,3,0.2,117.0,23.4,93.6,70.2,23.4,Bank Transfer,Delivered
+1290,2025-12-29,2025,12,CUST-526,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,1,0.2,149.0,29.8,119.2,89.4,29.8,Bank Transfer,Shipped
+1291,2025-05-05,2025,05,CUST-967,Latin America,Office Supplies,Standing Desk Motorized,450.0,6,0.0,2700.0,0.0,2700.0,1620.0,1080.0,PayPal,Delivered
+1292,2025-10-02,2025,10,CUST-789,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,1,0.1,120.0,12.0,108.0,72.0,36.0,Credit Card,Delivered
+1293,2025-04-07,2025,04,CUST-410,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,8,0.05,960.0,48.0,912.0,576.0,336.0,Credit Card,Delivered
+1294,2025-04-08,2025,04,CUST-820,Middle East,Furniture,Executive Conference Table,899.0,8,0.05,7192.0,359.6,6832.4,4315.2,2517.2,Bank Transfer,Shipped
+1295,2025-05-03,2025,05,CUST-646,Latin America,Furniture,Mobile Storage Cabinet,180.0,5,0.15,900.0,135.0,765.0,540.0,225.0,PayPal,Delivered
+1296,2025-05-14,2025,05,CUST-922,North America,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.15,152.0,22.8,129.2,91.2,38.0,Corporate Invoice,Delivered
+1297,2025-04-15,2025,04,CUST-984,Middle East,Office Supplies,Dual Monitor Arm,79.0,7,0.0,553.0,0.0,553.0,331.8,221.2,Bank Transfer,Delivered
+1298,2025-01-09,2025,01,CUST-402,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,10,0.2,190.0,38.0,152.0,114.0,38.0,Bank Transfer,Delivered
+1299,2025-06-18,2025,06,CUST-663,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,10,0.05,1490.0,74.5,1415.5,894.0,521.5,PayPal,Delivered
+1300,2025-09-08,2025,09,CUST-273,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,8,0.05,4400.0,220.0,4180.0,2640.0,1540.0,Bank Transfer,Processing
+1301,2025-09-08,2025,09,CUST-959,North America,Technology,Mechanical Keyboard RGB,89.0,1,0.2,89.0,17.8,71.2,53.4,17.8,Credit Card,Delivered
+1302,2025-01-04,2025,01,CUST-109,Europe,Office Supplies,Standing Desk Motorized,450.0,4,0.0,1800.0,0.0,1800.0,1080.0,720.0,Bank Transfer,Processing
+1303,2025-08-22,2025,08,CUST-775,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,10,0.2,2990.0,598.0,2392.0,1794.0,598.0,Corporate Invoice,Delivered
+1304,2025-01-04,2025,01,CUST-839,Middle East,Furniture,Lounge Waiting Sofa,550.0,1,0.0,550.0,0.0,550.0,330.0,220.0,PayPal,Processing
+1305,2025-05-27,2025,05,CUST-198,North America,Technology,Mechanical Keyboard RGB,89.0,7,0.05,623.0,31.15,591.85,373.8,218.05,Bank Transfer,Delivered
+1306,2025-04-09,2025,04,CUST-180,Latin America,Furniture,Mobile Storage Cabinet,180.0,6,0.1,1080.0,108.0,972.0,648.0,324.0,PayPal,Shipped
+1307,2025-08-24,2025,08,CUST-769,North America,Furniture,Acoustic Soundproofing Panel,120.0,4,0.1,480.0,48.0,432.0,288.0,144.0,Credit Card,Delivered
+1308,2025-07-27,2025,07,CUST-752,North America,Office Supplies,Desk LED Lighting Bar,39.0,9,0.15,351.0,52.65,298.35,210.6,87.75,Credit Card,Delivered
+1309,2025-02-12,2025,02,CUST-640,North America,Office Supplies,Desk LED Lighting Bar,39.0,6,0.2,234.0,46.8,187.2,140.4,46.8,Credit Card,Delivered
+1310,2025-04-19,2025,04,CUST-800,North America,Furniture,Lounge Waiting Sofa,550.0,5,0.0,2750.0,0.0,2750.0,1650.0,1100.0,PayPal,Processing
+1311,2025-10-16,2025,10,CUST-312,North America,Furniture,Executive Conference Table,899.0,3,0.1,2697.0,269.7,2427.3,1618.2,809.1,Bank Transfer,Shipped
+1312,2025-02-09,2025,02,CUST-954,Middle East,Office Supplies,Standing Desk Motorized,450.0,10,0.05,4500.0,225.0,4275.0,2700.0,1575.0,Corporate Invoice,Processing
+1313,2025-06-19,2025,06,CUST-154,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,2,0.2,900.0,180.0,720.0,540.0,180.0,Credit Card,Shipped
+1314,2025-04-29,2025,04,CUST-506,Middle East,Technology,AI Vision Camera,249.0,10,0.2,2490.0,498.0,1992.0,1494.0,498.0,PayPal,Delivered
+1315,2025-11-21,2025,11,CUST-666,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,8,0.05,312.0,15.6,296.4,187.2,109.2,Corporate Invoice,Shipped
+1316,2025-04-06,2025,04,CUST-917,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,2,0.2,1100.0,220.0,880.0,660.0,220.0,Bank Transfer,Delivered
+1317,2025-02-12,2025,02,CUST-424,Latin America,Office Supplies,Standing Desk Motorized,450.0,7,0.05,3150.0,157.5,2992.5,1890.0,1102.5,PayPal,Delivered
+1318,2025-02-16,2025,02,CUST-204,Asia-Pacific,Technology,AI Vision Camera,249.0,8,0.1,1992.0,199.2,1792.8,1195.2,597.6,Bank Transfer,Delivered
+1319,2025-04-06,2025,04,CUST-517,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,9,0.2,351.0,70.2,280.8,210.6,70.2,Credit Card,Delivered
+1320,2025-02-15,2025,02,CUST-903,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,2,0.2,38.0,7.6,30.4,22.8,7.6,PayPal,Shipped
+1321,2025-01-07,2025,01,CUST-348,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,7,0.0,273.0,0.0,273.0,163.8,109.2,Bank Transfer,Shipped
+1322,2025-03-28,2025,03,CUST-249,Latin America,Technology,AI Vision Camera,249.0,5,0.1,1245.0,124.5,1120.5,747.0,373.5,Credit Card,Delivered
+1323,2025-08-11,2025,08,CUST-469,North America,Office Supplies,Desk LED Lighting Bar,39.0,5,0.15,195.0,29.25,165.75,117.0,48.75,PayPal,Delivered
+1324,2025-11-17,2025,11,CUST-209,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,10,0.05,190.0,9.5,180.5,114.0,66.5,Bank Transfer,Delivered
+1325,2025-01-04,2025,01,CUST-550,Asia-Pacific,Office Supplies,Dual Monitor Arm,79.0,10,0.15,790.0,118.5,671.5,474.0,197.5,PayPal,Shipped
+1326,2025-11-30,2025,11,CUST-811,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,5,0.1,600.0,60.0,540.0,360.0,180.0,Bank Transfer,Shipped
+1327,2025-06-10,2025,06,CUST-689,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,6,0.1,894.0,89.4,804.6,536.4,268.2,Bank Transfer,Delivered
+1328,2025-07-12,2025,07,CUST-304,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,6,0.0,234.0,0.0,234.0,140.4,93.6,Bank Transfer,Processing
+1329,2025-01-14,2025,01,CUST-951,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,4,0.15,2200.0,330.0,1870.0,1320.0,550.0,Credit Card,Shipped
+1330,2025-12-11,2025,12,CUST-774,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,5,0.05,2250.0,112.5,2137.5,1350.0,787.5,Bank Transfer,Shipped
+1331,2025-07-13,2025,07,CUST-510,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,10,0.15,1490.0,223.5,1266.5,894.0,372.5,Corporate Invoice,Processing
+1332,2025-01-19,2025,01,CUST-887,North America,Office Supplies,Eco Notebook & Pen Set,19.0,10,0.0,190.0,0.0,190.0,114.0,76.0,Bank Transfer,Delivered
+1333,2025-03-27,2025,03,CUST-915,Asia-Pacific,Furniture,Executive Conference Table,899.0,10,0.15,8990.0,1348.5,7641.5,5394.0,2247.5,Corporate Invoice,Delivered
+1334,2025-01-06,2025,01,CUST-671,Middle East,Technology,AI Vision Camera,249.0,4,0.2,996.0,199.2,796.8,597.6,199.2,Bank Transfer,Shipped
+1335,2025-07-11,2025,07,CUST-453,Europe,Office Supplies,Desk LED Lighting Bar,39.0,10,0.2,390.0,78.0,312.0,234.0,78.0,Credit Card,Shipped
+1336,2025-02-23,2025,02,CUST-456,Europe,Office Supplies,Desk LED Lighting Bar,39.0,2,0.0,78.0,0.0,78.0,46.8,31.2,PayPal,Delivered
+1337,2025-08-22,2025,08,CUST-199,Latin America,Technology,Mechanical Keyboard RGB,89.0,8,0.1,712.0,71.2,640.8,427.2,213.6,Corporate Invoice,Shipped
+1338,2025-06-13,2025,06,CUST-969,North America,Technology,AI Vision Camera,249.0,1,0.0,249.0,0.0,249.0,149.4,99.6,PayPal,Delivered
+1339,2025-12-13,2025,12,CUST-263,Middle East,Technology,Developer Laptop Pro,1299.0,9,0.05,11691.0,584.55,11106.45,7014.6,4091.85,PayPal,Processing
+1340,2025-08-07,2025,08,CUST-755,Europe,Office Supplies,Standing Desk Motorized,450.0,7,0.05,3150.0,157.5,2992.5,1890.0,1102.5,Corporate Invoice,Shipped
+1341,2025-01-15,2025,01,CUST-498,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,8,0.2,960.0,192.0,768.0,576.0,192.0,Credit Card,Delivered
+1342,2025-04-16,2025,04,CUST-291,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,10,0.0,2990.0,0.0,2990.0,1794.0,1196.0,PayPal,Delivered
+1343,2025-04-11,2025,04,CUST-754,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,5,0.15,1495.0,224.25,1270.75,897.0,373.75,PayPal,Processing
+1344,2025-07-18,2025,07,CUST-460,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,10,0.0,5500.0,0.0,5500.0,3300.0,2200.0,Corporate Invoice,Processing
+1345,2025-03-30,2025,03,CUST-788,North America,Furniture,Mobile Storage Cabinet,180.0,10,0.2,1800.0,360.0,1440.0,1080.0,360.0,Bank Transfer,Delivered
+1346,2025-03-02,2025,03,CUST-810,Asia-Pacific,Technology,AI Vision Camera,249.0,2,0.05,498.0,24.9,473.1,298.8,174.3,Bank Transfer,Processing
+1347,2025-07-18,2025,07,CUST-533,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,3,0.2,57.0,11.4,45.6,34.2,11.4,Bank Transfer,Shipped
+1348,2025-11-22,2025,11,CUST-395,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,9,0.05,1080.0,54.0,1026.0,648.0,378.0,Bank Transfer,Delivered
+1349,2025-06-11,2025,06,CUST-596,North America,Office Supplies,Eco Notebook & Pen Set,19.0,1,0.1,19.0,1.9,17.1,11.4,5.7,Bank Transfer,Delivered
+1350,2025-07-16,2025,07,CUST-827,Latin America,Furniture,Lounge Waiting Sofa,550.0,7,0.15,3850.0,577.5,3272.5,2310.0,962.5,Corporate Invoice,Shipped
+1351,2025-03-27,2025,03,CUST-133,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,1,0.05,89.0,4.45,84.55,53.4,31.15,PayPal,Delivered
+1352,2025-10-03,2025,10,CUST-662,Latin America,Office Supplies,Standing Desk Motorized,450.0,8,0.2,3600.0,720.0,2880.0,2160.0,720.0,Credit Card,Processing
+1353,2025-02-28,2025,02,CUST-878,North America,Office Supplies,Eco Notebook & Pen Set,19.0,6,0.2,114.0,22.8,91.2,68.4,22.8,Corporate Invoice,Processing
+1354,2025-04-22,2025,04,CUST-560,North America,Office Supplies,Ergonomic Desk Chair,299.0,4,0.1,1196.0,119.6,1076.4,717.6,358.8,PayPal,Delivered
+1355,2025-02-14,2025,02,CUST-805,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,4,0.05,1196.0,59.8,1136.2,717.6,418.6,PayPal,Processing
+1356,2025-11-20,2025,11,CUST-933,Europe,Office Supplies,Standing Desk Motorized,450.0,10,0.05,4500.0,225.0,4275.0,2700.0,1575.0,Bank Transfer,Delivered
+1357,2025-10-19,2025,10,CUST-272,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,5,0.2,95.0,19.0,76.0,57.0,19.0,PayPal,Delivered
+1358,2025-05-29,2025,05,CUST-868,Europe,Furniture,Mobile Storage Cabinet,180.0,9,0.0,1620.0,0.0,1620.0,972.0,648.0,Corporate Invoice,Delivered
+1359,2025-05-22,2025,05,CUST-828,Europe,Furniture,Acoustic Soundproofing Panel,120.0,3,0.05,360.0,18.0,342.0,216.0,126.0,PayPal,Delivered
+1360,2025-12-13,2025,12,CUST-742,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,3,0.2,117.0,23.4,93.6,70.2,23.4,Corporate Invoice,Shipped
+1361,2025-08-20,2025,08,CUST-811,Asia-Pacific,Technology,Cloud Server Subscription,499.0,7,0.2,3493.0,698.6,2794.4,2095.8,698.6,PayPal,Shipped
+1362,2025-09-07,2025,09,CUST-750,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,1,0.0,19.0,0.0,19.0,11.4,7.6,PayPal,Delivered
+1363,2025-10-01,2025,10,CUST-374,Latin America,Office Supplies,Standing Desk Motorized,450.0,7,0.05,3150.0,157.5,2992.5,1890.0,1102.5,PayPal,Delivered
+1364,2025-06-22,2025,06,CUST-798,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,10,0.15,1200.0,180.0,1020.0,720.0,300.0,Credit Card,Delivered
+1365,2025-02-20,2025,02,CUST-551,Europe,Furniture,Lounge Waiting Sofa,550.0,1,0.0,550.0,0.0,550.0,330.0,220.0,Corporate Invoice,Delivered
+1366,2025-08-08,2025,08,CUST-195,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,5,0.05,6495.0,324.75,6170.25,3897.0,2273.25,PayPal,Delivered
+1367,2025-02-12,2025,02,CUST-843,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,1,0.15,450.0,67.5,382.5,270.0,112.5,Bank Transfer,Shipped
+1368,2025-12-02,2025,12,CUST-179,Latin America,Technology,Cloud Server Subscription,499.0,1,0.05,499.0,24.95,474.05,299.4,174.65,Bank Transfer,Processing
+1369,2025-04-26,2025,04,CUST-936,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,1,0.0,550.0,0.0,550.0,330.0,220.0,Credit Card,Shipped
+1370,2025-12-22,2025,12,CUST-191,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,2,0.05,298.0,14.9,283.1,178.8,104.3,Credit Card,Delivered
+1371,2025-06-10,2025,06,CUST-756,Europe,Office Supplies,Dual Monitor Arm,79.0,3,0.15,237.0,35.55,201.45,142.2,59.25,Bank Transfer,Delivered
+1372,2025-09-29,2025,09,CUST-459,Latin America,Furniture,Executive Conference Table,899.0,10,0.05,8990.0,449.5,8540.5,5394.0,3146.5,Bank Transfer,Delivered
+1373,2025-07-30,2025,07,CUST-243,North America,Furniture,Lounge Waiting Sofa,550.0,4,0.0,2200.0,0.0,2200.0,1320.0,880.0,Credit Card,Processing
+1374,2025-07-16,2025,07,CUST-383,Europe,Office Supplies,Desk LED Lighting Bar,39.0,6,0.05,234.0,11.7,222.3,140.4,81.9,Credit Card,Delivered
+1375,2025-10-11,2025,10,CUST-630,Europe,Furniture,Mobile Storage Cabinet,180.0,1,0.1,180.0,18.0,162.0,108.0,54.0,Bank Transfer,Shipped
+1376,2025-06-01,2025,06,CUST-215,Latin America,Furniture,Executive Conference Table,899.0,4,0.15,3596.0,539.4,3056.6,2157.6,899.0,Bank Transfer,Shipped
+1377,2025-11-23,2025,11,CUST-424,Asia-Pacific,Furniture,Executive Conference Table,899.0,9,0.0,8091.0,0.0,8091.0,4854.6,3236.4,Bank Transfer,Shipped
+1378,2025-10-19,2025,10,CUST-888,Latin America,Office Supplies,Dual Monitor Arm,79.0,9,0.05,711.0,35.55,675.45,426.6,248.85,Credit Card,Delivered
+1379,2025-10-28,2025,10,CUST-161,North America,Technology,Cloud Server Subscription,499.0,5,0.05,2495.0,124.75,2370.25,1497.0,873.25,Corporate Invoice,Processing
+1380,2025-05-27,2025,05,CUST-755,North America,Furniture,Lounge Waiting Sofa,550.0,7,0.15,3850.0,577.5,3272.5,2310.0,962.5,Bank Transfer,Delivered
+1381,2025-02-12,2025,02,CUST-649,Europe,Office Supplies,Ergonomic Desk Chair,299.0,9,0.05,2691.0,134.55,2556.45,1614.6,941.85,PayPal,Shipped
+1382,2025-10-28,2025,10,CUST-159,Europe,Furniture,Executive Conference Table,899.0,5,0.15,4495.0,674.25,3820.75,2697.0,1123.75,Bank Transfer,Delivered
+1383,2025-08-11,2025,08,CUST-416,North America,Technology,Wireless Noise-Canceling Headset,149.0,10,0.2,1490.0,298.0,1192.0,894.0,298.0,Bank Transfer,Delivered
+1384,2025-01-07,2025,01,CUST-455,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,1,0.05,120.0,6.0,114.0,72.0,42.0,PayPal,Delivered
+1385,2025-07-10,2025,07,CUST-926,Asia-Pacific,Technology,AI Vision Camera,249.0,2,0.0,498.0,0.0,498.0,298.8,199.2,Corporate Invoice,Delivered
+1386,2025-09-26,2025,09,CUST-566,Latin America,Technology,AI Vision Camera,249.0,10,0.0,2490.0,0.0,2490.0,1494.0,996.0,PayPal,Delivered
+1387,2025-09-13,2025,09,CUST-891,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,6,0.05,720.0,36.0,684.0,432.0,252.0,Credit Card,Processing
+1388,2025-12-12,2025,12,CUST-145,North America,Furniture,Executive Conference Table,899.0,4,0.2,3596.0,719.2,2876.8,2157.6,719.2,Credit Card,Delivered
+1389,2025-01-24,2025,01,CUST-978,Europe,Office Supplies,Dual Monitor Arm,79.0,7,0.05,553.0,27.65,525.35,331.8,193.55,Credit Card,Processing
+1390,2025-12-02,2025,12,CUST-837,Latin America,Office Supplies,Standing Desk Motorized,450.0,6,0.05,2700.0,135.0,2565.0,1620.0,945.0,PayPal,Delivered
+1391,2025-02-09,2025,02,CUST-283,North America,Furniture,Mobile Storage Cabinet,180.0,2,0.2,360.0,72.0,288.0,216.0,72.0,Bank Transfer,Processing
+1392,2025-01-24,2025,01,CUST-435,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,8,0.1,2392.0,239.2,2152.8,1435.2,717.6,Credit Card,Processing
+1393,2025-08-22,2025,08,CUST-903,Middle East,Technology,AI Vision Camera,249.0,4,0.1,996.0,99.6,896.4,597.6,298.8,PayPal,Processing
+1394,2025-05-05,2025,05,CUST-850,Europe,Office Supplies,Dual Monitor Arm,79.0,10,0.15,790.0,118.5,671.5,474.0,197.5,Bank Transfer,Delivered
+1395,2025-01-04,2025,01,CUST-751,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,4,0.2,1196.0,239.2,956.8,717.6,239.2,Credit Card,Delivered
+1396,2025-01-01,2025,01,CUST-642,Europe,Furniture,Lounge Waiting Sofa,550.0,5,0.0,2750.0,0.0,2750.0,1650.0,1100.0,Bank Transfer,Shipped
+1397,2025-09-09,2025,09,CUST-337,North America,Technology,Developer Laptop Pro,1299.0,5,0.0,6495.0,0.0,6495.0,3897.0,2598.0,Corporate Invoice,Delivered
+1398,2025-08-23,2025,08,CUST-236,Middle East,Furniture,Executive Conference Table,899.0,10,0.0,8990.0,0.0,8990.0,5394.0,3596.0,Corporate Invoice,Delivered
+1399,2025-10-31,2025,10,CUST-398,Europe,Furniture,Executive Conference Table,899.0,7,0.05,6293.0,314.65,5978.35,3775.8,2202.55,PayPal,Delivered
+1400,2025-07-21,2025,07,CUST-339,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,6,0.15,1080.0,162.0,918.0,648.0,270.0,Credit Card,Delivered
+1401,2025-03-11,2025,03,CUST-560,Europe,Furniture,Executive Conference Table,899.0,3,0.0,2697.0,0.0,2697.0,1618.2,1078.8,Corporate Invoice,Delivered
+1402,2025-07-28,2025,07,CUST-415,Latin America,Technology,Mechanical Keyboard RGB,89.0,6,0.05,534.0,26.7,507.3,320.4,186.9,Corporate Invoice,Delivered
+1403,2025-03-03,2025,03,CUST-320,North America,Technology,Developer Laptop Pro,1299.0,5,0.2,6495.0,1299.0,5196.0,3897.0,1299.0,PayPal,Delivered
+1404,2025-02-16,2025,02,CUST-150,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,6,0.15,720.0,108.0,612.0,432.0,180.0,PayPal,Delivered
+1405,2025-03-31,2025,03,CUST-355,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,8,0.2,1192.0,238.4,953.6,715.2,238.4,Credit Card,Shipped
+1406,2025-02-22,2025,02,CUST-233,Europe,Technology,Cloud Server Subscription,499.0,1,0.0,499.0,0.0,499.0,299.4,199.6,Bank Transfer,Shipped
+1407,2025-07-10,2025,07,CUST-932,Asia-Pacific,Furniture,Executive Conference Table,899.0,10,0.2,8990.0,1798.0,7192.0,5394.0,1798.0,Credit Card,Delivered
+1408,2025-02-03,2025,02,CUST-225,Asia-Pacific,Technology,Wireless Noise-Canceling Headset,149.0,3,0.0,447.0,0.0,447.0,268.2,178.8,Credit Card,Shipped
+1409,2025-01-26,2025,01,CUST-130,Latin America,Technology,Mechanical Keyboard RGB,89.0,7,0.15,623.0,93.45,529.55,373.8,155.75,Corporate Invoice,Shipped
+1410,2025-03-30,2025,03,CUST-556,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,3,0.1,1350.0,135.0,1215.0,810.0,405.0,Bank Transfer,Delivered
+1411,2025-11-11,2025,11,CUST-663,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,5,0.15,600.0,90.0,510.0,360.0,150.0,Corporate Invoice,Delivered
+1412,2025-02-14,2025,02,CUST-758,Europe,Office Supplies,Desk LED Lighting Bar,39.0,3,0.15,117.0,17.55,99.45,70.2,29.25,Bank Transfer,Processing
+1413,2025-01-10,2025,01,CUST-452,Latin America,Office Supplies,Dual Monitor Arm,79.0,8,0.2,632.0,126.4,505.6,379.2,126.4,PayPal,Shipped
+1414,2025-05-19,2025,05,CUST-130,Europe,Technology,Cloud Server Subscription,499.0,6,0.2,2994.0,598.8,2395.2,1796.4,598.8,PayPal,Delivered
+1415,2025-08-30,2025,08,CUST-202,Europe,Furniture,Mobile Storage Cabinet,180.0,10,0.05,1800.0,90.0,1710.0,1080.0,630.0,Bank Transfer,Delivered
+1416,2025-05-17,2025,05,CUST-463,Latin America,Furniture,Executive Conference Table,899.0,4,0.2,3596.0,719.2,2876.8,2157.6,719.2,Bank Transfer,Delivered
+1417,2025-05-02,2025,05,CUST-820,North America,Furniture,Mobile Storage Cabinet,180.0,6,0.2,1080.0,216.0,864.0,648.0,216.0,PayPal,Processing
+1418,2025-10-16,2025,10,CUST-416,Middle East,Technology,Mechanical Keyboard RGB,89.0,4,0.15,356.0,53.4,302.6,213.6,89.0,Bank Transfer,Shipped
+1419,2025-01-20,2025,01,CUST-120,Europe,Technology,Cloud Server Subscription,499.0,4,0.2,1996.0,399.2,1596.8,1197.6,399.2,Corporate Invoice,Delivered
+1420,2025-06-19,2025,06,CUST-921,Europe,Furniture,Acoustic Soundproofing Panel,120.0,3,0.1,360.0,36.0,324.0,216.0,108.0,PayPal,Delivered
+1421,2025-01-12,2025,01,CUST-981,Middle East,Technology,Mechanical Keyboard RGB,89.0,3,0.0,267.0,0.0,267.0,160.2,106.8,PayPal,Delivered
+1422,2025-07-11,2025,07,CUST-409,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,10,0.0,5500.0,0.0,5500.0,3300.0,2200.0,PayPal,Delivered
+1423,2025-03-22,2025,03,CUST-824,Europe,Furniture,Lounge Waiting Sofa,550.0,8,0.1,4400.0,440.0,3960.0,2640.0,1320.0,PayPal,Delivered
+1424,2025-12-07,2025,12,CUST-230,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,7,0.1,840.0,84.0,756.0,504.0,252.0,Bank Transfer,Delivered
+1425,2025-12-26,2025,12,CUST-716,Europe,Furniture,Lounge Waiting Sofa,550.0,10,0.0,5500.0,0.0,5500.0,3300.0,2200.0,PayPal,Processing
+1426,2025-04-24,2025,04,CUST-863,Asia-Pacific,Furniture,Executive Conference Table,899.0,8,0.05,7192.0,359.6,6832.4,4315.2,2517.2,Credit Card,Delivered
+1427,2025-06-27,2025,06,CUST-111,Latin America,Office Supplies,Standing Desk Motorized,450.0,2,0.1,900.0,90.0,810.0,540.0,270.0,PayPal,Delivered
+1428,2025-05-08,2025,05,CUST-837,North America,Furniture,Executive Conference Table,899.0,6,0.1,5394.0,539.4,4854.6,3236.4,1618.2,Credit Card,Delivered
+1429,2025-07-17,2025,07,CUST-487,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,3,0.15,117.0,17.55,99.45,70.2,29.25,PayPal,Processing
+1430,2025-07-12,2025,07,CUST-562,Europe,Technology,Wireless Noise-Canceling Headset,149.0,10,0.05,1490.0,74.5,1415.5,894.0,521.5,Credit Card,Delivered
+1431,2025-05-31,2025,05,CUST-450,North America,Technology,AI Vision Camera,249.0,5,0.0,1245.0,0.0,1245.0,747.0,498.0,Bank Transfer,Shipped
+1432,2025-03-24,2025,03,CUST-708,Asia-Pacific,Furniture,Executive Conference Table,899.0,9,0.0,8091.0,0.0,8091.0,4854.6,3236.4,Corporate Invoice,Delivered
+1433,2025-08-09,2025,08,CUST-154,Europe,Furniture,Acoustic Soundproofing Panel,120.0,10,0.15,1200.0,180.0,1020.0,720.0,300.0,Credit Card,Delivered
+1434,2025-04-16,2025,04,CUST-776,Asia-Pacific,Technology,Wireless Noise-Canceling Headset,149.0,9,0.2,1341.0,268.2,1072.8,804.6,268.2,PayPal,Delivered
+1435,2025-05-02,2025,05,CUST-960,Middle East,Technology,Cloud Server Subscription,499.0,7,0.2,3493.0,698.6,2794.4,2095.8,698.6,Corporate Invoice,Delivered
+1436,2025-01-28,2025,01,CUST-943,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,7,0.0,2093.0,0.0,2093.0,1255.8,837.2,Corporate Invoice,Delivered
+1437,2025-02-19,2025,02,CUST-584,North America,Technology,Developer Laptop Pro,1299.0,3,0.1,3897.0,389.7,3507.3,2338.2,1169.1,Credit Card,Delivered
+1438,2025-07-23,2025,07,CUST-496,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,5,0.0,195.0,0.0,195.0,117.0,78.0,Bank Transfer,Delivered
+1439,2025-07-15,2025,07,CUST-550,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,8,0.0,3600.0,0.0,3600.0,2160.0,1440.0,Corporate Invoice,Delivered
+1440,2025-04-26,2025,04,CUST-187,North America,Office Supplies,Eco Notebook & Pen Set,19.0,1,0.05,19.0,0.95,18.05,11.4,6.65,PayPal,Processing
+1441,2025-07-31,2025,07,CUST-938,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,9,0.0,1080.0,0.0,1080.0,648.0,432.0,Corporate Invoice,Processing
+1442,2025-12-18,2025,12,CUST-180,Asia-Pacific,Office Supplies,Eco Notebook & Pen Set,19.0,4,0.15,76.0,11.4,64.6,45.6,19.0,Corporate Invoice,Delivered
+1443,2025-09-15,2025,09,CUST-271,Europe,Furniture,Acoustic Soundproofing Panel,120.0,2,0.15,240.0,36.0,204.0,144.0,60.0,Bank Transfer,Delivered
+1444,2025-03-06,2025,03,CUST-942,Europe,Technology,Wireless Noise-Canceling Headset,149.0,2,0.15,298.0,44.7,253.3,178.8,74.5,Bank Transfer,Processing
+1445,2025-05-13,2025,05,CUST-506,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,2,0.15,598.0,89.7,508.3,358.8,149.5,PayPal,Delivered
+1446,2025-09-24,2025,09,CUST-900,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,10,0.2,2990.0,598.0,2392.0,1794.0,598.0,Corporate Invoice,Delivered
+1447,2025-08-01,2025,08,CUST-876,Middle East,Technology,Developer Laptop Pro,1299.0,10,0.2,12990.0,2598.0,10392.0,7794.0,2598.0,Credit Card,Delivered
+1448,2025-10-16,2025,10,CUST-370,Latin America,Technology,AI Vision Camera,249.0,9,0.1,2241.0,224.1,2016.9,1344.6,672.3,Corporate Invoice,Shipped
+1449,2025-10-20,2025,10,CUST-512,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,1,0.05,550.0,27.5,522.5,330.0,192.5,Bank Transfer,Processing
+1450,2025-11-08,2025,11,CUST-807,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,1,0.15,550.0,82.5,467.5,330.0,137.5,Bank Transfer,Delivered
+1451,2025-09-01,2025,09,CUST-418,Asia-Pacific,Office Supplies,Dual Monitor Arm,79.0,1,0.1,79.0,7.9,71.1,47.4,23.7,PayPal,Shipped
+1452,2025-12-23,2025,12,CUST-861,Asia-Pacific,Furniture,Executive Conference Table,899.0,4,0.05,3596.0,179.8,3416.2,2157.6,1258.6,Corporate Invoice,Delivered
+1453,2025-05-18,2025,05,CUST-552,Europe,Furniture,Lounge Waiting Sofa,550.0,10,0.0,5500.0,0.0,5500.0,3300.0,2200.0,Bank Transfer,Shipped
+1454,2025-09-06,2025,09,CUST-167,Europe,Furniture,Mobile Storage Cabinet,180.0,1,0.2,180.0,36.0,144.0,108.0,36.0,PayPal,Processing
+1455,2025-07-26,2025,07,CUST-297,Europe,Technology,Mechanical Keyboard RGB,89.0,10,0.0,890.0,0.0,890.0,534.0,356.0,Bank Transfer,Delivered
+1456,2025-05-08,2025,05,CUST-380,Europe,Technology,Wireless Noise-Canceling Headset,149.0,1,0.1,149.0,14.9,134.1,89.4,44.7,PayPal,Shipped
+1457,2025-09-16,2025,09,CUST-600,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,1,0.05,299.0,14.95,284.05,179.4,104.65,Corporate Invoice,Delivered
+1458,2025-08-31,2025,08,CUST-866,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,6,0.05,1080.0,54.0,1026.0,648.0,378.0,Credit Card,Delivered
+1459,2025-01-15,2025,01,CUST-977,Europe,Office Supplies,Ergonomic Desk Chair,299.0,3,0.2,897.0,179.4,717.6,538.2,179.4,Bank Transfer,Delivered
+1460,2025-12-13,2025,12,CUST-985,North America,Technology,AI Vision Camera,249.0,7,0.2,1743.0,348.6,1394.4,1045.8,348.6,Credit Card,Shipped
+1461,2025-03-09,2025,03,CUST-358,Europe,Furniture,Acoustic Soundproofing Panel,120.0,10,0.0,1200.0,0.0,1200.0,720.0,480.0,PayPal,Delivered
+1462,2025-08-05,2025,08,CUST-577,Europe,Office Supplies,Dual Monitor Arm,79.0,8,0.1,632.0,63.2,568.8,379.2,189.6,PayPal,Processing
+1463,2025-11-16,2025,11,CUST-778,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,2,0.0,38.0,0.0,38.0,22.8,15.2,PayPal,Processing
+1464,2025-11-28,2025,11,CUST-165,Latin America,Furniture,Mobile Storage Cabinet,180.0,5,0.0,900.0,0.0,900.0,540.0,360.0,PayPal,Delivered
+1465,2025-11-24,2025,11,CUST-253,Europe,Office Supplies,Dual Monitor Arm,79.0,5,0.1,395.0,39.5,355.5,237.0,118.5,Bank Transfer,Delivered
+1466,2025-11-04,2025,11,CUST-402,Latin America,Office Supplies,Dual Monitor Arm,79.0,3,0.0,237.0,0.0,237.0,142.2,94.8,PayPal,Shipped
+1467,2025-07-27,2025,07,CUST-451,Europe,Office Supplies,Ergonomic Desk Chair,299.0,10,0.2,2990.0,598.0,2392.0,1794.0,598.0,Bank Transfer,Processing
+1468,2025-11-23,2025,11,CUST-960,Europe,Office Supplies,Dual Monitor Arm,79.0,9,0.1,711.0,71.1,639.9,426.6,213.3,Bank Transfer,Delivered
+1469,2025-02-19,2025,02,CUST-796,Europe,Office Supplies,Standing Desk Motorized,450.0,5,0.2,2250.0,450.0,1800.0,1350.0,450.0,PayPal,Delivered
+1470,2025-04-24,2025,04,CUST-480,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,5,0.15,2250.0,337.5,1912.5,1350.0,562.5,PayPal,Processing
+1471,2025-05-31,2025,05,CUST-694,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,8,0.0,2392.0,0.0,2392.0,1435.2,956.8,Credit Card,Shipped
+1472,2025-04-10,2025,04,CUST-523,Asia-Pacific,Furniture,Executive Conference Table,899.0,7,0.2,6293.0,1258.6,5034.4,3775.8,1258.6,Credit Card,Delivered
+1473,2025-03-12,2025,03,CUST-246,Latin America,Technology,AI Vision Camera,249.0,7,0.2,1743.0,348.6,1394.4,1045.8,348.6,PayPal,Delivered
+1474,2025-02-11,2025,02,CUST-104,North America,Office Supplies,Dual Monitor Arm,79.0,3,0.1,237.0,23.7,213.3,142.2,71.1,Corporate Invoice,Delivered
+1475,2025-04-18,2025,04,CUST-232,North America,Technology,Mechanical Keyboard RGB,89.0,3,0.15,267.0,40.05,226.95,160.2,66.75,Corporate Invoice,Shipped
+1476,2025-07-26,2025,07,CUST-646,North America,Office Supplies,Desk LED Lighting Bar,39.0,7,0.0,273.0,0.0,273.0,163.8,109.2,Bank Transfer,Delivered
+1477,2025-01-08,2025,01,CUST-741,North America,Office Supplies,Eco Notebook & Pen Set,19.0,4,0.0,76.0,0.0,76.0,45.6,30.4,Bank Transfer,Delivered
+1478,2025-12-22,2025,12,CUST-615,Latin America,Office Supplies,Dual Monitor Arm,79.0,3,0.0,237.0,0.0,237.0,142.2,94.8,PayPal,Delivered
+1479,2025-02-03,2025,02,CUST-710,Middle East,Technology,AI Vision Camera,249.0,5,0.15,1245.0,186.75,1058.25,747.0,311.25,PayPal,Shipped
+1480,2025-12-18,2025,12,CUST-268,Europe,Technology,AI Vision Camera,249.0,8,0.1,1992.0,199.2,1792.8,1195.2,597.6,Corporate Invoice,Delivered
+1481,2025-04-27,2025,04,CUST-616,Middle East,Technology,Developer Laptop Pro,1299.0,4,0.0,5196.0,0.0,5196.0,3117.6,2078.4,Bank Transfer,Delivered
+1482,2025-07-07,2025,07,CUST-738,Middle East,Furniture,Executive Conference Table,899.0,7,0.1,6293.0,629.3,5663.7,3775.8,1887.9,Credit Card,Processing
+1483,2025-01-25,2025,01,CUST-526,North America,Furniture,Executive Conference Table,899.0,1,0.0,899.0,0.0,899.0,539.4,359.6,Corporate Invoice,Shipped
+1484,2025-03-05,2025,03,CUST-811,Europe,Furniture,Mobile Storage Cabinet,180.0,8,0.05,1440.0,72.0,1368.0,864.0,504.0,Credit Card,Delivered
+1485,2025-08-04,2025,08,CUST-720,Middle East,Furniture,Executive Conference Table,899.0,9,0.1,8091.0,809.1,7281.9,4854.6,2427.3,Bank Transfer,Shipped
+1486,2025-02-23,2025,02,CUST-609,North America,Furniture,Executive Conference Table,899.0,5,0.0,4495.0,0.0,4495.0,2697.0,1798.0,Bank Transfer,Processing
+1487,2025-04-13,2025,04,CUST-402,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,4,0.1,76.0,7.6,68.4,45.6,22.8,Bank Transfer,Delivered
+1488,2025-10-08,2025,10,CUST-102,Europe,Office Supplies,Standing Desk Motorized,450.0,8,0.1,3600.0,360.0,3240.0,2160.0,1080.0,Credit Card,Delivered
+1489,2025-02-26,2025,02,CUST-176,Middle East,Furniture,Lounge Waiting Sofa,550.0,3,0.0,1650.0,0.0,1650.0,990.0,660.0,Credit Card,Delivered
+1490,2025-11-26,2025,11,CUST-151,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,5,0.1,745.0,74.5,670.5,447.0,223.5,Credit Card,Delivered
+1491,2025-01-21,2025,01,CUST-197,North America,Office Supplies,Dual Monitor Arm,79.0,6,0.15,474.0,71.1,402.9,284.4,118.5,Credit Card,Delivered
+1492,2025-03-12,2025,03,CUST-736,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,6,0.1,720.0,72.0,648.0,432.0,216.0,PayPal,Delivered
+1493,2025-07-10,2025,07,CUST-567,Latin America,Office Supplies,Standing Desk Motorized,450.0,2,0.15,900.0,135.0,765.0,540.0,225.0,PayPal,Shipped
+1494,2025-12-20,2025,12,CUST-812,Europe,Office Supplies,Desk LED Lighting Bar,39.0,3,0.0,117.0,0.0,117.0,70.2,46.8,Credit Card,Delivered
+1495,2025-02-23,2025,02,CUST-285,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.2,152.0,30.4,121.6,91.2,30.4,Corporate Invoice,Delivered
+1496,2025-11-10,2025,11,CUST-521,North America,Technology,Developer Laptop Pro,1299.0,8,0.15,10392.0,1558.8,8833.2,6235.2,2598.0,Corporate Invoice,Delivered
+1497,2025-02-02,2025,02,CUST-841,Middle East,Office Supplies,Dual Monitor Arm,79.0,1,0.2,79.0,15.8,63.2,47.4,15.8,Bank Transfer,Delivered
+1498,2025-09-23,2025,09,CUST-454,Latin America,Furniture,Executive Conference Table,899.0,7,0.05,6293.0,314.65,5978.35,3775.8,2202.55,Corporate Invoice,Delivered
+1499,2025-10-13,2025,10,CUST-969,Middle East,Furniture,Executive Conference Table,899.0,1,0.05,899.0,44.95,854.05,539.4,314.65,Corporate Invoice,Shipped
+1500,2025-03-26,2025,03,CUST-384,Asia-Pacific,Technology,Wireless Noise-Canceling Headset,149.0,6,0.05,894.0,44.7,849.3,536.4,312.9,Credit Card,Processing
+1501,2025-04-25,2025,04,CUST-570,North America,Furniture,Lounge Waiting Sofa,550.0,7,0.05,3850.0,192.5,3657.5,2310.0,1347.5,Corporate Invoice,Processing
+1502,2025-08-18,2025,08,CUST-609,North America,Technology,Wireless Noise-Canceling Headset,149.0,8,0.1,1192.0,119.2,1072.8,715.2,357.6,Credit Card,Delivered
+1503,2025-07-26,2025,07,CUST-945,North America,Office Supplies,Ergonomic Desk Chair,299.0,9,0.2,2691.0,538.2,2152.8,1614.6,538.2,Credit Card,Processing
+1504,2025-11-13,2025,11,CUST-770,Europe,Furniture,Mobile Storage Cabinet,180.0,9,0.2,1620.0,324.0,1296.0,972.0,324.0,Corporate Invoice,Delivered
+1505,2025-07-06,2025,07,CUST-885,Middle East,Technology,Developer Laptop Pro,1299.0,8,0.1,10392.0,1039.2,9352.8,6235.2,3117.6,Corporate Invoice,Delivered
+1506,2025-08-20,2025,08,CUST-463,Asia-Pacific,Technology,Cloud Server Subscription,499.0,4,0.0,1996.0,0.0,1996.0,1197.6,798.4,PayPal,Processing
+1507,2025-09-25,2025,09,CUST-243,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,1,0.05,299.0,14.95,284.05,179.4,104.65,Corporate Invoice,Delivered
+1508,2025-05-11,2025,05,CUST-320,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,4,0.0,480.0,0.0,480.0,288.0,192.0,Corporate Invoice,Delivered
+1509,2025-06-23,2025,06,CUST-890,North America,Technology,Wireless Noise-Canceling Headset,149.0,1,0.2,149.0,29.8,119.2,89.4,29.8,Corporate Invoice,Shipped
+1510,2025-12-04,2025,12,CUST-853,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,8,0.0,960.0,0.0,960.0,576.0,384.0,Credit Card,Processing
+1511,2025-08-10,2025,08,CUST-277,Middle East,Furniture,Lounge Waiting Sofa,550.0,9,0.05,4950.0,247.5,4702.5,2970.0,1732.5,Bank Transfer,Delivered
+1512,2025-07-18,2025,07,CUST-723,Latin America,Furniture,Mobile Storage Cabinet,180.0,9,0.15,1620.0,243.0,1377.0,972.0,405.0,Bank Transfer,Delivered
+1513,2025-07-23,2025,07,CUST-522,Europe,Office Supplies,Dual Monitor Arm,79.0,8,0.05,632.0,31.6,600.4,379.2,221.2,PayPal,Processing
+1514,2025-06-10,2025,06,CUST-831,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,4,0.05,480.0,24.0,456.0,288.0,168.0,PayPal,Delivered
+1515,2025-12-11,2025,12,CUST-827,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,9,0.2,11691.0,2338.2,9352.8,7014.6,2338.2,Credit Card,Delivered
+1516,2025-10-15,2025,10,CUST-392,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,10,0.15,190.0,28.5,161.5,114.0,47.5,Corporate Invoice,Delivered
+1517,2025-09-25,2025,09,CUST-786,North America,Technology,Cloud Server Subscription,499.0,7,0.05,3493.0,174.65,3318.35,2095.8,1222.55,Credit Card,Delivered
+1518,2025-05-17,2025,05,CUST-807,North America,Technology,AI Vision Camera,249.0,5,0.05,1245.0,62.25,1182.75,747.0,435.75,PayPal,Delivered
+1519,2025-10-05,2025,10,CUST-988,Middle East,Technology,AI Vision Camera,249.0,8,0.0,1992.0,0.0,1992.0,1195.2,796.8,Bank Transfer,Processing
+1520,2025-07-19,2025,07,CUST-496,Latin America,Technology,Mechanical Keyboard RGB,89.0,5,0.0,445.0,0.0,445.0,267.0,178.0,Corporate Invoice,Delivered
+1521,2025-10-10,2025,10,CUST-989,Middle East,Technology,Cloud Server Subscription,499.0,5,0.05,2495.0,124.75,2370.25,1497.0,873.25,Corporate Invoice,Delivered
+1522,2025-11-21,2025,11,CUST-301,Middle East,Furniture,Mobile Storage Cabinet,180.0,10,0.2,1800.0,360.0,1440.0,1080.0,360.0,Bank Transfer,Delivered
+1523,2025-08-18,2025,08,CUST-222,Middle East,Technology,Cloud Server Subscription,499.0,3,0.05,1497.0,74.85,1422.15,898.2,523.95,Corporate Invoice,Delivered
+1524,2025-08-08,2025,08,CUST-698,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,5,0.05,95.0,4.75,90.25,57.0,33.25,PayPal,Delivered
+1525,2025-06-19,2025,06,CUST-711,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,1,0.05,450.0,22.5,427.5,270.0,157.5,Credit Card,Processing
+1526,2025-12-05,2025,12,CUST-174,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,10,0.2,390.0,78.0,312.0,234.0,78.0,PayPal,Processing
+1527,2025-04-23,2025,04,CUST-525,Europe,Technology,Mechanical Keyboard RGB,89.0,2,0.2,178.0,35.6,142.4,106.8,35.6,Corporate Invoice,Delivered
+1528,2025-06-28,2025,06,CUST-400,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,6,0.1,7794.0,779.4,7014.6,4676.4,2338.2,Bank Transfer,Processing
+1529,2025-09-29,2025,09,CUST-556,Asia-Pacific,Office Supplies,Eco Notebook & Pen Set,19.0,1,0.0,19.0,0.0,19.0,11.4,7.6,Bank Transfer,Processing
+1530,2025-11-15,2025,11,CUST-495,North America,Technology,Cloud Server Subscription,499.0,6,0.15,2994.0,449.1,2544.9,1796.4,748.5,PayPal,Processing
+1531,2025-05-25,2025,05,CUST-556,Middle East,Technology,Mechanical Keyboard RGB,89.0,6,0.2,534.0,106.8,427.2,320.4,106.8,Corporate Invoice,Delivered
+1532,2025-06-01,2025,06,CUST-198,North America,Furniture,Acoustic Soundproofing Panel,120.0,6,0.2,720.0,144.0,576.0,432.0,144.0,Bank Transfer,Processing
+1533,2025-10-01,2025,10,CUST-955,Latin America,Technology,Cloud Server Subscription,499.0,4,0.05,1996.0,99.8,1896.2,1197.6,698.6,Credit Card,Delivered
+1534,2025-10-03,2025,10,CUST-570,North America,Furniture,Lounge Waiting Sofa,550.0,2,0.05,1100.0,55.0,1045.0,660.0,385.0,PayPal,Delivered
+1535,2025-02-14,2025,02,CUST-172,Middle East,Technology,Cloud Server Subscription,499.0,3,0.1,1497.0,149.7,1347.3,898.2,449.1,Bank Transfer,Delivered
+1536,2025-07-28,2025,07,CUST-117,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,7,0.15,273.0,40.95,232.05,163.8,68.25,Corporate Invoice,Delivered
+1537,2025-10-01,2025,10,CUST-817,North America,Technology,Mechanical Keyboard RGB,89.0,2,0.2,178.0,35.6,142.4,106.8,35.6,Credit Card,Delivered
+1538,2025-09-15,2025,09,CUST-388,North America,Technology,AI Vision Camera,249.0,5,0.2,1245.0,249.0,996.0,747.0,249.0,Corporate Invoice,Shipped
+1539,2025-07-22,2025,07,CUST-325,Middle East,Furniture,Executive Conference Table,899.0,8,0.05,7192.0,359.6,6832.4,4315.2,2517.2,Bank Transfer,Shipped
+1540,2025-10-07,2025,10,CUST-666,North America,Office Supplies,Standing Desk Motorized,450.0,5,0.1,2250.0,225.0,2025.0,1350.0,675.0,Bank Transfer,Delivered
+1541,2025-01-22,2025,01,CUST-660,Middle East,Technology,Mechanical Keyboard RGB,89.0,10,0.15,890.0,133.5,756.5,534.0,222.5,Credit Card,Delivered
+1542,2025-04-18,2025,04,CUST-245,Middle East,Furniture,Mobile Storage Cabinet,180.0,4,0.15,720.0,108.0,612.0,432.0,180.0,Bank Transfer,Delivered
+1543,2025-04-24,2025,04,CUST-787,Europe,Furniture,Mobile Storage Cabinet,180.0,4,0.0,720.0,0.0,720.0,432.0,288.0,Credit Card,Processing
+1544,2025-08-25,2025,08,CUST-200,Asia-Pacific,Furniture,Executive Conference Table,899.0,5,0.0,4495.0,0.0,4495.0,2697.0,1798.0,Bank Transfer,Processing
+1545,2025-09-07,2025,09,CUST-391,North America,Office Supplies,Dual Monitor Arm,79.0,3,0.05,237.0,11.85,225.15,142.2,82.95,Credit Card,Delivered
+1546,2025-06-12,2025,06,CUST-810,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,6,0.2,234.0,46.8,187.2,140.4,46.8,Bank Transfer,Processing
+1547,2025-10-18,2025,10,CUST-420,North America,Office Supplies,Dual Monitor Arm,79.0,7,0.05,553.0,27.65,525.35,331.8,193.55,Bank Transfer,Delivered
+1548,2025-12-31,2025,12,CUST-795,Europe,Furniture,Lounge Waiting Sofa,550.0,5,0.1,2750.0,275.0,2475.0,1650.0,825.0,PayPal,Shipped
+1549,2025-08-25,2025,08,CUST-211,Middle East,Office Supplies,Dual Monitor Arm,79.0,5,0.15,395.0,59.25,335.75,237.0,98.75,Bank Transfer,Processing
+1550,2025-02-11,2025,02,CUST-851,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,9,0.05,4050.0,202.5,3847.5,2430.0,1417.5,Credit Card,Delivered
+1551,2025-01-10,2025,01,CUST-887,Latin America,Furniture,Executive Conference Table,899.0,10,0.2,8990.0,1798.0,7192.0,5394.0,1798.0,Bank Transfer,Delivered
+1552,2025-10-10,2025,10,CUST-474,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,9,0.15,171.0,25.65,145.35,102.6,42.75,Corporate Invoice,Delivered
+1553,2025-10-29,2025,10,CUST-622,Middle East,Furniture,Mobile Storage Cabinet,180.0,3,0.15,540.0,81.0,459.0,324.0,135.0,Credit Card,Shipped
+1554,2025-07-06,2025,07,CUST-875,Europe,Furniture,Executive Conference Table,899.0,4,0.2,3596.0,719.2,2876.8,2157.6,719.2,Bank Transfer,Shipped
+1555,2025-03-23,2025,03,CUST-467,Latin America,Technology,Mechanical Keyboard RGB,89.0,10,0.05,890.0,44.5,845.5,534.0,311.5,Credit Card,Delivered
+1556,2025-09-07,2025,09,CUST-143,Europe,Technology,Cloud Server Subscription,499.0,5,0.1,2495.0,249.5,2245.5,1497.0,748.5,Bank Transfer,Processing
+1557,2025-07-04,2025,07,CUST-764,North America,Office Supplies,Desk LED Lighting Bar,39.0,8,0.0,312.0,0.0,312.0,187.2,124.8,PayPal,Delivered
+1558,2025-12-27,2025,12,CUST-683,Middle East,Furniture,Mobile Storage Cabinet,180.0,5,0.2,900.0,180.0,720.0,540.0,180.0,Bank Transfer,Shipped
+1559,2025-12-01,2025,12,CUST-357,Middle East,Office Supplies,Dual Monitor Arm,79.0,10,0.0,790.0,0.0,790.0,474.0,316.0,Corporate Invoice,Delivered
+1560,2025-09-22,2025,09,CUST-718,Latin America,Office Supplies,Dual Monitor Arm,79.0,6,0.15,474.0,71.1,402.9,284.4,118.5,Credit Card,Processing
+1561,2025-03-13,2025,03,CUST-758,Middle East,Office Supplies,Standing Desk Motorized,450.0,4,0.0,1800.0,0.0,1800.0,1080.0,720.0,PayPal,Delivered
+1562,2025-03-18,2025,03,CUST-776,North America,Technology,Developer Laptop Pro,1299.0,6,0.2,7794.0,1558.8,6235.2,4676.4,1558.8,Bank Transfer,Shipped
+1563,2025-06-19,2025,06,CUST-315,Latin America,Furniture,Executive Conference Table,899.0,8,0.15,7192.0,1078.8,6113.2,4315.2,1798.0,Bank Transfer,Shipped
+1564,2025-01-12,2025,01,CUST-264,Middle East,Technology,Cloud Server Subscription,499.0,3,0.2,1497.0,299.4,1197.6,898.2,299.4,Bank Transfer,Processing
+1565,2025-01-21,2025,01,CUST-284,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,1,0.05,120.0,6.0,114.0,72.0,42.0,Corporate Invoice,Processing
+1566,2025-10-16,2025,10,CUST-559,Europe,Furniture,Executive Conference Table,899.0,5,0.0,4495.0,0.0,4495.0,2697.0,1798.0,Corporate Invoice,Shipped
+1567,2025-03-29,2025,03,CUST-940,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,10,0.05,1490.0,74.5,1415.5,894.0,521.5,Bank Transfer,Processing
+1568,2025-12-04,2025,12,CUST-710,Latin America,Furniture,Mobile Storage Cabinet,180.0,3,0.1,540.0,54.0,486.0,324.0,162.0,Credit Card,Delivered
+1569,2025-07-13,2025,07,CUST-635,Europe,Office Supplies,Standing Desk Motorized,450.0,2,0.0,900.0,0.0,900.0,540.0,360.0,Corporate Invoice,Delivered
+1570,2025-11-07,2025,11,CUST-139,Middle East,Technology,Developer Laptop Pro,1299.0,8,0.2,10392.0,2078.4,8313.6,6235.2,2078.4,Credit Card,Delivered
+1571,2025-09-04,2025,09,CUST-893,North America,Furniture,Acoustic Soundproofing Panel,120.0,10,0.2,1200.0,240.0,960.0,720.0,240.0,Corporate Invoice,Processing
+1572,2025-08-04,2025,08,CUST-921,Europe,Office Supplies,Ergonomic Desk Chair,299.0,9,0.15,2691.0,403.65,2287.35,1614.6,672.75,Corporate Invoice,Shipped
+1573,2025-06-29,2025,06,CUST-588,Asia-Pacific,Furniture,Executive Conference Table,899.0,7,0.05,6293.0,314.65,5978.35,3775.8,2202.55,Bank Transfer,Delivered
+1574,2025-05-26,2025,05,CUST-826,North America,Furniture,Lounge Waiting Sofa,550.0,5,0.05,2750.0,137.5,2612.5,1650.0,962.5,Credit Card,Processing
+1575,2025-09-25,2025,09,CUST-804,Europe,Technology,Mechanical Keyboard RGB,89.0,1,0.15,89.0,13.35,75.65,53.4,22.25,PayPal,Shipped
+1576,2025-07-05,2025,07,CUST-367,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,7,0.2,9093.0,1818.6,7274.4,5455.8,1818.6,Corporate Invoice,Processing
+1577,2025-07-07,2025,07,CUST-665,Latin America,Furniture,Mobile Storage Cabinet,180.0,7,0.05,1260.0,63.0,1197.0,756.0,441.0,Corporate Invoice,Delivered
+1578,2025-07-09,2025,07,CUST-452,Middle East,Furniture,Lounge Waiting Sofa,550.0,5,0.1,2750.0,275.0,2475.0,1650.0,825.0,Corporate Invoice,Delivered
+1579,2025-12-04,2025,12,CUST-319,North America,Technology,Developer Laptop Pro,1299.0,8,0.05,10392.0,519.6,9872.4,6235.2,3637.2,Corporate Invoice,Delivered
+1580,2025-10-09,2025,10,CUST-923,North America,Furniture,Executive Conference Table,899.0,3,0.15,2697.0,404.55,2292.45,1618.2,674.25,Credit Card,Delivered
+1581,2025-08-30,2025,08,CUST-327,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,2,0.0,1100.0,0.0,1100.0,660.0,440.0,PayPal,Delivered
+1582,2025-11-08,2025,11,CUST-393,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,7,0.2,1043.0,208.6,834.4,625.8,208.6,Credit Card,Delivered
+1583,2025-11-24,2025,11,CUST-392,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,1,0.05,39.0,1.95,37.05,23.4,13.65,Bank Transfer,Delivered
+1584,2025-11-03,2025,11,CUST-468,North America,Furniture,Acoustic Soundproofing Panel,120.0,10,0.05,1200.0,60.0,1140.0,720.0,420.0,Bank Transfer,Delivered
+1585,2025-03-22,2025,03,CUST-515,Latin America,Technology,AI Vision Camera,249.0,7,0.1,1743.0,174.3,1568.7,1045.8,522.9,Bank Transfer,Processing
+1586,2025-01-08,2025,01,CUST-843,Asia-Pacific,Furniture,Executive Conference Table,899.0,2,0.2,1798.0,359.6,1438.4,1078.8,359.6,PayPal,Delivered
+1587,2025-05-22,2025,05,CUST-688,Latin America,Technology,Mechanical Keyboard RGB,89.0,4,0.15,356.0,53.4,302.6,213.6,89.0,Credit Card,Delivered
+1588,2025-03-31,2025,03,CUST-615,North America,Office Supplies,Eco Notebook & Pen Set,19.0,2,0.2,38.0,7.6,30.4,22.8,7.6,PayPal,Delivered
+1589,2025-03-01,2025,03,CUST-810,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,9,0.2,1620.0,324.0,1296.0,972.0,324.0,Corporate Invoice,Shipped
+1590,2025-10-16,2025,10,CUST-700,Latin America,Office Supplies,Standing Desk Motorized,450.0,6,0.15,2700.0,405.0,2295.0,1620.0,675.0,Credit Card,Shipped
+1591,2025-03-01,2025,03,CUST-919,Europe,Office Supplies,Ergonomic Desk Chair,299.0,7,0.05,2093.0,104.65,1988.35,1255.8,732.55,PayPal,Shipped
+1592,2025-06-30,2025,06,CUST-195,Asia-Pacific,Furniture,Executive Conference Table,899.0,5,0.05,4495.0,224.75,4270.25,2697.0,1573.25,Corporate Invoice,Delivered
+1593,2025-02-08,2025,02,CUST-323,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,8,0.1,960.0,96.0,864.0,576.0,288.0,PayPal,Delivered
+1594,2025-12-16,2025,12,CUST-993,Europe,Technology,Wireless Noise-Canceling Headset,149.0,4,0.05,596.0,29.8,566.2,357.6,208.6,PayPal,Delivered
+1595,2025-04-28,2025,04,CUST-897,Europe,Technology,Developer Laptop Pro,1299.0,10,0.1,12990.0,1299.0,11691.0,7794.0,3897.0,Credit Card,Delivered
+1596,2025-02-10,2025,02,CUST-143,Middle East,Furniture,Lounge Waiting Sofa,550.0,10,0.0,5500.0,0.0,5500.0,3300.0,2200.0,Corporate Invoice,Delivered
+1597,2025-11-14,2025,11,CUST-287,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,10,0.1,390.0,39.0,351.0,234.0,117.0,PayPal,Shipped
+1598,2025-04-24,2025,04,CUST-589,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,1,0.2,120.0,24.0,96.0,72.0,24.0,Credit Card,Processing
+1599,2025-06-27,2025,06,CUST-571,Middle East,Office Supplies,Standing Desk Motorized,450.0,8,0.0,3600.0,0.0,3600.0,2160.0,1440.0,PayPal,Delivered
+1600,2025-01-07,2025,01,CUST-433,North America,Furniture,Acoustic Soundproofing Panel,120.0,7,0.2,840.0,168.0,672.0,504.0,168.0,PayPal,Processing
+1601,2025-05-13,2025,05,CUST-582,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,5,0.05,445.0,22.25,422.75,267.0,155.75,PayPal,Delivered
+1602,2025-04-05,2025,04,CUST-473,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,4,0.15,156.0,23.4,132.6,93.6,39.0,Corporate Invoice,Delivered
+1603,2025-08-19,2025,08,CUST-933,Europe,Technology,Mechanical Keyboard RGB,89.0,3,0.2,267.0,53.4,213.6,160.2,53.4,Credit Card,Delivered
+1604,2025-05-01,2025,05,CUST-919,Europe,Furniture,Lounge Waiting Sofa,550.0,7,0.05,3850.0,192.5,3657.5,2310.0,1347.5,Bank Transfer,Shipped
+1605,2025-01-05,2025,01,CUST-646,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,8,0.05,1192.0,59.6,1132.4,715.2,417.2,PayPal,Shipped
+1606,2025-06-03,2025,06,CUST-201,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,10,0.0,190.0,0.0,190.0,114.0,76.0,Bank Transfer,Delivered
+1607,2025-04-21,2025,04,CUST-366,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,2,0.15,78.0,11.7,66.3,46.8,19.5,PayPal,Delivered
+1608,2025-10-14,2025,10,CUST-224,Latin America,Furniture,Mobile Storage Cabinet,180.0,6,0.0,1080.0,0.0,1080.0,648.0,432.0,PayPal,Processing
+1609,2025-04-12,2025,04,CUST-789,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,5,0.1,600.0,60.0,540.0,360.0,180.0,Corporate Invoice,Shipped
+1610,2025-02-10,2025,02,CUST-989,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,5,0.15,95.0,14.25,80.75,57.0,23.75,Bank Transfer,Delivered
+1611,2025-08-04,2025,08,CUST-451,Europe,Furniture,Lounge Waiting Sofa,550.0,2,0.0,1100.0,0.0,1100.0,660.0,440.0,Bank Transfer,Delivered
+1612,2025-06-12,2025,06,CUST-377,Latin America,Furniture,Mobile Storage Cabinet,180.0,5,0.2,900.0,180.0,720.0,540.0,180.0,Corporate Invoice,Delivered
+1613,2025-10-28,2025,10,CUST-974,Europe,Furniture,Lounge Waiting Sofa,550.0,7,0.05,3850.0,192.5,3657.5,2310.0,1347.5,Credit Card,Delivered
+1614,2025-05-01,2025,05,CUST-506,Europe,Furniture,Mobile Storage Cabinet,180.0,2,0.05,360.0,18.0,342.0,216.0,126.0,Credit Card,Delivered
+1615,2025-02-02,2025,02,CUST-636,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,1,0.0,19.0,0.0,19.0,11.4,7.6,Credit Card,Delivered
+1616,2025-05-15,2025,05,CUST-334,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,2,0.15,240.0,36.0,204.0,144.0,60.0,Bank Transfer,Delivered
+1617,2025-08-15,2025,08,CUST-129,Europe,Furniture,Acoustic Soundproofing Panel,120.0,3,0.2,360.0,72.0,288.0,216.0,72.0,Credit Card,Delivered
+1618,2025-06-16,2025,06,CUST-555,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,9,0.1,351.0,35.1,315.9,210.6,105.3,Bank Transfer,Processing
+1619,2025-04-01,2025,04,CUST-755,Middle East,Furniture,Lounge Waiting Sofa,550.0,10,0.15,5500.0,825.0,4675.0,3300.0,1375.0,PayPal,Delivered
+1620,2025-09-04,2025,09,CUST-474,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,2,0.15,240.0,36.0,204.0,144.0,60.0,Corporate Invoice,Delivered
+1621,2025-03-21,2025,03,CUST-452,Europe,Office Supplies,Ergonomic Desk Chair,299.0,1,0.2,299.0,59.8,239.2,179.4,59.8,PayPal,Shipped
+1622,2025-10-01,2025,10,CUST-884,North America,Technology,Wireless Noise-Canceling Headset,149.0,8,0.1,1192.0,119.2,1072.8,715.2,357.6,Corporate Invoice,Delivered
+1623,2025-11-02,2025,11,CUST-521,Europe,Technology,Cloud Server Subscription,499.0,9,0.1,4491.0,449.1,4041.9,2694.6,1347.3,Corporate Invoice,Shipped
+1624,2025-05-08,2025,05,CUST-181,Asia-Pacific,Technology,Wireless Noise-Canceling Headset,149.0,7,0.05,1043.0,52.15,990.85,625.8,365.05,Corporate Invoice,Delivered
+1625,2025-09-22,2025,09,CUST-522,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,5,0.2,900.0,180.0,720.0,540.0,180.0,Bank Transfer,Delivered
+1626,2025-04-04,2025,04,CUST-563,Middle East,Technology,AI Vision Camera,249.0,2,0.15,498.0,74.7,423.3,298.8,124.5,PayPal,Processing
+1627,2025-09-09,2025,09,CUST-647,North America,Technology,AI Vision Camera,249.0,1,0.05,249.0,12.45,236.55,149.4,87.15,Credit Card,Delivered
+1628,2025-02-22,2025,02,CUST-338,North America,Office Supplies,Dual Monitor Arm,79.0,3,0.15,237.0,35.55,201.45,142.2,59.25,Credit Card,Delivered
+1629,2025-01-08,2025,01,CUST-904,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,6,0.15,2700.0,405.0,2295.0,1620.0,675.0,Corporate Invoice,Delivered
+1630,2025-08-26,2025,08,CUST-157,Europe,Furniture,Executive Conference Table,899.0,6,0.0,5394.0,0.0,5394.0,3236.4,2157.6,PayPal,Shipped
+1631,2025-02-06,2025,02,CUST-936,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,3,0.05,1650.0,82.5,1567.5,990.0,577.5,Corporate Invoice,Delivered
+1632,2025-03-04,2025,03,CUST-855,Europe,Furniture,Acoustic Soundproofing Panel,120.0,7,0.15,840.0,126.0,714.0,504.0,210.0,Credit Card,Delivered
+1633,2025-08-24,2025,08,CUST-498,Latin America,Furniture,Executive Conference Table,899.0,9,0.05,8091.0,404.55,7686.45,4854.6,2831.85,PayPal,Delivered
+1634,2025-03-23,2025,03,CUST-359,North America,Furniture,Executive Conference Table,899.0,9,0.2,8091.0,1618.2,6472.8,4854.6,1618.2,Corporate Invoice,Delivered
+1635,2025-04-12,2025,04,CUST-748,Europe,Office Supplies,Ergonomic Desk Chair,299.0,4,0.0,1196.0,0.0,1196.0,717.6,478.4,Corporate Invoice,Delivered
+1636,2025-01-08,2025,01,CUST-908,Latin America,Technology,AI Vision Camera,249.0,10,0.0,2490.0,0.0,2490.0,1494.0,996.0,Bank Transfer,Delivered
+1637,2025-01-22,2025,01,CUST-889,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,10,0.05,5500.0,275.0,5225.0,3300.0,1925.0,Credit Card,Delivered
+1638,2025-03-22,2025,03,CUST-161,North America,Office Supplies,Ergonomic Desk Chair,299.0,10,0.1,2990.0,299.0,2691.0,1794.0,897.0,PayPal,Delivered
+1639,2025-12-26,2025,12,CUST-424,Europe,Furniture,Executive Conference Table,899.0,3,0.15,2697.0,404.55,2292.45,1618.2,674.25,PayPal,Shipped
+1640,2025-04-09,2025,04,CUST-140,Asia-Pacific,Technology,Wireless Noise-Canceling Headset,149.0,6,0.05,894.0,44.7,849.3,536.4,312.9,Corporate Invoice,Shipped
+1641,2025-10-14,2025,10,CUST-291,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.05,152.0,7.6,144.4,91.2,53.2,PayPal,Delivered
+1642,2025-08-28,2025,08,CUST-643,North America,Office Supplies,Eco Notebook & Pen Set,19.0,9,0.05,171.0,8.55,162.45,102.6,59.85,Bank Transfer,Shipped
+1643,2025-06-01,2025,06,CUST-894,North America,Office Supplies,Eco Notebook & Pen Set,19.0,6,0.15,114.0,17.1,96.9,68.4,28.5,Corporate Invoice,Delivered
+1644,2025-01-10,2025,01,CUST-838,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,10,0.05,1800.0,90.0,1710.0,1080.0,630.0,Credit Card,Processing
+1645,2025-07-18,2025,07,CUST-727,Europe,Technology,Mechanical Keyboard RGB,89.0,8,0.2,712.0,142.4,569.6,427.2,142.4,PayPal,Delivered
+1646,2025-07-29,2025,07,CUST-774,Middle East,Furniture,Mobile Storage Cabinet,180.0,2,0.0,360.0,0.0,360.0,216.0,144.0,Credit Card,Delivered
+1647,2025-03-08,2025,03,CUST-296,Latin America,Technology,Cloud Server Subscription,499.0,4,0.0,1996.0,0.0,1996.0,1197.6,798.4,Credit Card,Delivered
+1648,2025-10-20,2025,10,CUST-818,Middle East,Furniture,Lounge Waiting Sofa,550.0,8,0.2,4400.0,880.0,3520.0,2640.0,880.0,PayPal,Delivered
+1649,2025-07-07,2025,07,CUST-771,Europe,Technology,Mechanical Keyboard RGB,89.0,2,0.0,178.0,0.0,178.0,106.8,71.2,Corporate Invoice,Delivered
+1650,2025-08-28,2025,08,CUST-941,Latin America,Furniture,Executive Conference Table,899.0,6,0.2,5394.0,1078.8,4315.2,3236.4,1078.8,PayPal,Delivered
+1651,2025-11-12,2025,11,CUST-179,Asia-Pacific,Office Supplies,Eco Notebook & Pen Set,19.0,1,0.0,19.0,0.0,19.0,11.4,7.6,Bank Transfer,Processing
+1652,2025-02-19,2025,02,CUST-297,Europe,Technology,Developer Laptop Pro,1299.0,9,0.15,11691.0,1753.65,9937.35,7014.6,2922.75,Bank Transfer,Processing
+1653,2025-11-17,2025,11,CUST-884,North America,Technology,Mechanical Keyboard RGB,89.0,9,0.15,801.0,120.15,680.85,480.6,200.25,PayPal,Shipped
+1654,2025-12-26,2025,12,CUST-663,Europe,Furniture,Lounge Waiting Sofa,550.0,2,0.05,1100.0,55.0,1045.0,660.0,385.0,Corporate Invoice,Processing
+1655,2025-06-22,2025,06,CUST-460,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,9,0.2,1080.0,216.0,864.0,648.0,216.0,PayPal,Processing
+1656,2025-06-16,2025,06,CUST-346,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,7,0.1,273.0,27.3,245.7,163.8,81.9,Bank Transfer,Shipped
+1657,2025-10-09,2025,10,CUST-506,Latin America,Furniture,Mobile Storage Cabinet,180.0,6,0.15,1080.0,162.0,918.0,648.0,270.0,Credit Card,Delivered
+1658,2025-05-26,2025,05,CUST-106,Asia-Pacific,Furniture,Executive Conference Table,899.0,9,0.05,8091.0,404.55,7686.45,4854.6,2831.85,PayPal,Delivered
+1659,2025-04-20,2025,04,CUST-669,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,5,0.2,1495.0,299.0,1196.0,897.0,299.0,Bank Transfer,Delivered
+1660,2025-01-20,2025,01,CUST-475,Asia-Pacific,Office Supplies,Dual Monitor Arm,79.0,3,0.05,237.0,11.85,225.15,142.2,82.95,Bank Transfer,Delivered
+1661,2025-05-12,2025,05,CUST-322,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,10,0.15,2990.0,448.5,2541.5,1794.0,747.5,Credit Card,Delivered
+1662,2025-09-05,2025,09,CUST-757,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,10,0.0,1490.0,0.0,1490.0,894.0,596.0,PayPal,Delivered
+1663,2025-10-23,2025,10,CUST-936,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,1,0.1,299.0,29.9,269.1,179.4,89.7,Corporate Invoice,Shipped
+1664,2025-03-03,2025,03,CUST-412,North America,Technology,Mechanical Keyboard RGB,89.0,1,0.15,89.0,13.35,75.65,53.4,22.25,Credit Card,Delivered
+1665,2025-10-04,2025,10,CUST-256,Europe,Furniture,Acoustic Soundproofing Panel,120.0,6,0.2,720.0,144.0,576.0,432.0,144.0,Credit Card,Shipped
+1666,2025-08-17,2025,08,CUST-905,Asia-Pacific,Furniture,Executive Conference Table,899.0,4,0.15,3596.0,539.4,3056.6,2157.6,899.0,Corporate Invoice,Delivered
+1667,2025-03-09,2025,03,CUST-661,North America,Office Supplies,Ergonomic Desk Chair,299.0,8,0.2,2392.0,478.4,1913.6,1435.2,478.4,Corporate Invoice,Delivered
+1668,2025-02-13,2025,02,CUST-592,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,7,0.05,133.0,6.65,126.35,79.8,46.55,Bank Transfer,Shipped
+1669,2025-07-22,2025,07,CUST-352,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,9,0.2,1080.0,216.0,864.0,648.0,216.0,Bank Transfer,Delivered
+1670,2025-05-17,2025,05,CUST-787,North America,Office Supplies,Dual Monitor Arm,79.0,10,0.0,790.0,0.0,790.0,474.0,316.0,Corporate Invoice,Shipped
+1671,2025-07-07,2025,07,CUST-771,Middle East,Office Supplies,Standing Desk Motorized,450.0,6,0.1,2700.0,270.0,2430.0,1620.0,810.0,Credit Card,Delivered
+1672,2025-03-28,2025,03,CUST-551,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.2,152.0,30.4,121.6,91.2,30.4,Credit Card,Delivered
+1673,2025-04-13,2025,04,CUST-857,North America,Furniture,Mobile Storage Cabinet,180.0,3,0.0,540.0,0.0,540.0,324.0,216.0,Credit Card,Delivered
+1674,2025-11-14,2025,11,CUST-412,North America,Technology,AI Vision Camera,249.0,1,0.1,249.0,24.9,224.1,149.4,74.7,Corporate Invoice,Shipped
+1675,2025-01-12,2025,01,CUST-659,Europe,Office Supplies,Standing Desk Motorized,450.0,9,0.05,4050.0,202.5,3847.5,2430.0,1417.5,PayPal,Processing
+1676,2025-09-05,2025,09,CUST-779,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,1,0.15,120.0,18.0,102.0,72.0,30.0,Credit Card,Delivered
+1677,2025-03-29,2025,03,CUST-154,Asia-Pacific,Technology,AI Vision Camera,249.0,4,0.2,996.0,199.2,796.8,597.6,199.2,Corporate Invoice,Delivered
+1678,2025-02-04,2025,02,CUST-399,North America,Office Supplies,Dual Monitor Arm,79.0,6,0.0,474.0,0.0,474.0,284.4,189.6,Corporate Invoice,Delivered
+1679,2025-07-14,2025,07,CUST-644,Middle East,Furniture,Executive Conference Table,899.0,6,0.15,5394.0,809.1,4584.9,3236.4,1348.5,Credit Card,Delivered
+1680,2025-04-12,2025,04,CUST-353,North America,Furniture,Lounge Waiting Sofa,550.0,9,0.0,4950.0,0.0,4950.0,2970.0,1980.0,PayPal,Delivered
+1681,2025-09-08,2025,09,CUST-463,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,1,0.1,450.0,45.0,405.0,270.0,135.0,PayPal,Delivered
+1682,2025-09-14,2025,09,CUST-668,North America,Office Supplies,Ergonomic Desk Chair,299.0,5,0.15,1495.0,224.25,1270.75,897.0,373.75,PayPal,Delivered
+1683,2025-03-19,2025,03,CUST-633,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,3,0.0,117.0,0.0,117.0,70.2,46.8,Bank Transfer,Shipped
+1684,2025-05-04,2025,05,CUST-437,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,7,0.1,840.0,84.0,756.0,504.0,252.0,Corporate Invoice,Processing
+1685,2025-03-09,2025,03,CUST-983,Europe,Technology,Developer Laptop Pro,1299.0,10,0.2,12990.0,2598.0,10392.0,7794.0,2598.0,Bank Transfer,Delivered
+1686,2025-12-19,2025,12,CUST-261,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,7,0.05,840.0,42.0,798.0,504.0,294.0,PayPal,Delivered
+1687,2025-10-13,2025,10,CUST-844,Europe,Furniture,Executive Conference Table,899.0,3,0.1,2697.0,269.7,2427.3,1618.2,809.1,Credit Card,Delivered
+1688,2025-07-31,2025,07,CUST-897,Europe,Office Supplies,Dual Monitor Arm,79.0,8,0.1,632.0,63.2,568.8,379.2,189.6,Bank Transfer,Delivered
+1689,2025-03-09,2025,03,CUST-720,Asia-Pacific,Technology,Cloud Server Subscription,499.0,10,0.2,4990.0,998.0,3992.0,2994.0,998.0,Bank Transfer,Processing
+1690,2025-04-29,2025,04,CUST-237,Latin America,Technology,Cloud Server Subscription,499.0,6,0.0,2994.0,0.0,2994.0,1796.4,1197.6,Corporate Invoice,Delivered
+1691,2025-04-05,2025,04,CUST-297,Europe,Office Supplies,Desk LED Lighting Bar,39.0,8,0.05,312.0,15.6,296.4,187.2,109.2,Bank Transfer,Delivered
+1692,2025-07-29,2025,07,CUST-875,Europe,Technology,AI Vision Camera,249.0,7,0.05,1743.0,87.15,1655.85,1045.8,610.05,Bank Transfer,Delivered
+1693,2025-04-01,2025,04,CUST-352,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.1,152.0,15.2,136.8,91.2,45.6,Corporate Invoice,Shipped
+1694,2025-01-22,2025,01,CUST-860,Middle East,Furniture,Lounge Waiting Sofa,550.0,6,0.15,3300.0,495.0,2805.0,1980.0,825.0,Credit Card,Processing
+1695,2025-02-25,2025,02,CUST-650,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,1,0.05,39.0,1.95,37.05,23.4,13.65,Corporate Invoice,Delivered
+1696,2025-10-13,2025,10,CUST-550,Asia-Pacific,Office Supplies,Eco Notebook & Pen Set,19.0,1,0.05,19.0,0.95,18.05,11.4,6.65,Corporate Invoice,Delivered
+1697,2025-05-27,2025,05,CUST-155,Middle East,Office Supplies,Standing Desk Motorized,450.0,7,0.1,3150.0,315.0,2835.0,1890.0,945.0,Bank Transfer,Shipped
+1698,2025-11-27,2025,11,CUST-897,Europe,Office Supplies,Ergonomic Desk Chair,299.0,9,0.0,2691.0,0.0,2691.0,1614.6,1076.4,Bank Transfer,Shipped
+1699,2025-07-31,2025,07,CUST-704,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,1,0.05,39.0,1.95,37.05,23.4,13.65,Bank Transfer,Shipped
+1700,2025-02-16,2025,02,CUST-216,North America,Office Supplies,Dual Monitor Arm,79.0,3,0.0,237.0,0.0,237.0,142.2,94.8,Corporate Invoice,Delivered
+1701,2025-02-13,2025,02,CUST-487,Europe,Furniture,Lounge Waiting Sofa,550.0,9,0.2,4950.0,990.0,3960.0,2970.0,990.0,Corporate Invoice,Delivered
+1702,2025-03-29,2025,03,CUST-283,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,3,0.05,57.0,2.85,54.15,34.2,19.95,Credit Card,Shipped
+1703,2025-06-07,2025,06,CUST-234,North America,Office Supplies,Desk LED Lighting Bar,39.0,5,0.05,195.0,9.75,185.25,117.0,68.25,Bank Transfer,Delivered
+1704,2025-11-15,2025,11,CUST-656,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,8,0.15,2392.0,358.8,2033.2,1435.2,598.0,Credit Card,Processing
+1705,2025-09-10,2025,09,CUST-519,Latin America,Technology,Developer Laptop Pro,1299.0,10,0.15,12990.0,1948.5,11041.5,7794.0,3247.5,Corporate Invoice,Delivered
+1706,2025-11-04,2025,11,CUST-734,Asia-Pacific,Furniture,Executive Conference Table,899.0,4,0.2,3596.0,719.2,2876.8,2157.6,719.2,Bank Transfer,Delivered
+1707,2025-04-05,2025,04,CUST-974,Europe,Technology,Cloud Server Subscription,499.0,6,0.0,2994.0,0.0,2994.0,1796.4,1197.6,Credit Card,Processing
+1708,2025-11-05,2025,11,CUST-526,North America,Office Supplies,Dual Monitor Arm,79.0,2,0.0,158.0,0.0,158.0,94.8,63.2,Bank Transfer,Delivered
+1709,2025-12-11,2025,12,CUST-281,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,10,0.2,190.0,38.0,152.0,114.0,38.0,Corporate Invoice,Processing
+1710,2025-07-04,2025,07,CUST-488,Asia-Pacific,Technology,Cloud Server Subscription,499.0,5,0.1,2495.0,249.5,2245.5,1497.0,748.5,Credit Card,Shipped
+1711,2025-10-09,2025,10,CUST-811,North America,Technology,AI Vision Camera,249.0,8,0.05,1992.0,99.6,1892.4,1195.2,697.2,PayPal,Delivered
+1712,2025-09-27,2025,09,CUST-159,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,4,0.05,76.0,3.8,72.2,45.6,26.6,Credit Card,Processing
+1713,2025-11-19,2025,11,CUST-537,Asia-Pacific,Furniture,Executive Conference Table,899.0,8,0.2,7192.0,1438.4,5753.6,4315.2,1438.4,PayPal,Delivered
+1714,2025-09-27,2025,09,CUST-608,Middle East,Furniture,Mobile Storage Cabinet,180.0,3,0.2,540.0,108.0,432.0,324.0,108.0,Corporate Invoice,Shipped
+1715,2025-04-03,2025,04,CUST-221,North America,Furniture,Acoustic Soundproofing Panel,120.0,5,0.05,600.0,30.0,570.0,360.0,210.0,Credit Card,Shipped
+1716,2025-11-17,2025,11,CUST-146,Latin America,Technology,Developer Laptop Pro,1299.0,10,0.15,12990.0,1948.5,11041.5,7794.0,3247.5,PayPal,Delivered
+1717,2025-10-14,2025,10,CUST-360,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,1,0.05,120.0,6.0,114.0,72.0,42.0,Credit Card,Delivered
+1718,2025-06-03,2025,06,CUST-449,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,1,0.0,180.0,0.0,180.0,108.0,72.0,Corporate Invoice,Processing
+1719,2025-11-12,2025,11,CUST-788,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,4,0.1,5196.0,519.6,4676.4,3117.6,1558.8,Corporate Invoice,Shipped
+1720,2025-01-19,2025,01,CUST-985,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,8,0.05,960.0,48.0,912.0,576.0,336.0,PayPal,Shipped
+1721,2025-07-31,2025,07,CUST-842,Middle East,Furniture,Executive Conference Table,899.0,9,0.1,8091.0,809.1,7281.9,4854.6,2427.3,PayPal,Processing
+1722,2025-10-02,2025,10,CUST-167,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,10,0.1,12990.0,1299.0,11691.0,7794.0,3897.0,Bank Transfer,Delivered
+1723,2025-01-16,2025,01,CUST-720,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,9,0.05,351.0,17.55,333.45,210.6,122.85,Corporate Invoice,Delivered
+1724,2025-11-01,2025,11,CUST-523,Asia-Pacific,Technology,AI Vision Camera,249.0,6,0.0,1494.0,0.0,1494.0,896.4,597.6,Credit Card,Shipped
+1725,2025-05-02,2025,05,CUST-409,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,5,0.05,195.0,9.75,185.25,117.0,68.25,Bank Transfer,Delivered
+1726,2025-07-11,2025,07,CUST-125,Middle East,Technology,Developer Laptop Pro,1299.0,2,0.15,2598.0,389.7,2208.3,1558.8,649.5,Corporate Invoice,Processing
+1727,2025-03-20,2025,03,CUST-894,Asia-Pacific,Technology,AI Vision Camera,249.0,8,0.2,1992.0,398.4,1593.6,1195.2,398.4,PayPal,Delivered
+1728,2025-02-20,2025,02,CUST-496,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,4,0.0,480.0,0.0,480.0,288.0,192.0,Credit Card,Delivered
+1729,2025-06-09,2025,06,CUST-147,Latin America,Technology,Mechanical Keyboard RGB,89.0,2,0.1,178.0,17.8,160.2,106.8,53.4,Credit Card,Processing
+1730,2025-12-04,2025,12,CUST-754,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,1,0.2,180.0,36.0,144.0,108.0,36.0,Bank Transfer,Delivered
+1731,2025-04-13,2025,04,CUST-891,Asia-Pacific,Technology,AI Vision Camera,249.0,5,0.2,1245.0,249.0,996.0,747.0,249.0,Corporate Invoice,Delivered
+1732,2025-05-20,2025,05,CUST-737,North America,Technology,Developer Laptop Pro,1299.0,5,0.0,6495.0,0.0,6495.0,3897.0,2598.0,Credit Card,Delivered
+1733,2025-10-05,2025,10,CUST-821,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,6,0.1,114.0,11.4,102.6,68.4,34.2,PayPal,Processing
+1734,2025-05-06,2025,05,CUST-653,Asia-Pacific,Technology,Cloud Server Subscription,499.0,5,0.2,2495.0,499.0,1996.0,1497.0,499.0,Corporate Invoice,Delivered
+1735,2025-03-08,2025,03,CUST-155,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,1,0.0,149.0,0.0,149.0,89.4,59.6,Credit Card,Shipped
+1736,2025-07-20,2025,07,CUST-464,Middle East,Technology,Mechanical Keyboard RGB,89.0,10,0.15,890.0,133.5,756.5,534.0,222.5,PayPal,Delivered
+1737,2025-04-12,2025,04,CUST-195,Europe,Furniture,Executive Conference Table,899.0,8,0.2,7192.0,1438.4,5753.6,4315.2,1438.4,Corporate Invoice,Delivered
+1738,2025-08-22,2025,08,CUST-247,Europe,Office Supplies,Desk LED Lighting Bar,39.0,8,0.05,312.0,15.6,296.4,187.2,109.2,PayPal,Delivered
+1739,2025-07-20,2025,07,CUST-130,Latin America,Technology,AI Vision Camera,249.0,6,0.15,1494.0,224.1,1269.9,896.4,373.5,Credit Card,Shipped
+1740,2025-02-27,2025,02,CUST-886,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,8,0.05,312.0,15.6,296.4,187.2,109.2,PayPal,Processing
+1741,2025-10-22,2025,10,CUST-433,North America,Technology,Mechanical Keyboard RGB,89.0,2,0.15,178.0,26.7,151.3,106.8,44.5,Credit Card,Delivered
+1742,2025-09-30,2025,09,CUST-735,Europe,Office Supplies,Desk LED Lighting Bar,39.0,10,0.15,390.0,58.5,331.5,234.0,97.5,Bank Transfer,Processing
+1743,2025-03-23,2025,03,CUST-933,Europe,Office Supplies,Desk LED Lighting Bar,39.0,2,0.1,78.0,7.8,70.2,46.8,23.4,Corporate Invoice,Shipped
+1744,2025-10-18,2025,10,CUST-857,North America,Office Supplies,Eco Notebook & Pen Set,19.0,4,0.05,76.0,3.8,72.2,45.6,26.6,Corporate Invoice,Delivered
+1745,2025-10-31,2025,10,CUST-941,North America,Furniture,Lounge Waiting Sofa,550.0,6,0.2,3300.0,660.0,2640.0,1980.0,660.0,Corporate Invoice,Delivered
+1746,2025-06-07,2025,06,CUST-889,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,10,0.0,2990.0,0.0,2990.0,1794.0,1196.0,Corporate Invoice,Delivered
+1747,2025-09-11,2025,09,CUST-694,Europe,Furniture,Executive Conference Table,899.0,2,0.05,1798.0,89.9,1708.1,1078.8,629.3,Credit Card,Delivered
+1748,2025-12-05,2025,12,CUST-730,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,9,0.1,1341.0,134.1,1206.9,804.6,402.3,Corporate Invoice,Delivered
+1749,2025-04-16,2025,04,CUST-545,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,5,0.2,900.0,180.0,720.0,540.0,180.0,PayPal,Delivered
+1750,2025-10-26,2025,10,CUST-972,Europe,Technology,Mechanical Keyboard RGB,89.0,9,0.15,801.0,120.15,680.85,480.6,200.25,PayPal,Delivered
+1751,2025-07-09,2025,07,CUST-212,Asia-Pacific,Furniture,Executive Conference Table,899.0,1,0.2,899.0,179.8,719.2,539.4,179.8,PayPal,Delivered
+1752,2025-05-01,2025,05,CUST-515,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,7,0.1,133.0,13.3,119.7,79.8,39.9,Corporate Invoice,Shipped
+1753,2025-10-07,2025,10,CUST-668,Europe,Technology,Developer Laptop Pro,1299.0,8,0.05,10392.0,519.6,9872.4,6235.2,3637.2,Corporate Invoice,Delivered
+1754,2025-08-02,2025,08,CUST-173,North America,Technology,AI Vision Camera,249.0,3,0.05,747.0,37.35,709.65,448.2,261.45,Credit Card,Delivered
+1755,2025-09-07,2025,09,CUST-757,Europe,Furniture,Lounge Waiting Sofa,550.0,3,0.0,1650.0,0.0,1650.0,990.0,660.0,Corporate Invoice,Shipped
+1756,2025-12-23,2025,12,CUST-621,Latin America,Furniture,Lounge Waiting Sofa,550.0,10,0.05,5500.0,275.0,5225.0,3300.0,1925.0,Corporate Invoice,Processing
+1757,2025-08-19,2025,08,CUST-719,Latin America,Office Supplies,Dual Monitor Arm,79.0,4,0.05,316.0,15.8,300.2,189.6,110.6,Credit Card,Processing
+1758,2025-09-13,2025,09,CUST-659,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,9,0.1,1080.0,108.0,972.0,648.0,324.0,PayPal,Delivered
+1759,2025-01-20,2025,01,CUST-593,Middle East,Furniture,Lounge Waiting Sofa,550.0,6,0.0,3300.0,0.0,3300.0,1980.0,1320.0,Credit Card,Delivered
+1760,2025-09-27,2025,09,CUST-724,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,9,0.0,351.0,0.0,351.0,210.6,140.4,Credit Card,Delivered
+1761,2025-08-30,2025,08,CUST-727,Asia-Pacific,Furniture,Executive Conference Table,899.0,9,0.2,8091.0,1618.2,6472.8,4854.6,1618.2,Credit Card,Delivered
+1762,2025-10-01,2025,10,CUST-687,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,8,0.2,1192.0,238.4,953.6,715.2,238.4,PayPal,Shipped
+1763,2025-06-30,2025,06,CUST-867,Middle East,Office Supplies,Dual Monitor Arm,79.0,3,0.0,237.0,0.0,237.0,142.2,94.8,PayPal,Processing
+1764,2025-05-14,2025,05,CUST-152,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,10,0.05,1490.0,74.5,1415.5,894.0,521.5,PayPal,Processing
+1765,2025-01-14,2025,01,CUST-178,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,2,0.05,78.0,3.9,74.1,46.8,27.3,PayPal,Delivered
+1766,2025-03-09,2025,03,CUST-859,North America,Furniture,Mobile Storage Cabinet,180.0,5,0.1,900.0,90.0,810.0,540.0,270.0,Credit Card,Processing
+1767,2025-03-31,2025,03,CUST-367,Europe,Furniture,Acoustic Soundproofing Panel,120.0,8,0.1,960.0,96.0,864.0,576.0,288.0,Bank Transfer,Shipped
+1768,2025-04-03,2025,04,CUST-709,Europe,Furniture,Executive Conference Table,899.0,6,0.0,5394.0,0.0,5394.0,3236.4,2157.6,Bank Transfer,Shipped
+1769,2025-07-31,2025,07,CUST-691,Europe,Office Supplies,Standing Desk Motorized,450.0,8,0.05,3600.0,180.0,3420.0,2160.0,1260.0,PayPal,Delivered
+1770,2025-11-25,2025,11,CUST-508,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,1,0.05,299.0,14.95,284.05,179.4,104.65,Corporate Invoice,Delivered
+1771,2025-09-01,2025,09,CUST-368,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,7,0.15,840.0,126.0,714.0,504.0,210.0,Bank Transfer,Processing
+1772,2025-08-11,2025,08,CUST-642,Asia-Pacific,Technology,AI Vision Camera,249.0,8,0.15,1992.0,298.8,1693.2,1195.2,498.0,Credit Card,Delivered
+1773,2025-09-30,2025,09,CUST-443,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,7,0.2,1260.0,252.0,1008.0,756.0,252.0,PayPal,Delivered
+1774,2025-02-20,2025,02,CUST-851,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,7,0.15,133.0,19.95,113.05,79.8,33.25,Bank Transfer,Processing
+1775,2025-06-22,2025,06,CUST-788,North America,Furniture,Acoustic Soundproofing Panel,120.0,6,0.2,720.0,144.0,576.0,432.0,144.0,Credit Card,Delivered
+1776,2025-01-07,2025,01,CUST-459,Latin America,Office Supplies,Ergonomic Desk Chair,299.0,9,0.0,2691.0,0.0,2691.0,1614.6,1076.4,Bank Transfer,Delivered
+1777,2025-05-09,2025,05,CUST-158,North America,Technology,Cloud Server Subscription,499.0,1,0.2,499.0,99.8,399.2,299.4,99.8,Bank Transfer,Processing
+1778,2025-11-23,2025,11,CUST-484,Europe,Technology,Cloud Server Subscription,499.0,2,0.2,998.0,199.6,798.4,598.8,199.6,Bank Transfer,Delivered
+1779,2025-12-23,2025,12,CUST-754,North America,Technology,AI Vision Camera,249.0,5,0.15,1245.0,186.75,1058.25,747.0,311.25,Corporate Invoice,Delivered
+1780,2025-08-07,2025,08,CUST-383,North America,Furniture,Mobile Storage Cabinet,180.0,5,0.05,900.0,45.0,855.0,540.0,315.0,Credit Card,Shipped
+1781,2025-07-18,2025,07,CUST-551,Europe,Office Supplies,Ergonomic Desk Chair,299.0,5,0.1,1495.0,149.5,1345.5,897.0,448.5,Credit Card,Shipped
+1782,2025-04-13,2025,04,CUST-247,North America,Furniture,Lounge Waiting Sofa,550.0,3,0.15,1650.0,247.5,1402.5,990.0,412.5,Corporate Invoice,Delivered
+1783,2025-11-11,2025,11,CUST-135,North America,Furniture,Executive Conference Table,899.0,8,0.1,7192.0,719.2,6472.8,4315.2,2157.6,Credit Card,Delivered
+1784,2025-10-20,2025,10,CUST-252,Latin America,Furniture,Mobile Storage Cabinet,180.0,8,0.0,1440.0,0.0,1440.0,864.0,576.0,Credit Card,Delivered
+1785,2025-12-07,2025,12,CUST-688,Latin America,Office Supplies,Dual Monitor Arm,79.0,3,0.1,237.0,23.7,213.3,142.2,71.1,Credit Card,Processing
+1786,2025-12-29,2025,12,CUST-653,North America,Office Supplies,Desk LED Lighting Bar,39.0,7,0.15,273.0,40.95,232.05,163.8,68.25,Bank Transfer,Delivered
+1787,2025-07-16,2025,07,CUST-467,Middle East,Furniture,Lounge Waiting Sofa,550.0,2,0.2,1100.0,220.0,880.0,660.0,220.0,PayPal,Delivered
+1788,2025-07-25,2025,07,CUST-182,Asia-Pacific,Technology,Cloud Server Subscription,499.0,6,0.2,2994.0,598.8,2395.2,1796.4,598.8,Corporate Invoice,Delivered
+1789,2025-11-28,2025,11,CUST-776,Latin America,Technology,Developer Laptop Pro,1299.0,9,0.0,11691.0,0.0,11691.0,7014.6,4676.4,Bank Transfer,Delivered
+1790,2025-12-23,2025,12,CUST-747,North America,Office Supplies,Ergonomic Desk Chair,299.0,6,0.15,1794.0,269.1,1524.9,1076.4,448.5,Corporate Invoice,Delivered
+1791,2025-03-13,2025,03,CUST-600,Europe,Technology,Developer Laptop Pro,1299.0,1,0.2,1299.0,259.8,1039.2,779.4,259.8,Corporate Invoice,Delivered
+1792,2025-10-04,2025,10,CUST-116,Latin America,Furniture,Mobile Storage Cabinet,180.0,8,0.2,1440.0,288.0,1152.0,864.0,288.0,Credit Card,Delivered
+1793,2025-01-29,2025,01,CUST-926,Europe,Office Supplies,Ergonomic Desk Chair,299.0,7,0.0,2093.0,0.0,2093.0,1255.8,837.2,Corporate Invoice,Processing
+1794,2025-03-18,2025,03,CUST-600,Europe,Furniture,Acoustic Soundproofing Panel,120.0,2,0.0,240.0,0.0,240.0,144.0,96.0,Credit Card,Shipped
+1795,2025-11-13,2025,11,CUST-747,Europe,Technology,Developer Laptop Pro,1299.0,3,0.0,3897.0,0.0,3897.0,2338.2,1558.8,Credit Card,Delivered
+1796,2025-02-19,2025,02,CUST-937,North America,Office Supplies,Eco Notebook & Pen Set,19.0,3,0.2,57.0,11.4,45.6,34.2,11.4,Credit Card,Delivered
+1797,2025-09-12,2025,09,CUST-445,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,2,0.05,240.0,12.0,228.0,144.0,84.0,Corporate Invoice,Delivered
+1798,2025-03-03,2025,03,CUST-707,North America,Furniture,Acoustic Soundproofing Panel,120.0,6,0.05,720.0,36.0,684.0,432.0,252.0,Bank Transfer,Delivered
+1799,2025-02-02,2025,02,CUST-813,Europe,Technology,AI Vision Camera,249.0,3,0.15,747.0,112.05,634.95,448.2,186.75,PayPal,Processing
+1800,2025-03-26,2025,03,CUST-202,Europe,Office Supplies,Standing Desk Motorized,450.0,10,0.0,4500.0,0.0,4500.0,2700.0,1800.0,Corporate Invoice,Delivered
+1801,2025-01-09,2025,01,CUST-191,Europe,Office Supplies,Ergonomic Desk Chair,299.0,1,0.0,299.0,0.0,299.0,179.4,119.6,PayPal,Shipped
+1802,2025-12-22,2025,12,CUST-635,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,4,0.05,1800.0,90.0,1710.0,1080.0,630.0,Corporate Invoice,Shipped
+1803,2025-05-03,2025,05,CUST-834,Europe,Technology,Mechanical Keyboard RGB,89.0,1,0.2,89.0,17.8,71.2,53.4,17.8,Corporate Invoice,Processing
+1804,2025-02-15,2025,02,CUST-671,North America,Furniture,Mobile Storage Cabinet,180.0,6,0.15,1080.0,162.0,918.0,648.0,270.0,Bank Transfer,Delivered
+1805,2025-03-02,2025,03,CUST-619,Middle East,Furniture,Executive Conference Table,899.0,10,0.1,8990.0,899.0,8091.0,5394.0,2697.0,Bank Transfer,Shipped
+1806,2025-11-17,2025,11,CUST-215,Europe,Furniture,Acoustic Soundproofing Panel,120.0,5,0.0,600.0,0.0,600.0,360.0,240.0,Bank Transfer,Shipped
+1807,2025-09-12,2025,09,CUST-391,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,1,0.0,1299.0,0.0,1299.0,779.4,519.6,Bank Transfer,Shipped
+1808,2025-05-09,2025,05,CUST-858,North America,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.0,152.0,0.0,152.0,91.2,60.8,Credit Card,Processing
+1809,2025-04-01,2025,04,CUST-172,North America,Technology,Cloud Server Subscription,499.0,8,0.2,3992.0,798.4,3193.6,2395.2,798.4,Bank Transfer,Shipped
+1810,2025-10-31,2025,10,CUST-335,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,7,0.05,1260.0,63.0,1197.0,756.0,441.0,Credit Card,Delivered
+1811,2025-04-27,2025,04,CUST-325,Latin America,Technology,Developer Laptop Pro,1299.0,7,0.05,9093.0,454.65,8638.35,5455.8,3182.55,Credit Card,Shipped
+1812,2025-10-27,2025,10,CUST-724,Europe,Office Supplies,Ergonomic Desk Chair,299.0,7,0.05,2093.0,104.65,1988.35,1255.8,732.55,Corporate Invoice,Delivered
+1813,2025-07-18,2025,07,CUST-376,Asia-Pacific,Office Supplies,Standing Desk Motorized,450.0,8,0.05,3600.0,180.0,3420.0,2160.0,1260.0,Bank Transfer,Delivered
+1814,2025-03-07,2025,03,CUST-213,Europe,Technology,Mechanical Keyboard RGB,89.0,1,0.1,89.0,8.9,80.1,53.4,26.7,Corporate Invoice,Shipped
+1815,2025-08-03,2025,08,CUST-260,Middle East,Technology,AI Vision Camera,249.0,4,0.1,996.0,99.6,896.4,597.6,298.8,Bank Transfer,Processing
+1816,2025-10-11,2025,10,CUST-982,Latin America,Technology,Cloud Server Subscription,499.0,7,0.2,3493.0,698.6,2794.4,2095.8,698.6,Bank Transfer,Processing
+1817,2025-08-31,2025,08,CUST-353,Europe,Office Supplies,Dual Monitor Arm,79.0,1,0.15,79.0,11.85,67.15,47.4,19.75,PayPal,Shipped
+1818,2025-10-24,2025,10,CUST-527,North America,Technology,Mechanical Keyboard RGB,89.0,3,0.2,267.0,53.4,213.6,160.2,53.4,Credit Card,Delivered
+1819,2025-08-29,2025,08,CUST-590,Latin America,Furniture,Executive Conference Table,899.0,7,0.2,6293.0,1258.6,5034.4,3775.8,1258.6,Credit Card,Shipped
+1820,2025-09-11,2025,09,CUST-323,Latin America,Technology,Cloud Server Subscription,499.0,9,0.0,4491.0,0.0,4491.0,2694.6,1796.4,Bank Transfer,Delivered
+1821,2025-06-01,2025,06,CUST-265,Asia-Pacific,Technology,Cloud Server Subscription,499.0,1,0.15,499.0,74.85,424.15,299.4,124.75,Corporate Invoice,Processing
+1822,2025-10-26,2025,10,CUST-289,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,8,0.05,1192.0,59.6,1132.4,715.2,417.2,PayPal,Shipped
+1823,2025-12-27,2025,12,CUST-643,Asia-Pacific,Furniture,Executive Conference Table,899.0,2,0.15,1798.0,269.7,1528.3,1078.8,449.5,Credit Card,Delivered
+1824,2025-08-07,2025,08,CUST-906,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,9,0.2,171.0,34.2,136.8,102.6,34.2,Credit Card,Processing
+1825,2025-06-21,2025,06,CUST-213,North America,Furniture,Executive Conference Table,899.0,9,0.1,8091.0,809.1,7281.9,4854.6,2427.3,Corporate Invoice,Delivered
+1826,2025-08-27,2025,08,CUST-763,Europe,Furniture,Executive Conference Table,899.0,6,0.1,5394.0,539.4,4854.6,3236.4,1618.2,Credit Card,Processing
+1827,2025-12-30,2025,12,CUST-216,Middle East,Technology,Developer Laptop Pro,1299.0,6,0.05,7794.0,389.7,7404.3,4676.4,2727.9,Corporate Invoice,Processing
+1828,2025-12-26,2025,12,CUST-615,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,6,0.1,7794.0,779.4,7014.6,4676.4,2338.2,Corporate Invoice,Delivered
+1829,2025-01-28,2025,01,CUST-613,Latin America,Technology,AI Vision Camera,249.0,6,0.15,1494.0,224.1,1269.9,896.4,373.5,Credit Card,Shipped
+1830,2025-12-30,2025,12,CUST-919,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,8,0.2,1440.0,288.0,1152.0,864.0,288.0,Credit Card,Delivered
+1831,2025-08-23,2025,08,CUST-178,Asia-Pacific,Technology,Cloud Server Subscription,499.0,7,0.05,3493.0,174.65,3318.35,2095.8,1222.55,Credit Card,Delivered
+1832,2025-05-22,2025,05,CUST-633,Europe,Technology,Developer Laptop Pro,1299.0,8,0.05,10392.0,519.6,9872.4,6235.2,3637.2,Credit Card,Delivered
+1833,2025-08-02,2025,08,CUST-554,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,8,0.1,960.0,96.0,864.0,576.0,288.0,Credit Card,Delivered
+1834,2025-04-07,2025,04,CUST-521,Asia-Pacific,Technology,Cloud Server Subscription,499.0,4,0.2,1996.0,399.2,1596.8,1197.6,399.2,PayPal,Delivered
+1835,2025-09-06,2025,09,CUST-235,Middle East,Furniture,Lounge Waiting Sofa,550.0,8,0.1,4400.0,440.0,3960.0,2640.0,1320.0,PayPal,Delivered
+1836,2025-05-14,2025,05,CUST-251,North America,Technology,Wireless Noise-Canceling Headset,149.0,6,0.1,894.0,89.4,804.6,536.4,268.2,PayPal,Delivered
+1837,2025-08-22,2025,08,CUST-286,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,3,0.2,267.0,53.4,213.6,160.2,53.4,Bank Transfer,Delivered
+1838,2025-03-24,2025,03,CUST-229,Middle East,Technology,Cloud Server Subscription,499.0,1,0.1,499.0,49.9,449.1,299.4,149.7,Corporate Invoice,Delivered
+1839,2025-07-09,2025,07,CUST-452,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,9,0.0,11691.0,0.0,11691.0,7014.6,4676.4,Bank Transfer,Delivered
+1840,2025-08-18,2025,08,CUST-125,North America,Furniture,Acoustic Soundproofing Panel,120.0,9,0.1,1080.0,108.0,972.0,648.0,324.0,Corporate Invoice,Shipped
+1841,2025-03-16,2025,03,CUST-619,Middle East,Office Supplies,Dual Monitor Arm,79.0,3,0.0,237.0,0.0,237.0,142.2,94.8,PayPal,Delivered
+1842,2025-08-31,2025,08,CUST-446,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,3,0.2,57.0,11.4,45.6,34.2,11.4,Credit Card,Shipped
+1843,2025-01-21,2025,01,CUST-511,North America,Technology,Mechanical Keyboard RGB,89.0,2,0.1,178.0,17.8,160.2,106.8,53.4,Bank Transfer,Shipped
+1844,2025-07-02,2025,07,CUST-697,Europe,Technology,AI Vision Camera,249.0,1,0.2,249.0,49.8,199.2,149.4,49.8,Bank Transfer,Delivered
+1845,2025-04-11,2025,04,CUST-624,North America,Technology,Cloud Server Subscription,499.0,9,0.15,4491.0,673.65,3817.35,2694.6,1122.75,Corporate Invoice,Delivered
+1846,2025-09-09,2025,09,CUST-782,North America,Office Supplies,Eco Notebook & Pen Set,19.0,10,0.2,190.0,38.0,152.0,114.0,38.0,PayPal,Shipped
+1847,2025-03-17,2025,03,CUST-112,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,6,0.15,3300.0,495.0,2805.0,1980.0,825.0,PayPal,Delivered
+1848,2025-06-29,2025,06,CUST-845,Europe,Office Supplies,Desk LED Lighting Bar,39.0,9,0.0,351.0,0.0,351.0,210.6,140.4,Corporate Invoice,Shipped
+1849,2025-08-15,2025,08,CUST-955,Europe,Office Supplies,Standing Desk Motorized,450.0,7,0.15,3150.0,472.5,2677.5,1890.0,787.5,Credit Card,Delivered
+1850,2025-04-17,2025,04,CUST-704,North America,Office Supplies,Desk LED Lighting Bar,39.0,9,0.1,351.0,35.1,315.9,210.6,105.3,Corporate Invoice,Delivered
+1851,2025-01-04,2025,01,CUST-573,Middle East,Office Supplies,Dual Monitor Arm,79.0,7,0.05,553.0,27.65,525.35,331.8,193.55,Bank Transfer,Delivered
+1852,2025-04-06,2025,04,CUST-942,North America,Office Supplies,Dual Monitor Arm,79.0,9,0.15,711.0,106.65,604.35,426.6,177.75,PayPal,Processing
+1853,2025-06-05,2025,06,CUST-910,North America,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.05,152.0,7.6,144.4,91.2,53.2,Credit Card,Delivered
+1854,2025-05-15,2025,05,CUST-283,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,2,0.1,78.0,7.8,70.2,46.8,23.4,Corporate Invoice,Delivered
+1855,2025-01-15,2025,01,CUST-863,Middle East,Technology,AI Vision Camera,249.0,8,0.0,1992.0,0.0,1992.0,1195.2,796.8,PayPal,Processing
+1856,2025-09-04,2025,09,CUST-482,North America,Furniture,Lounge Waiting Sofa,550.0,5,0.15,2750.0,412.5,2337.5,1650.0,687.5,Credit Card,Delivered
+1857,2025-03-25,2025,03,CUST-999,Latin America,Furniture,Executive Conference Table,899.0,3,0.1,2697.0,269.7,2427.3,1618.2,809.1,Bank Transfer,Delivered
+1858,2025-03-25,2025,03,CUST-149,Asia-Pacific,Technology,AI Vision Camera,249.0,6,0.15,1494.0,224.1,1269.9,896.4,373.5,PayPal,Delivered
+1859,2025-09-29,2025,09,CUST-883,Europe,Furniture,Executive Conference Table,899.0,9,0.05,8091.0,404.55,7686.45,4854.6,2831.85,Credit Card,Processing
+1860,2025-03-27,2025,03,CUST-801,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,6,0.1,1080.0,108.0,972.0,648.0,324.0,PayPal,Delivered
+1861,2025-10-01,2025,10,CUST-630,Europe,Furniture,Mobile Storage Cabinet,180.0,3,0.0,540.0,0.0,540.0,324.0,216.0,PayPal,Delivered
+1862,2025-09-06,2025,09,CUST-258,Europe,Office Supplies,Dual Monitor Arm,79.0,3,0.0,237.0,0.0,237.0,142.2,94.8,Bank Transfer,Delivered
+1863,2025-10-14,2025,10,CUST-219,North America,Furniture,Executive Conference Table,899.0,7,0.15,6293.0,943.95,5349.05,3775.8,1573.25,Bank Transfer,Delivered
+1864,2025-09-03,2025,09,CUST-711,Latin America,Office Supplies,Dual Monitor Arm,79.0,6,0.05,474.0,23.7,450.3,284.4,165.9,PayPal,Delivered
+1865,2025-12-30,2025,12,CUST-977,Europe,Office Supplies,Ergonomic Desk Chair,299.0,2,0.05,598.0,29.9,568.1,358.8,209.3,Bank Transfer,Delivered
+1866,2025-06-07,2025,06,CUST-807,Latin America,Technology,Developer Laptop Pro,1299.0,3,0.0,3897.0,0.0,3897.0,2338.2,1558.8,Credit Card,Delivered
+1867,2025-01-10,2025,01,CUST-133,North America,Office Supplies,Desk LED Lighting Bar,39.0,1,0.05,39.0,1.95,37.05,23.4,13.65,Credit Card,Shipped
+1868,2025-03-02,2025,03,CUST-872,North America,Office Supplies,Ergonomic Desk Chair,299.0,2,0.1,598.0,59.8,538.2,358.8,179.4,Credit Card,Delivered
+1869,2025-11-05,2025,11,CUST-129,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,4,0.05,356.0,17.8,338.2,213.6,124.6,Credit Card,Delivered
+1870,2025-05-23,2025,05,CUST-899,Middle East,Furniture,Mobile Storage Cabinet,180.0,6,0.05,1080.0,54.0,1026.0,648.0,378.0,Bank Transfer,Processing
+1871,2025-10-19,2025,10,CUST-322,Middle East,Technology,Cloud Server Subscription,499.0,10,0.0,4990.0,0.0,4990.0,2994.0,1996.0,Bank Transfer,Delivered
+1872,2025-03-29,2025,03,CUST-971,Middle East,Furniture,Executive Conference Table,899.0,2,0.05,1798.0,89.9,1708.1,1078.8,629.3,Corporate Invoice,Delivered
+1873,2025-12-24,2025,12,CUST-954,Europe,Furniture,Acoustic Soundproofing Panel,120.0,8,0.0,960.0,0.0,960.0,576.0,384.0,PayPal,Shipped
+1874,2025-08-06,2025,08,CUST-879,North America,Technology,Mechanical Keyboard RGB,89.0,4,0.15,356.0,53.4,302.6,213.6,89.0,PayPal,Delivered
+1875,2025-08-27,2025,08,CUST-821,Asia-Pacific,Technology,Mechanical Keyboard RGB,89.0,3,0.15,267.0,40.05,226.95,160.2,66.75,PayPal,Processing
+1876,2025-01-21,2025,01,CUST-390,Latin America,Technology,AI Vision Camera,249.0,8,0.0,1992.0,0.0,1992.0,1195.2,796.8,Corporate Invoice,Processing
+1877,2025-06-09,2025,06,CUST-397,Latin America,Furniture,Lounge Waiting Sofa,550.0,4,0.2,2200.0,440.0,1760.0,1320.0,440.0,Corporate Invoice,Delivered
+1878,2025-02-05,2025,02,CUST-788,Latin America,Office Supplies,Dual Monitor Arm,79.0,3,0.0,237.0,0.0,237.0,142.2,94.8,Credit Card,Shipped
+1879,2025-08-13,2025,08,CUST-510,Latin America,Furniture,Executive Conference Table,899.0,2,0.05,1798.0,89.9,1708.1,1078.8,629.3,Credit Card,Delivered
+1880,2025-02-03,2025,02,CUST-964,Middle East,Office Supplies,Standing Desk Motorized,450.0,6,0.05,2700.0,135.0,2565.0,1620.0,945.0,Corporate Invoice,Delivered
+1881,2025-04-30,2025,04,CUST-379,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,5,0.2,195.0,39.0,156.0,117.0,39.0,Corporate Invoice,Delivered
+1882,2025-09-01,2025,09,CUST-250,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,8,0.2,4400.0,880.0,3520.0,2640.0,880.0,Corporate Invoice,Delivered
+1883,2025-03-04,2025,03,CUST-130,Europe,Office Supplies,Desk LED Lighting Bar,39.0,8,0.05,312.0,15.6,296.4,187.2,109.2,Credit Card,Delivered
+1884,2025-02-04,2025,02,CUST-795,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,3,0.15,897.0,134.55,762.45,538.2,224.25,PayPal,Delivered
+1885,2025-06-05,2025,06,CUST-911,Latin America,Furniture,Executive Conference Table,899.0,2,0.2,1798.0,359.6,1438.4,1078.8,359.6,Corporate Invoice,Delivered
+1886,2025-05-31,2025,05,CUST-655,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,8,0.2,4400.0,880.0,3520.0,2640.0,880.0,PayPal,Processing
+1887,2025-10-07,2025,10,CUST-560,Latin America,Technology,Cloud Server Subscription,499.0,7,0.0,3493.0,0.0,3493.0,2095.8,1397.2,PayPal,Shipped
+1888,2025-08-15,2025,08,CUST-775,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,1,0.05,299.0,14.95,284.05,179.4,104.65,PayPal,Delivered
+1889,2025-09-09,2025,09,CUST-882,Latin America,Office Supplies,Standing Desk Motorized,450.0,5,0.15,2250.0,337.5,1912.5,1350.0,562.5,Credit Card,Processing
+1890,2025-12-12,2025,12,CUST-587,Latin America,Office Supplies,Eco Notebook & Pen Set,19.0,9,0.2,171.0,34.2,136.8,102.6,34.2,Bank Transfer,Processing
+1891,2025-01-29,2025,01,CUST-731,Latin America,Office Supplies,Dual Monitor Arm,79.0,8,0.2,632.0,126.4,505.6,379.2,126.4,PayPal,Delivered
+1892,2025-06-14,2025,06,CUST-957,Europe,Technology,Cloud Server Subscription,499.0,10,0.0,4990.0,0.0,4990.0,2994.0,1996.0,PayPal,Delivered
+1893,2025-10-26,2025,10,CUST-453,Latin America,Technology,AI Vision Camera,249.0,7,0.0,1743.0,0.0,1743.0,1045.8,697.2,PayPal,Shipped
+1894,2025-06-29,2025,06,CUST-706,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,4,0.05,5196.0,259.8,4936.2,3117.6,1818.6,Credit Card,Delivered
+1895,2025-06-06,2025,06,CUST-433,Middle East,Technology,AI Vision Camera,249.0,3,0.0,747.0,0.0,747.0,448.2,298.8,Credit Card,Shipped
+1896,2025-12-03,2025,12,CUST-120,Asia-Pacific,Office Supplies,Eco Notebook & Pen Set,19.0,9,0.15,171.0,25.65,145.35,102.6,42.75,Corporate Invoice,Processing
+1897,2025-01-12,2025,01,CUST-686,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,10,0.15,390.0,58.5,331.5,234.0,97.5,Credit Card,Shipped
+1898,2025-02-21,2025,02,CUST-930,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,6,0.15,720.0,108.0,612.0,432.0,180.0,PayPal,Delivered
+1899,2025-11-11,2025,11,CUST-750,Latin America,Office Supplies,Dual Monitor Arm,79.0,7,0.05,553.0,27.65,525.35,331.8,193.55,Credit Card,Processing
+1900,2025-04-20,2025,04,CUST-511,Middle East,Office Supplies,Dual Monitor Arm,79.0,1,0.1,79.0,7.9,71.1,47.4,23.7,Bank Transfer,Processing
+1901,2025-02-17,2025,02,CUST-168,Asia-Pacific,Furniture,Executive Conference Table,899.0,10,0.1,8990.0,899.0,8091.0,5394.0,2697.0,Corporate Invoice,Shipped
+1902,2025-04-18,2025,04,CUST-543,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,5,0.2,1495.0,299.0,1196.0,897.0,299.0,PayPal,Delivered
+1903,2025-08-01,2025,08,CUST-787,Latin America,Office Supplies,Dual Monitor Arm,79.0,10,0.2,790.0,158.0,632.0,474.0,158.0,Bank Transfer,Delivered
+1904,2025-11-18,2025,11,CUST-776,Europe,Furniture,Acoustic Soundproofing Panel,120.0,10,0.15,1200.0,180.0,1020.0,720.0,300.0,Corporate Invoice,Delivered
+1905,2025-11-23,2025,11,CUST-305,Middle East,Furniture,Lounge Waiting Sofa,550.0,10,0.0,5500.0,0.0,5500.0,3300.0,2200.0,PayPal,Shipped
+1906,2025-03-17,2025,03,CUST-426,Latin America,Technology,Developer Laptop Pro,1299.0,5,0.15,6495.0,974.25,5520.75,3897.0,1623.75,Credit Card,Delivered
+1907,2025-07-31,2025,07,CUST-341,Middle East,Office Supplies,Dual Monitor Arm,79.0,3,0.1,237.0,23.7,213.3,142.2,71.1,Corporate Invoice,Delivered
+1908,2025-02-28,2025,02,CUST-575,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,1,0.05,1299.0,64.95,1234.05,779.4,454.65,Corporate Invoice,Processing
+1909,2025-08-12,2025,08,CUST-239,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,4,0.05,1196.0,59.8,1136.2,717.6,418.6,Credit Card,Delivered
+1910,2025-05-23,2025,05,CUST-156,North America,Furniture,Acoustic Soundproofing Panel,120.0,1,0.15,120.0,18.0,102.0,72.0,30.0,Credit Card,Delivered
+1911,2025-11-05,2025,11,CUST-506,North America,Office Supplies,Ergonomic Desk Chair,299.0,7,0.1,2093.0,209.3,1883.7,1255.8,627.9,Bank Transfer,Delivered
+1912,2025-02-27,2025,02,CUST-357,Middle East,Furniture,Executive Conference Table,899.0,9,0.2,8091.0,1618.2,6472.8,4854.6,1618.2,Corporate Invoice,Delivered
+1913,2025-05-02,2025,05,CUST-854,Middle East,Furniture,Executive Conference Table,899.0,6,0.1,5394.0,539.4,4854.6,3236.4,1618.2,Corporate Invoice,Delivered
+1914,2025-08-05,2025,08,CUST-381,Europe,Technology,Developer Laptop Pro,1299.0,2,0.05,2598.0,129.9,2468.1,1558.8,909.3,Corporate Invoice,Shipped
+1915,2025-05-11,2025,05,CUST-816,Asia-Pacific,Furniture,Executive Conference Table,899.0,8,0.2,7192.0,1438.4,5753.6,4315.2,1438.4,Credit Card,Delivered
+1916,2025-10-07,2025,10,CUST-471,Europe,Office Supplies,Desk LED Lighting Bar,39.0,4,0.1,156.0,15.6,140.4,93.6,46.8,Corporate Invoice,Delivered
+1917,2025-06-07,2025,06,CUST-359,Europe,Technology,Mechanical Keyboard RGB,89.0,1,0.0,89.0,0.0,89.0,53.4,35.6,Corporate Invoice,Delivered
+1918,2025-11-24,2025,11,CUST-978,Europe,Furniture,Mobile Storage Cabinet,180.0,2,0.2,360.0,72.0,288.0,216.0,72.0,Corporate Invoice,Shipped
+1919,2025-01-05,2025,01,CUST-404,Europe,Office Supplies,Dual Monitor Arm,79.0,5,0.0,395.0,0.0,395.0,237.0,158.0,Bank Transfer,Delivered
+1920,2025-08-13,2025,08,CUST-987,Asia-Pacific,Furniture,Mobile Storage Cabinet,180.0,7,0.0,1260.0,0.0,1260.0,756.0,504.0,Credit Card,Shipped
+1921,2025-08-30,2025,08,CUST-944,North America,Furniture,Lounge Waiting Sofa,550.0,6,0.15,3300.0,495.0,2805.0,1980.0,825.0,Bank Transfer,Delivered
+1922,2025-09-17,2025,09,CUST-855,Middle East,Technology,AI Vision Camera,249.0,7,0.2,1743.0,348.6,1394.4,1045.8,348.6,PayPal,Shipped
+1923,2025-12-22,2025,12,CUST-103,Europe,Technology,Cloud Server Subscription,499.0,3,0.15,1497.0,224.55,1272.45,898.2,374.25,Corporate Invoice,Delivered
+1924,2025-11-18,2025,11,CUST-261,North America,Office Supplies,Dual Monitor Arm,79.0,10,0.0,790.0,0.0,790.0,474.0,316.0,Bank Transfer,Processing
+1925,2025-11-29,2025,11,CUST-589,Latin America,Technology,Mechanical Keyboard RGB,89.0,7,0.1,623.0,62.3,560.7,373.8,186.9,Bank Transfer,Delivered
+1926,2025-03-30,2025,03,CUST-524,North America,Furniture,Mobile Storage Cabinet,180.0,5,0.05,900.0,45.0,855.0,540.0,315.0,PayPal,Delivered
+1927,2025-07-21,2025,07,CUST-671,North America,Office Supplies,Eco Notebook & Pen Set,19.0,4,0.0,76.0,0.0,76.0,45.6,30.4,Bank Transfer,Delivered
+1928,2025-08-25,2025,08,CUST-732,Latin America,Technology,AI Vision Camera,249.0,3,0.0,747.0,0.0,747.0,448.2,298.8,Corporate Invoice,Processing
+1929,2025-05-14,2025,05,CUST-220,Middle East,Technology,Cloud Server Subscription,499.0,6,0.05,2994.0,149.7,2844.3,1796.4,1047.9,Credit Card,Processing
+1930,2025-08-11,2025,08,CUST-295,Europe,Office Supplies,Desk LED Lighting Bar,39.0,2,0.05,78.0,3.9,74.1,46.8,27.3,PayPal,Delivered
+1931,2025-09-11,2025,09,CUST-320,Middle East,Office Supplies,Standing Desk Motorized,450.0,7,0.05,3150.0,157.5,2992.5,1890.0,1102.5,PayPal,Delivered
+1932,2025-08-03,2025,08,CUST-368,Asia-Pacific,Technology,Wireless Noise-Canceling Headset,149.0,3,0.0,447.0,0.0,447.0,268.2,178.8,Bank Transfer,Processing
+1933,2025-08-19,2025,08,CUST-110,North America,Technology,AI Vision Camera,249.0,10,0.15,2490.0,373.5,2116.5,1494.0,622.5,Corporate Invoice,Delivered
+1934,2025-06-15,2025,06,CUST-853,Latin America,Furniture,Lounge Waiting Sofa,550.0,4,0.15,2200.0,330.0,1870.0,1320.0,550.0,PayPal,Delivered
+1935,2025-02-18,2025,02,CUST-582,Europe,Furniture,Executive Conference Table,899.0,1,0.1,899.0,89.9,809.1,539.4,269.7,PayPal,Processing
+1936,2025-12-10,2025,12,CUST-734,Middle East,Furniture,Executive Conference Table,899.0,1,0.1,899.0,89.9,809.1,539.4,269.7,Corporate Invoice,Delivered
+1937,2025-07-22,2025,07,CUST-694,North America,Furniture,Mobile Storage Cabinet,180.0,3,0.2,540.0,108.0,432.0,324.0,108.0,Bank Transfer,Delivered
+1938,2025-03-28,2025,03,CUST-191,Europe,Furniture,Lounge Waiting Sofa,550.0,6,0.15,3300.0,495.0,2805.0,1980.0,825.0,PayPal,Processing
+1939,2025-08-10,2025,08,CUST-230,North America,Technology,AI Vision Camera,249.0,2,0.1,498.0,49.8,448.2,298.8,149.4,Corporate Invoice,Delivered
+1940,2025-07-04,2025,07,CUST-629,Asia-Pacific,Office Supplies,Dual Monitor Arm,79.0,5,0.2,395.0,79.0,316.0,237.0,79.0,PayPal,Shipped
+1941,2025-03-26,2025,03,CUST-154,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,3,0.2,117.0,23.4,93.6,70.2,23.4,Bank Transfer,Delivered
+1942,2025-01-28,2025,01,CUST-267,Asia-Pacific,Technology,Developer Laptop Pro,1299.0,1,0.15,1299.0,194.85,1104.15,779.4,324.75,Corporate Invoice,Shipped
+1943,2025-03-01,2025,03,CUST-596,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,8,0.1,2392.0,239.2,2152.8,1435.2,717.6,Corporate Invoice,Shipped
+1944,2025-02-27,2025,02,CUST-308,North America,Furniture,Acoustic Soundproofing Panel,120.0,2,0.1,240.0,24.0,216.0,144.0,72.0,PayPal,Delivered
+1945,2025-03-28,2025,03,CUST-697,Europe,Furniture,Mobile Storage Cabinet,180.0,10,0.2,1800.0,360.0,1440.0,1080.0,360.0,Credit Card,Processing
+1946,2025-10-20,2025,10,CUST-793,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,2,0.05,298.0,14.9,283.1,178.8,104.3,Credit Card,Delivered
+1947,2025-01-14,2025,01,CUST-208,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,7,0.1,2093.0,209.3,1883.7,1255.8,627.9,PayPal,Delivered
+1948,2025-01-15,2025,01,CUST-708,Asia-Pacific,Technology,Wireless Noise-Canceling Headset,149.0,8,0.15,1192.0,178.8,1013.2,715.2,298.0,Credit Card,Delivered
+1949,2025-01-23,2025,01,CUST-316,Europe,Furniture,Lounge Waiting Sofa,550.0,6,0.2,3300.0,660.0,2640.0,1980.0,660.0,Credit Card,Delivered
+1950,2025-06-15,2025,06,CUST-194,Latin America,Technology,Cloud Server Subscription,499.0,9,0.2,4491.0,898.2,3592.8,2694.6,898.2,Corporate Invoice,Delivered
+1951,2025-04-02,2025,04,CUST-266,Europe,Technology,Wireless Noise-Canceling Headset,149.0,2,0.0,298.0,0.0,298.0,178.8,119.2,Corporate Invoice,Shipped
+1952,2025-05-26,2025,05,CUST-920,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,2,0.1,240.0,24.0,216.0,144.0,72.0,Corporate Invoice,Delivered
+1953,2025-12-17,2025,12,CUST-624,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,6,0.0,720.0,0.0,720.0,432.0,288.0,Bank Transfer,Shipped
+1954,2025-08-17,2025,08,CUST-533,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,5,0.2,195.0,39.0,156.0,117.0,39.0,Credit Card,Shipped
+1955,2025-07-08,2025,07,CUST-141,North America,Furniture,Acoustic Soundproofing Panel,120.0,7,0.15,840.0,126.0,714.0,504.0,210.0,PayPal,Shipped
+1956,2025-12-13,2025,12,CUST-185,Middle East,Technology,Developer Laptop Pro,1299.0,8,0.2,10392.0,2078.4,8313.6,6235.2,2078.4,PayPal,Shipped
+1957,2025-08-12,2025,08,CUST-800,Europe,Technology,Wireless Noise-Canceling Headset,149.0,5,0.05,745.0,37.25,707.75,447.0,260.75,PayPal,Delivered
+1958,2025-09-25,2025,09,CUST-178,Middle East,Office Supplies,Dual Monitor Arm,79.0,10,0.0,790.0,0.0,790.0,474.0,316.0,Credit Card,Processing
+1959,2025-02-25,2025,02,CUST-776,Latin America,Furniture,Lounge Waiting Sofa,550.0,7,0.0,3850.0,0.0,3850.0,2310.0,1540.0,PayPal,Delivered
+1960,2025-05-11,2025,05,CUST-858,North America,Furniture,Executive Conference Table,899.0,9,0.0,8091.0,0.0,8091.0,4854.6,3236.4,Corporate Invoice,Delivered
+1961,2025-04-04,2025,04,CUST-421,Asia-Pacific,Office Supplies,Ergonomic Desk Chair,299.0,2,0.15,598.0,89.7,508.3,358.8,149.5,Corporate Invoice,Shipped
+1962,2025-11-16,2025,11,CUST-180,Europe,Office Supplies,Dual Monitor Arm,79.0,3,0.05,237.0,11.85,225.15,142.2,82.95,PayPal,Delivered
+1963,2025-08-11,2025,08,CUST-113,North America,Furniture,Executive Conference Table,899.0,1,0.15,899.0,134.85,764.15,539.4,224.75,Bank Transfer,Shipped
+1964,2025-08-24,2025,08,CUST-733,Asia-Pacific,Furniture,Lounge Waiting Sofa,550.0,10,0.15,5500.0,825.0,4675.0,3300.0,1375.0,PayPal,Shipped
+1965,2025-06-04,2025,06,CUST-214,Europe,Technology,Developer Laptop Pro,1299.0,3,0.0,3897.0,0.0,3897.0,2338.2,1558.8,Credit Card,Delivered
+1966,2025-01-14,2025,01,CUST-962,Latin America,Technology,Wireless Noise-Canceling Headset,149.0,3,0.05,447.0,22.35,424.65,268.2,156.45,Bank Transfer,Delivered
+1967,2025-06-04,2025,06,CUST-219,North America,Office Supplies,Standing Desk Motorized,450.0,8,0.15,3600.0,540.0,3060.0,2160.0,900.0,Bank Transfer,Delivered
+1968,2025-12-26,2025,12,CUST-699,Latin America,Office Supplies,Desk LED Lighting Bar,39.0,8,0.0,312.0,0.0,312.0,187.2,124.8,Bank Transfer,Delivered
+1969,2025-05-31,2025,05,CUST-205,North America,Furniture,Lounge Waiting Sofa,550.0,1,0.1,550.0,55.0,495.0,330.0,165.0,Corporate Invoice,Shipped
+1970,2025-09-11,2025,09,CUST-597,Latin America,Furniture,Mobile Storage Cabinet,180.0,1,0.15,180.0,27.0,153.0,108.0,45.0,Corporate Invoice,Delivered
+1971,2025-02-01,2025,02,CUST-666,Asia-Pacific,Furniture,Executive Conference Table,899.0,7,0.2,6293.0,1258.6,5034.4,3775.8,1258.6,Credit Card,Delivered
+1972,2025-11-28,2025,11,CUST-761,Middle East,Office Supplies,Desk LED Lighting Bar,39.0,2,0.15,78.0,11.7,66.3,46.8,19.5,PayPal,Shipped
+1973,2025-12-24,2025,12,CUST-580,Europe,Office Supplies,Ergonomic Desk Chair,299.0,3,0.1,897.0,89.7,807.3,538.2,269.1,PayPal,Shipped
+1974,2025-04-29,2025,04,CUST-973,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,10,0.1,1200.0,120.0,1080.0,720.0,360.0,Corporate Invoice,Delivered
+1975,2025-05-31,2025,05,CUST-918,Latin America,Furniture,Lounge Waiting Sofa,550.0,7,0.1,3850.0,385.0,3465.0,2310.0,1155.0,Bank Transfer,Processing
+1976,2025-04-17,2025,04,CUST-304,Europe,Office Supplies,Ergonomic Desk Chair,299.0,8,0.05,2392.0,119.6,2272.4,1435.2,837.2,Bank Transfer,Processing
+1977,2025-09-09,2025,09,CUST-314,Europe,Technology,Wireless Noise-Canceling Headset,149.0,8,0.1,1192.0,119.2,1072.8,715.2,357.6,Credit Card,Delivered
+1978,2025-07-03,2025,07,CUST-132,Middle East,Office Supplies,Dual Monitor Arm,79.0,3,0.05,237.0,11.85,225.15,142.2,82.95,Credit Card,Delivered
+1979,2025-08-09,2025,08,CUST-329,Middle East,Technology,Mechanical Keyboard RGB,89.0,4,0.0,356.0,0.0,356.0,213.6,142.4,Corporate Invoice,Delivered
+1980,2025-06-24,2025,06,CUST-973,Europe,Office Supplies,Ergonomic Desk Chair,299.0,9,0.1,2691.0,269.1,2421.9,1614.6,807.3,Credit Card,Delivered
+1981,2025-08-13,2025,08,CUST-900,Middle East,Office Supplies,Ergonomic Desk Chair,299.0,2,0.2,598.0,119.6,478.4,358.8,119.6,Credit Card,Processing
+1982,2025-01-22,2025,01,CUST-470,Europe,Furniture,Executive Conference Table,899.0,3,0.0,2697.0,0.0,2697.0,1618.2,1078.8,Bank Transfer,Delivered
+1983,2025-12-29,2025,12,CUST-762,Europe,Office Supplies,Eco Notebook & Pen Set,19.0,8,0.0,152.0,0.0,152.0,91.2,60.8,PayPal,Delivered
+1984,2025-03-12,2025,03,CUST-351,North America,Technology,Developer Laptop Pro,1299.0,8,0.15,10392.0,1558.8,8833.2,6235.2,2598.0,Corporate Invoice,Delivered
+1985,2025-05-27,2025,05,CUST-832,Asia-Pacific,Furniture,Acoustic Soundproofing Panel,120.0,2,0.1,240.0,24.0,216.0,144.0,72.0,Corporate Invoice,Delivered
+1986,2025-11-19,2025,11,CUST-906,Latin America,Furniture,Acoustic Soundproofing Panel,120.0,3,0.2,360.0,72.0,288.0,216.0,72.0,Bank Transfer,Delivered
+1987,2025-08-08,2025,08,CUST-130,Asia-Pacific,Office Supplies,Desk LED Lighting Bar,39.0,8,0.2,312.0,62.4,249.6,187.2,62.4,Corporate Invoice,Delivered
+1988,2025-01-06,2025,01,CUST-511,Asia-Pacific,Furniture,Executive Conference Table,899.0,2,0.1,1798.0,179.8,1618.2,1078.8,539.4,Bank Transfer,Shipped
+1989,2025-02-01,2025,02,CUST-746,North America,Office Supplies,Ergonomic Desk Chair,299.0,3,0.2,897.0,179.4,717.6,538.2,179.4,PayPal,Shipped
+1990,2025-07-25,2025,07,CUST-946,North America,Furniture,Mobile Storage Cabinet,180.0,6,0.1,1080.0,108.0,972.0,648.0,324.0,PayPal,Processing
+1991,2025-11-09,2025,11,CUST-739,Middle East,Technology,Wireless Noise-Canceling Headset,149.0,8,0.05,1192.0,59.6,1132.4,715.2,417.2,Corporate Invoice,Delivered
+1992,2025-11-29,2025,11,CUST-650,North America,Office Supplies,Standing Desk Motorized,450.0,5,0.0,2250.0,0.0,2250.0,1350.0,900.0,PayPal,Shipped
+1993,2025-03-06,2025,03,CUST-665,Middle East,Furniture,Mobile Storage Cabinet,180.0,4,0.0,720.0,0.0,720.0,432.0,288.0,PayPal,Processing
+1994,2025-06-24,2025,06,CUST-706,Middle East,Furniture,Acoustic Soundproofing Panel,120.0,1,0.0,120.0,0.0,120.0,72.0,48.0,PayPal,Delivered
+1995,2025-06-05,2025,06,CUST-961,North America,Furniture,Lounge Waiting Sofa,550.0,9,0.0,4950.0,0.0,4950.0,2970.0,1980.0,PayPal,Delivered
+1996,2025-11-18,2025,11,CUST-559,North America,Furniture,Mobile Storage Cabinet,180.0,2,0.0,360.0,0.0,360.0,216.0,144.0,PayPal,Processing
+1997,2025-01-03,2025,01,CUST-831,Middle East,Office Supplies,Dual Monitor Arm,79.0,4,0.2,316.0,63.2,252.8,189.6,63.2,Bank Transfer,Delivered
+1998,2025-06-03,2025,06,CUST-855,Middle East,Office Supplies,Eco Notebook & Pen Set,19.0,3,0.15,57.0,8.55,48.45,34.2,14.25,Bank Transfer,Delivered
+1999,2025-06-17,2025,06,CUST-250,North America,Furniture,Acoustic Soundproofing Panel,120.0,6,0.15,720.0,108.0,612.0,432.0,180.0,Corporate Invoice,Shipped
+2000,2025-02-11,2025,02,CUST-319,Latin America,Technology,Cloud Server Subscription,499.0,7,0.05,3493.0,174.65,3318.35,2095.8,1222.55,Corporate Invoice,Delivered
