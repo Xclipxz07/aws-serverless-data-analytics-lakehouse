@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS Sales Data Analytics - Executive QuickSight Dashboard</title>
+  <!-- Google Fonts & Chart.js -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg-base: #0f172a;
+      --bg-card: #1e293b;
+      --bg-card-hover: #334155;
+      --accent-blue: #38bdf8;
+      --accent-green: #34d399;
+      --accent-purple: #a855f7;
+      --accent-orange: #fb923c;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      padding: 28px;
+      min-height: 100vh;
+    }
+
+    /* HEADER */
+    .dashboard-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-left h1 {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-left p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .aws-badge {
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: var(--accent-blue);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    /* KPI CARDS GRID */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+
+    .kpi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(56, 189, 248, 0.4);
+    }
+
+    .kpi-title {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+
+    .kpi-value {
+      font-size: 32px;
+      font-weight: 800;
+      color: #ffffff;
+      font-family: 'JetBrains Mono', monospace;
+      margin-bottom: 4px;
+    }
+
+    .kpi-sub {
+      font-size: 12.5px;
+      color: var(--accent-green);
+      font-weight: 500;
+    }
+
+    /* CHARTS GRID */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 24px;
+      margin-bottom: 28px;
+    }
+
+    .charts-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 28px;
+    }
+
+    .chart-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .chart-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .chart-tag {
+      font-size: 11px;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.05);
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .chart-container {
+      position: relative;
+      flex: 1;
+      min-height: 280px;
+    }
+
+    /* TABLE */
+    .table-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 13.5px;
+    }
+
+    th {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 11.5px;
+      letter-spacing: 0.5px;
+    }
+
+    td {
+      padding: 14px 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      color: var(--text-main);
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .status-badge-delivered {
+      background: rgba(52, 211, 153, 0.15);
+      color: var(--accent-green);
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11.5px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 1024px) {
+      .charts-grid, .charts-grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="dashboard-header">
+    <div class="header-left">
+      <h1>☁️ AWS QuickSight Executive Sales Dashboard</h1>
+      <p>Source: <code>s3://sales-lakehouse/data/processed/sales_parquet/</code> • Athena Database: <code>aws_sales_analytics_db</code></p>
+    </div>
+    <div class="aws-badge">
+      ⚡ SPICE In-Memory Engine Active
+    </div>
+  </div>
+
+  <!-- KPI CARDS -->
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-title">Total Gross Revenue</div>
+      <div class="kpi-value">$1,843,500</div>
+      <div class="kpi-sub">↑ 14.8% vs Previous Period</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-title">Total Profit</div>
+      <div class="kpi-value">$611,223</div>
+      <div class="kpi-sub">33.15% Net Margin</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-title">Total Orders Placed</div>
+      <div class="kpi-value">1,000</div>
+      <div class="kpi-sub">5,580 Units Shipped</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-title">Average Order Value (AOV)</div>
+      <div class="kpi-value">$1,843.50</div>
+      <div class="kpi-sub">Top Tier: Furniture & Tech</div>
+    </div>
+  </div>
+
+  <!-- CHARTS ROW 1 -->
+  <div class="charts-grid">
+    <!-- BAR CHART: REGIONAL SALES -->
+    <div class="chart-card">
+      <div class="chart-header">
+        <span class="chart-title">📊 Regional Revenue vs Profit (Athena Query)</span>
+        <span class="chart-tag">sql/02_regional_sales_analysis.sql</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="regionChart"></canvas>
+      </div>
+    </div>
+
+    <!-- DONUT CHART: CATEGORY SHARE -->
+    <div class="chart-card">
+      <div class="chart-header">
+        <span class="chart-title">🍩 Revenue by Category</span>
+        <span class="chart-tag">sql/03_product_profitability_analysis.sql</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="categoryChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHARTS ROW 2 -->
+  <div class="charts-grid-2">
+    <!-- LINE CHART: MONTHLY TREND -->
+    <div class="chart-card">
+      <div class="chart-header">
+        <span class="chart-title">📈 2025 Monthly Revenue Trend</span>
+        <span class="chart-tag">sql/04_monthly_sales_trend.sql</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="monthlyChart"></canvas>
+      </div>
+    </div>
+
+    <!-- PAYMENT & SHIPPING BREAKDOWN -->
+    <div class="chart-card">
+      <div class="chart-header">
+        <span class="chart-title">💳 Payment Method Volume</span>
+        <span class="chart-tag">Dimension: PaymentMethod</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="paymentChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- SAMPLE TRANSACTION RECORDS -->
+  <div class="table-card">
+    <div class="chart-header" style="margin-bottom: 12px;">
+      <span class="chart-title">📋 Recent Live Order Feed (Athena Sample Rows)</span>
+      <span class="chart-tag">1,000 Total Records in Parquet</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Order ID</th>
+          <th>Date</th>
+          <th>Customer</th>
+          <th>Region</th>
+          <th>Category</th>
+          <th>Product</th>
+          <th>Net Sales</th>
+          <th>Profit</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>#1001</strong></td>
+          <td>2025-01-14</td>
+          <td>CUST-842</td>
+          <td>Europe</td>
+          <td>Technology</td>
+          <td>Developer Laptop Pro</td>
+          <td>$6,495.00</td>
+          <td>$2,338.20</td>
+          <td><span class="status-badge-delivered">Delivered</span></td>
+        </tr>
+        <tr>
+          <td><strong>#1002</strong></td>
+          <td>2025-02-03</td>
+          <td>CUST-319</td>
+          <td>Asia-Pacific</td>
+          <td>Furniture</td>
+          <td>Executive Conference Table</td>
+          <td>$4,045.50</td>
+          <td>$1,348.50</td>
+          <td><span class="status-badge-delivered">Delivered</span></td>
+        </tr>
+        <tr>
+          <td><strong>#1003</strong></td>
+          <td>2025-03-21</td>
+          <td>CUST-612</td>
+          <td>Middle East</td>
+          <td>Technology</td>
+          <td>Cloud Server Subscription</td>
+          <td>$3,992.00</td>
+          <td>$1,397.20</td>
+          <td><span class="status-badge-delivered">Delivered</span></td>
+        </tr>
+        <tr>
+          <td><strong>#1004</strong></td>
+          <td>2025-04-18</td>
+          <td>CUST-490</td>
+          <td>North America</td>
+          <td>Office Supplies</td>
+          <td>Standing Desk Motorized</td>
+          <td>$2,025.00</td>
+          <td>$675.00</td>
+          <td><span class="status-badge-delivered">Delivered</span></td>
+        </tr>
+        <tr>
+          <td><strong>#1005</strong></td>
+          <td>2025-05-12</td>
+          <td>CUST-774</td>
+          <td>Latin America</td>
+          <td>Furniture</td>
+          <td>Lounge Waiting Sofa</td>
+          <td>$4,400.00</td>
+          <td>$1,452.00</td>
+          <td><span class="status-badge-delivered">Delivered</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    // 1. REGIONAL BAR CHART
+    const ctxRegion = document.getElementById('regionChart').getContext('2d');
+    new Chart(ctxRegion, {
+      type: 'bar',
+      data: {
+        labels: ['Middle East', 'Asia-Pacific', 'Europe', 'Latin America', 'North America'],
+        datasets: [
+          {
+            label: 'Total Revenue ($)',
+            data: [407297, 406651, 404296, 326603, 298246],
+            backgroundColor: 'rgba(56, 189, 248, 0.85)',
+            borderRadius: 6
+          },
+          {
+            label: 'Total Profit ($)',
+            data: [136847, 132350, 136345, 108112, 97568],
+            backgroundColor: 'rgba(52, 211, 153, 0.85)',
+            borderRadius: 6
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { labels: { color: '#cbd5e1' } } },
+        scales: {
+          x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+        }
+      }
+    });
+
+    // 2. CATEGORY DONUT CHART
+    const ctxCat = document.getElementById('categoryChart').getContext('2d');
+    new Chart(ctxCat, {
+      type: 'doughnut',
+      data: {
+        labels: ['Furniture ($872k)', 'Technology ($695k)', 'Office Supplies ($274k)'],
+        datasets: [{
+          data: [872690, 695732, 274673],
+          backgroundColor: ['#a855f7', '#38bdf8', '#fb923c'],
+          borderWidth: 0
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom', labels: { color: '#cbd5e1' } } }
+      }
+    });
+
+    // 3. MONTHLY REVENUE LINE CHART
+    const ctxMonthly = document.getElementById('monthlyChart').getContext('2d');
+    new Chart(ctxMonthly, {
+      type: 'line',
+      data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        datasets: [{
+          label: 'Monthly Net Revenue ($)',
+          data: [99637, 127543, 175898, 159709, 166841, 143165, 172316, 174462, 129199, 166520, 173129, 154672],
+          borderColor: '#38bdf8',
+          backgroundColor: 'rgba(56, 189, 248, 0.15)',
+          fill: true,
+          tension: 0.35,
+          pointRadius: 4,
+          pointBackgroundColor: '#38bdf8'
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { labels: { color: '#cbd5e1' } } },
+        scales: {
+          x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+        }
+      }
+    });
+
+    // 4. PAYMENT METHOD BAR CHART
+    const ctxPay = document.getElementById('paymentChart').getContext('2d');
+    new Chart(ctxPay, {
+      type: 'bar',
+      data: {
+        labels: ['Bank Transfer', 'Corporate Invoice', 'Credit Card', 'PayPal'],
+        datasets: [{
+          label: 'Total Revenue ($)',
+          data: [479532, 492424, 436616, 434926],
+          backgroundColor: ['#38bdf8', '#a855f7', '#34d399', '#fb923c'],
+          borderRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
