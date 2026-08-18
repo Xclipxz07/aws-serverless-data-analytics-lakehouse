@@ -4,9 +4,13 @@
 [![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20Glue%20%7C%20Athena%20%7C%20QuickSight-232F3E?style=flat&logo=amazon-aws&logoColor=white)](https://aws.amazon.com)
 [![SQL](https://img.shields.io/badge/SQL-Athena%20%2F%20DuckDB-CC292B?style=flat&logo=microsoft-sql-server&logoColor=white)]()
 [![Parquet](https://img.shields.io/badge/Storage-Snappy%20Parquet-569A31?style=flat)]()
-[![Tests](https://img.shields.io/badge/Tests-4%20Passing-brightgreen?style=flat&logo=pytest&logoColor=white)]()
+[![Tests](https://img.shields.io/badge/Tests-4%20Passing-brightgreen?style=flat&logo=pytest&logoColor=white)](https://github.com/Xclipxz07/aws-serverless-data-analytics-lakehouse)
 
 An end-to-end, simple, and production-ready **AWS Data Analytics Pipeline** for retail sales data (`sample_sales_data.csv`). Demonstrates how to ingest, clean, partition, and query large datasets using **Amazon S3, AWS Glue Catalog, Amazon Athena, and Amazon QuickSight**.
+
+<div align="center">
+  <img src="dashboards/sales_dashboard.png" alt="Executive QuickSight Sales Dashboard" width="95%" />
+</div>
 
 ---
 
