@@ -52,7 +52,7 @@ project4_aws_serverless_data_analytics/
 │   ├── 03_product_profitability_analysis.sql # Category & Average Order Value SQL
 │   └── 04_monthly_sales_trend.sql       # Month-over-month growth SQL
 ├── dashboards/
-│   └── quicksight_analysis_spec.json   # AWS QuickSight dashboard specification
+│   └── sales_dashboard.png             # Executive QuickSight dashboard preview
 ├── tests/
 │   └── test_sales_pipeline.py          # Pytest automated test suite
 ├── requirements.txt                    # Minimal dependencies
